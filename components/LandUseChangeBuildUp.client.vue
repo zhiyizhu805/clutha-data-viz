@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Forest Land Use Change 1990-2016</h1>
+    <h1>Built-Up Area Land Use Change 1990-2016</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"
@@ -13,24 +13,21 @@
 <script setup>
 import { reactive } from "vue";
 
-//LandUseChange_Forest_1990_2016
-const LandUseChange_Forest_1990_2016 = [
+const LandUseChange_BuildUp_1990_2016 = [
   {
-    type: 'Forest',
+    type: 'Built-up area',
     startYear: 1990,
     endYear: 2016,
-    grasslandWithWoodyBiomass: 17.98,
-    productionGrassland: 212.97,
-    cropland: 7.78,
-    wetland: 54.21,
-    builtUpArea: 9.82,
+    productionGrassland: 534.15,
+    forest: 9.82,
+    grasslandWithWoodyBiomass: 6.71,
   },
 ];
 
-const labels = ['Grassland with woody biomass', 'Production grassland', 'Cropland', 'Wetland', 'Built-up area'];
-const values = Object.values(LandUseChange_Forest_1990_2016[0]).slice(3);
+const labels = ['Production grassland', 'Forest', 'Grassland with woody biomass'];
+const values = Object.values(LandUseChange_BuildUp_1990_2016[0]).slice(3);
 
-const colors = ['#DD7E33', '#1AA881', '#F2E755', '#1A80BA', '#D186B0']; 
+const colors = ['#009E73', '#FFB44F', '#F0E442'];
 
 const data = [
   {
@@ -43,16 +40,15 @@ const data = [
     textinfo: "percent",
     textposition: "outside",
     insidetextorientation: "auto",
-    texttemplate: "%{percent:.0%}",
     hoverinfo: "label+percent+value",
-    hovertemplate: "<b>%{label}</b><br>%{percent:.0%}<br>Total: %{value} ha<extra></extra>",
+    hovertemplate: "<b>%{label}</b><br>%{percent:.0%}<br>Total: %{value}<extra></extra>",
     marker: { colors: colors },
     textfont: { size: 18, family: "Overused Grotesk, sans-serif", color: "#898989" },
   },
 ];
 
 const layout = {
-  title: "Forest Land Use Change 1990-2016",
+  title: "Built-Up Area Land Use Change 1990-2016",
   autosize: true,
   margin: { l: 0, r: 0, t: 0, b: 0 },
   legend: {
