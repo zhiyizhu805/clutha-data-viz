@@ -5,4 +5,7 @@
     <LandUseChangeBuildUp></LandUseChangeBuildUp>   
     <GhgAgri></GhgAgri> 
     <PredatorType></PredatorType>
+    <GhgEnergy></GhgEnergy>
+<p>Bar Graphs:</p>
+    <ClimateMakaroa></ClimateMakaroa>   
 </template>
