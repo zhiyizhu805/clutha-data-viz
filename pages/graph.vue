@@ -12,4 +12,5 @@
     <PredatorControl></PredatorControl>
     <GhgRemoval></GhgRemoval>
     <GHGEmissionsBySector></GHGEmissionsBySector>
+    <ClimateVarAero></ClimateVarAero>
 </template>
