@@ -10,4 +10,5 @@
     <ClimateMakaroa></ClimateMakaroa>   
     <WildingPines></WildingPines>
     <PredatorControl></PredatorControl>
+    <GhgRemoval></GhgRemoval>
 </template>
