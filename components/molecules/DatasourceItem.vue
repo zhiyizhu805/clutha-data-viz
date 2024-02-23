@@ -2,14 +2,14 @@
 <template>
   <li>
     <div class="flex flex-row justify-start items-center gap-4">
-      <FooterTextstyle text_color="text-white">
+      <atomsFooterTextstyle text_color="text-white">
         <slot></slot>
-      </FooterTextstyle>
-      <p class="self-center">&#8594;</p>
+      </atomsFooterTextstyle>
+      <atomsFooterTextstyle text_color="text-white" class="self-center">&#8594;</atomsFooterTextstyle>
       <a :href="link"
-        ><Footer02Textstyle text_color="text-white">
+        ><atomsFooter02Textstyle text_color="text-white">
           {{ link_title }}
-        </Footer02Textstyle></a
+        </atomsFooter02Textstyle></a
       >
     </div>
   </li>
