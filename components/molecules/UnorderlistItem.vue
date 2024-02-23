@@ -1,7 +1,7 @@
 <template>
   <li>
     <atomsBodyTextstyle>
-      <slot/>
+      <slot></slot>
     </atomsBodyTextstyle>
   </li>
 </template>
