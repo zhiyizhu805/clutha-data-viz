@@ -8,4 +8,6 @@
     <GhgEnergy></GhgEnergy>
 <p>Bar Graphs:</p>
     <ClimateMakaroa></ClimateMakaroa>   
+    <WildingPines></WildingPines>
+    <PredatorControl></PredatorControl>
 </template>
