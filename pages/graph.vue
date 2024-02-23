@@ -11,4 +11,5 @@
     <WildingPines></WildingPines>
     <PredatorControl></PredatorControl>
     <GhgRemoval></GhgRemoval>
+    <GHGEmissionsBySector></GHGEmissionsBySector>
 </template>
