@@ -140,4 +140,6 @@
         </moleculesNavigationTertiaryItem>
     </moleculesNavigationTertiary>
 
+    <moleculesParagraph>test</moleculesParagraph>
+
 </template>
