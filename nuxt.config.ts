@@ -7,7 +7,7 @@ export default defineNuxtConfig({
      '@': resolve(__dirname, '/'),
   },
   modules: ["nuxt-plotly"],
-  css: [ '~/assets/main.css' ],
+  css: [ '~/assets/css/main.css' ],
   postcss: {
     plugins: {
       tailwindcss: {
