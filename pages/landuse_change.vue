@@ -92,4 +92,191 @@
       </organisimsGraphFrame>
     </organisimsChildContainerSixtyPercentBasis>
   </organisimsPageContainerTwoColumns>
+
+      <!-- divider section -->
+    <organisimsPageContainerPlain>
+      <!-- divider atom-->
+      <atomsDivider divider_width="border-b-2" />
+    </organisimsPageContainerPlain>
+
+    <!-- content-third section   -->
+    <organisimsPageContainerPlain>
+      <!-- full width organism with items aligned to end -->
+      <organisimsChildContainerFullWidthItemsEnd>
+        <!-- graph frame organism-->
+        <organisimsGraphFrame graph_title="Total area by land use category for the catchment and their changes since 1990 (in hectares)." flyout_id="placeholder4">
+          <template name="flyout">
+            <organisimsFlyout flyout_id="placeholder4">
+              <moleculesDatasourceItem link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)" link_title="MfE Data Service">
+                Data were obtained from the Land Use and Coverage Area frame
+                Survey (LUCAS) data set
+              </moleculesDatasourceItem>
+            </organisimsFlyout>
+          </template>
+          <template name="graph">
+            <organisimsTableContainer>
+              <thead>
+                <tr>
+                  <th scope="col" class="py-3 px-6">Land Use Category</th>
+                  <th scope="col" class="py-3 px-6">2016 (ha)</th>
+                  <th scope="col" class="py-3 px-6">
+                    Net change since 1990 (ha)
+                  </th>
+                </tr>
+              </thead>
+              <tbody class="text-black">
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Forest</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">76,000</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">392</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">
+                    Grassland with woody biomass
+                  </td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">50,500</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">-932</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Production grassland</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">247,800</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">35</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Cropland</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">1,100</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">-18</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Wetland</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">39,400</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">-21</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Built-up area</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">1,400</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">551</td>
+                </tr>
+                <tr class="border-b-2 border-white">
+                  <td class="py-4 px-6 bg-grey-500">Other</td>
+                  <td class="py-4 px-6 bg-grey-300 text-center">42,600</td>
+                  <td class="py-4 px-6 bg-neutral-100 text-center">-7</td>
+                </tr>
+              </tbody>
+            </organisimsTableContainer>
+          </template>
+        </organisimsGraphFrame>
+      </organisimsChildContainerFullWidthItemsEnd>
+    </organisimsPageContainerPlain>
+
+        <!-- two column organisims -->
+    <organisimsPageContainerTwoColumns>
+      <!-- left side organism -->
+      <organisimsChildContainerFortyPercentBasis>
+        <!--  text without heading molecule-->
+        <moleculesParagraph>
+          Since 1990, there has been a net increase of 392 ha of forestland
+          across the catchment.Most of this increase has been through the growth
+          of new exotic forest. The cover of natural, indigenous forest has seen
+          a net decline.
+        </moleculesParagraph>
+      </organisimsChildContainerFortyPercentBasis>
+      <!--  right side organism -->
+      <organisimsChildContainerSixtyPercentBasis>
+        <!-- graph frame organism-->
+        <organisimsGraphFrame graph_title="Land uses converted from forestland since 1990." flyout_id="flyout_landUses">
+          <template name="flyout">
+            <organisimsFlyout flyout_id="flyout_landUses">
+              <moleculesDatasourceItem link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)" link_title="MfE Data Service">
+                Data were obtained from the Land Use and Coverage Area frame
+                Survey (LUCAS) data set
+              </moleculesDatasourceItem>
+            </organisimsFlyout>
+          </template>
+          <template name="graph">
+            <organisimsGraphContainerMedium>
+              <plotsLandUses />
+            </organisimsGraphContainerMedium>
+          </template>
+        </organisimsGraphFrame>
+      </organisimsChildContainerSixtyPercentBasis>
+    </organisimsPageContainerTwoColumns>
+    <!-- divider section -->
+    <organisimsPageContainerPlain>
+      <!-- divider atom-->
+      <atomsDivider divider_width="border-b-2" />
+    </organisimsPageContainerPlain>
+
+        <!-- content-four section   -->
+    <organisimsPageContainerTwoColumns>
+      <!--  left side organism -->
+      <organisimsChildContainerFortyPercentBasis>
+        <!-- Subhead01Textstyle molecule-->
+        <atomsSubhead01Textstyle>
+        Forest Cover
+        </atomsSubhead01Textstyle>
+        <!--  text with heading molecule-->
+        <moleculesParagraph>
+          To understand the current land use and land use change practices, a
+          more recent dataset from 2008 to 2018 was analysed, showing a gross
+          increase in exotic forest cover of 71 ha.This increase results from
+          the conversion of production grassland (52 ha). 52 ha account for
+          0.02% of the total production grassland available in the catchment. A
+          gross decrease in indigenous forest cover of 69 ha is observed between
+          2008 and 2018.
+        </moleculesParagraph>
+
+        <!-- call out -->
+        <moleculesCallout statistic_value="<0.2%">
+          Indigenous forest cover has decreased by &lt;0.2% between 2008 and
+          2018.
+        </moleculesCallout>
+        <moleculesParagraph>
+          Most of the loss of indigenous forest that took place between 2008 and
+          2018 was the result of landslides in the high alpine<sup>1</sup>,
+          rather than a direct impact of anthropogenic activities. While
+          indigenous forest is not under particular threat, other native
+          vegetation classes have seen significant reductions in land cover.For
+          example, fernlands decreased by 1,500 ha.
+        </moleculesParagraph>
+      </organisimsChildContainerFortyPercentBasis>
+      <!-- right side organism -->
+      <organisimsChildContainerSixtyPercentBasis>
+        <!-- graph frame organism-->
+        <organisimsGraphFrame graph_title="Land uses converted into exotic forest between 2008 and 2018." flyout_id="flyout_LandUseChangeExoticForest">
+          <template name="flyout">
+            <organisimsFlyout flyout_id="flyout_LandUseChangeExoticForest">
+              <moleculesDatasourceItem link="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/" link_title="LDCB-LRIS Portal">
+                Data were obtained from the New Zealand Land Cover Database
+              </moleculesDatasourceItem>
+            </organisimsFlyout>
+          </template>
+          <template name="graph">
+            <organisimsGraphContainerSmall>
+              <plotsLandUseChangeExoticForest />
+            </organisimsGraphContainerSmall>
+          </template>
+        </organisimsGraphFrame>
+      </organisimsChildContainerSixtyPercentBasis>
+    </organisimsPageContainerTwoColumns>
+
+    <!-- divider section -->
+    <organisimsPageContainerPlain>
+      <!-- divider atom-->
+      <atomsDivider divider_width="border-b-2" />
+    </organisimsPageContainerPlain>
+
+    <organisimsPageContainerPlain>
+      <moleculesReference>
+        <atomsSubhead01Textstyle>
+          Reference
+        </atomsSubhead01Textstyle>
+        <moleculesReferenceItem url="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/" name=" LRIS Portal" additional_info=", last accessed Jan 2024.">
+          [1] Land Cover Database version 5.0, Mainland, New Zealand &minus;
+          available from the
+        </moleculesReferenceItem>
+      </moleculesReference>
+    </organisimsPageContainerPlain>
+  
+
 </template>
