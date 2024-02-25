@@ -7,6 +7,8 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./nuxt.config.{js,ts}",
+    "./node_modules/flowbite/**/*.{js,ts}"
   ],
   theme: {
     screens: {
@@ -236,6 +238,7 @@ export default {
   //plugin added
   plugins: [require('@tailwindcss/typography'), 
   require('@tailwindcss/aspect-ratio'), 
-  require('@tailwindcss/container-queries'),require("flowbite/plugin")],
+  require('@tailwindcss/container-queries'),
+  require('flowbite/plugin')],
 };
 
