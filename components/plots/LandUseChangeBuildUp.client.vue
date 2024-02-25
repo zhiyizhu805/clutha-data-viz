@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Built-Up Area Land Use Change 1990-2016</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"

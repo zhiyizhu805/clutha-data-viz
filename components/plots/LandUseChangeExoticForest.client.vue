@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Exotic Forest Land Use Change 2008-2018</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"
