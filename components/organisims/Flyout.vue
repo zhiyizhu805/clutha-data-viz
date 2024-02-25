@@ -60,7 +60,7 @@ export default {
       default: "drawer-disabled-backdrop",
     },
   },
-  computer: {
+  computed: {
     ariaLabelledby: function () {
       return `${this.flyout_id}-label`;
     },
