@@ -1,16 +1,16 @@
 <template>
 <p>Donut Graphs:</p>
-    <LandUses></LandUses>
-    <LandUseChangeExoticForest></LandUseChangeExoticForest> 
-    <LandUseChangeBuildUp></LandUseChangeBuildUp>   
-    <GhgAgri></GhgAgri> 
-    <PredatorType></PredatorType>
-    <GhgEnergy></GhgEnergy>
+    <plotsLandUses></plotsLandUses>
+    <plotsLandUseChangeExoticForest></plotsLandUseChangeExoticForest> 
+    <plotsLandUseChangeBuildUp></plotsLandUseChangeBuildUp>   
+    <plotsGhgAgri></plotsGhgAgri> 
+    <plotsPredatorType></plotsPredatorType>
+    <plotsGhgEnergy></plotsGhgEnergy>
 <p>Bar Graphs:</p>
-    <ClimateMakaroa></ClimateMakaroa>   
-    <WildingPines></WildingPines>
-    <PredatorControl></PredatorControl>
-    <GhgRemoval></GhgRemoval>
-    <GHGEmissionsBySector></GHGEmissionsBySector>
-    <ClimateVarAero></ClimateVarAero>
+    <plotsClimateMakaroa></plotsClimateMakaroa>   
+    <plotsWildingPines></plotsWildingPines>
+    <plotsPredatorControl></plotsPredatorControl>
+    <plotsGhgRemoval></plotsGhgRemoval>
+    <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
+    <plotsClimateVarAero></plotsClimateVarAero>
 </template>

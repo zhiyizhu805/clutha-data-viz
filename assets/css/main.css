@@ -1,3 +1,312 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/****************
+ Plot container 
+ ****************/
+ /* extra small */
+ .GraphContainerExtrasmall {
+    width: 100%;
+    padding-top: 80%; 
+    position: relative;
+  }
+  .GraphContainerExtrasmall  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  /* small */
+  .GraphContainerSmall {
+    width: 100%;
+    padding-top: 80%; 
+    position: relative;
+  }
+  .GraphContainerSmall  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+  .GraphContainerSmall {
+    width: 100%;
+    padding-top: 110%; 
+    position: relative;
+  }
+  }
+  /* medium */
+  .GraphContainerMedium {
+    width: 100%;
+    padding-top: 90%; 
+    position: relative;
+  }
+  .GraphContainerMedium  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+  .GraphContainerMedium {
+    width: 100%;
+    padding-top: 125%; 
+    position: relative;
+  }
+  }
+  
+  /* flyout */
+  .flyout[aria-hidden="true"] {
+    opacity: 0;
+  }
+  
+  .flyout[aria-modal="true"]{
+    opacity: 0.95;
+  }
+  
+  
+  
+  /****************
+    Home page animation
+   ****************/
+  
+  /* icon initial position */
+  .icon_climate_variables {
+    position: absolute;
+    top:28%; 
+    left:29.53%; 
+  }
+  
+  .icon_land_use_change {
+    position: absolute;
+    top: 37.33%; 
+    left: 21.05%; 
+  }
+  
+  .icon_greenhouse_gas_emissions {
+    position: absolute;
+    top: 40.09%; 
+    left: 43.38%; 
+  }
+  
+  .icon_social_wellbeing {
+    position: absolute;
+    top: 32.75%; 
+    left: 48.35%; 
+  }
+  
+  .icon_water_quality {
+    position: absolute;
+    top: 47.54%; 
+    left: 45.96%; 
+  }
+  
+  .icon_invasive_species {
+    position: absolute;
+    top: 42.33%; 
+    left: 53.77%; 
+  }
+  
+  /* icon initial position in xs screen */
+  @media (max-width: 768px) {
+    .icon_climate_variables {
+      position: absolute;
+      top: 15%; 
+      left: 29.53%; 
+    }
+  
+    .icon_greenhouse_gas_emissions {
+      position: absolute;
+      top: 18.09%; 
+      left: 41.38%; 
+    }
+  
+    .icon_land_use_change {
+      position: absolute;
+      top: 20.33%; 
+      left: 20.05%; 
+    }
+  
+    .icon_social_wellbeing {
+      position: absolute;
+      top: 17.75%; 
+      left: 51.35%; 
+    }
+  
+    .icon_water_quality {
+      position: absolute;
+      top: 27.54%; 
+      left: 45.96%; 
+    }
+  
+    .icon_invasive_species {
+      position: absolute;
+      top: 23.33%; 
+      left: 53.77%; 
+    }
+  }
+  
+  /* anmiation */
+  @keyframes moveIcon {
+    from {
+      top: var(--initial-top); 
+      left: var(--initial-left); 
+    }
+    to {
+      top: var(--target-top); 
+      left: var(--target-left);
+    }
+  }
+  
+  @keyframes returnIcon {
+    from {
+      top: var(--target-top); 
+      left: var(--target-left);
+    }
+    to {
+      top: var(--initial-top); 
+      left: var(--initial-left); 
+    }
+  }
+  
+  .icon_climate_variables {
+    position: absolute;
+    --initial-top:4%; 
+    --initial-left:36.53%; 
+    --target-top: 79%; 
+    --target-left: 27.46%; 
+  
+  }
+  
+  .icon_land_use_change {
+    position: absolute;
+    --initial-top: 23.33%; 
+    --initial-left: 29.05%; 
+    --target-top: 85%; 
+    --target-left:  27.46%; 
+  }
+  
+  .icon_greenhouse_gas_emissions {
+    position: absolute;
+    --initial-top: 26.09%; 
+    --initial-left: 69.38%; 
+    --target-top: 78.5%; 
+    --target-left: 87.5%; 
+  }
+  
+  .icon_social_wellbeing {
+    position: absolute;
+    --initial-top: 27.75%; 
+    --initial-left: 46.35%; 
+    --target-top: 84.80%; 
+    --target-left:  75.5%; 
+  }
+  
+  .icon_water_quality {
+    position: absolute;
+    --initial-top: 47.54%; 
+    --initial-left: 42.96%; 
+    --target-top: 90.76%; 
+    --target-left:27.46%; 
+  }
+  
+  .icon_invasive_species {
+    position: absolute;
+    --initial-top: 20.33%; 
+    --initial-left: 44.77%; 
+    --target-top:91%; 
+    --target-left: 75.5%; 
+  }
+  
+  /* animation in xs screen */
+  @media (max-width: 768px) {
+    .icon_climate_variables {
+      position: absolute;
+      --initial-top: 0%; 
+      --initial-left: 33.53%; 
+      --target-top: 56.5%; 
+      --target-left: 82%; 
+    }
+  
+    .icon_greenhouse_gas_emissions {
+      position: absolute;
+      --initial-top: 15.09%; 
+      --initial-left: 70.38%; 
+      --target-top: 63%; 
+      --target-left:  82%; 
+    }
+  
+    .icon_land_use_change {
+      position: absolute;
+      --initial-top: 16.33%; 
+      --initial-left: 23.05%; 
+      --target-top: 69.5%; 
+      --target-left:  82%; 
+    }
+  
+    .icon_social_wellbeing {
+      position: absolute;
+      --initial-top: 19.75%; 
+      --initial-left: 37.35%; 
+      --target-top: 76.5%;  
+      --target-left:  82%; 
+    }
+  
+    .icon_water_quality {
+      position: absolute;
+      --initial-top: 27.54%; 
+      --initial-left: 45.96%; 
+      --target-top: 82.5%;  
+      --target-left:82%; 
+    }
+  
+    .icon_invasive_species {
+      position: absolute;
+      --initial-top: 10.33%; 
+      --initial-left: 39.77%; 
+      --target-top:88.5%; 
+      --target-left: 82%; 
+    }
+  }
+  
+  
+  /****************
+   Hover Effect - nested 
+   ****************/
+   .leanmore_link_div:hover .leanmore_link {
+    color: black; 
+  }
+  
+  @media screen and (min-width: 768px) {
+    .navigation-list-nested-hover:hover {
+        box-shadow: 
+            inset 0 0 0 3px #2e2e2e, 
+            inset 0 0 0 3px #2e2e2e;
+        overflow: hidden;
+        transition: box-shadow 0.3s ease-in-out;
+    }
+  
+    .navigation-list-nested-hover:hover a {
+        background-color: transparent;
+    }
+    .navigation-list-nested-active {
+      box-shadow: 
+          inset 0 0 0 3px #2e2e2e, 
+          inset 0 0 0 3px #2e2e2e;
+      overflow: hidden;
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  }
+  
+  #dropdownNavbar {
+    transform: translate(166, 100) !important; 
+  }
+  
