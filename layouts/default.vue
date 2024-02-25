@@ -7,7 +7,7 @@
         <template #NavigationSecondary>
           <moleculesNavigationSecondaryItem
             url="/landuse_change"
-            :active="active === 'landuse_change'"
+            :active="isActive('/landuse_change')"
           >
             <img
               src="/assets/images/icons/land_use_change.svg"
@@ -17,8 +17,8 @@
           </moleculesNavigationSecondaryItem>
 
           <moleculesNavigationSecondaryItem
-            url="/water_qualit'"
-            :active="active === 'water_quality'"
+            url="/water_quality"
+            :active="isActive('/water_quality')"
           >
             <img
               src="/assets/images/icons/water_quality.svg"
@@ -29,7 +29,7 @@
 
           <moleculesNavigationSecondaryItem
             url="/invasive_species"
-            :active="active === 'invasive_species'"
+            :active="isActive('/invasive_species')"
           >
             <img
               src="/assets/images/icons/invasive_species.svg"
@@ -40,7 +40,7 @@
 
           <moleculesNavigationSecondaryItem
             url="/greenhouse_gas_emissions"
-            :active="active === 'greenhouse_gas_emissions'"
+            :active="isActive('/greenhouse_gas_emissions')"
           >
             <img
               src="/assets/images/icons/greenhouse_gas_emissions.svg"
@@ -51,7 +51,7 @@
 
           <moleculesNavigationSecondaryItem
             url="/climate_variables"
-            :active="active === 'climate_variables'"
+            :active="isActive('/climate_variables')"
           >
             <img
               src="/assets/images/icons/climate_variables.svg"
@@ -62,7 +62,7 @@
 
           <moleculesNavigationSecondaryItem
             url="/social_well_being"
-            :active="active === 'social_well_being'"
+            :active="isActive('/social_well_being')"
           >
             <img
               src="/assets/images/icons/social_wellbeing.svg"
@@ -72,7 +72,7 @@
           </moleculesNavigationSecondaryItem>
         </template>
         <template #NavigationPrimary>
-          <moleculesNavigationPrimaryItemRegualr url="/home">
+          <moleculesNavigationPrimaryItemRegualr url="/">
             Home
           </moleculesNavigationPrimaryItemRegualr>
           <moleculesNavigationPrimaryItemDropdownMenu>
@@ -105,8 +105,13 @@
   </footer>
 </template>
 
-<script>
-export default {
-  inject: ['headline']
-}
+
+<script setup lang="ts">
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+const isActive = (routePath: string): boolean => {
+  return route.path === routePath;
+};
 </script>

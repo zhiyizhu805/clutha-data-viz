@@ -7,7 +7,6 @@
     'md:h-full xl:shadow-custom-border-xl md:shadow-custom-border-md shadow-custom-border-sm md:pt-[12%]': active,
     'md:h-[82%] lg:rounded-b-full lg:items-center md:pt-[7%]': !active
   }"
-  :href="url"
 >
   <!-- call IconFrame molecule -->
     <moleculesIconFrame>
