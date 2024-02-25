@@ -16,12 +16,12 @@
         title="Data source"
       />
     </moleculesIconFrame>
-    <moleculesFooterTextstyle>
+    <atomsFooterTextstyle>
       &lt;
-    </moleculesFooterTextstyle>
-    <moleculesFooter02Textstyle>
+    </atomsFooterTextstyle>
+    <atomsFooter02Textstyle>
       view data source
-    </moleculesFooter02Textstyle>
+    </atomsFooter02Textstyle>
   </button>
 
   <!-- placeholder -->
