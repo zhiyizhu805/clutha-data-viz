@@ -1,6 +1,6 @@
 <template>
   <section
-    class="lg:mb-40 md:mb-32 mb-14"
+    class="lg:mb-24 md:mb-21 mb-4"
   >
     <moleculesHeadline>
     <slot></slot>
