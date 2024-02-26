@@ -53,10 +53,10 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-second section   -->
   <organisimsPageContainerTwoColumns>
@@ -98,13 +98,13 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-third section   -->
-  <organisimsPageContainerPlain>
+  
     <!-- full width organism with items aligned to end -->
     <organisimsChildContainerFullWidthItemsEnd>
       <!-- graph frame organism-->
@@ -177,7 +177,7 @@
         </template>
       </organisimsGraphFrame>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- two column organisims -->
   <organisimsPageContainerTwoColumns>
@@ -218,10 +218,10 @@
     </organisimsChildContainerSixtyPercentBasis>
   </organisimsPageContainerTwoColumns>
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-four section   -->
   <organisimsPageContainerTwoColumns>
@@ -280,12 +280,12 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
-  <organisimsPageContainerPlain>
+  
     <moleculesReference>
       <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
       <moleculesReferenceItem
@@ -297,7 +297,7 @@
         available from the
       </moleculesReferenceItem>
     </moleculesReference>
-  </organisimsPageContainerPlain>
+  
 </template>
 
 <script setup lang="ts">

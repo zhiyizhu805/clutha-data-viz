@@ -4,7 +4,7 @@
     Greenhouse Gas Emissions
   </organisimsHeadline>
   <!-- content-first section   -->
-  <organisimsPageContainerPlain>
+  
     <!-- full width organism with items aligned to end -->
     <organisimsChildContainerFullWidthItemsEnd>
       <organisimsChildContainerSixtyPercentWidth>
@@ -107,13 +107,13 @@
         </template>
       </organisimsGraphFrame>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-second section   -->
   <organisimsPageContainerTwoColumns>
@@ -158,7 +158,7 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- content-fourth section   -->
-  <organisimsPageContainerPlain>
+  
     <!-- full width organism with items aligned to end -->
     <organisimsChildContainerFullWidthItemsEnd>
       <!-- graph frame organism-->
@@ -212,13 +212,13 @@
         </template>
       </organisimsGraphFrame>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-third section   -->
   <organisimsPageContainerTwoColumns>
@@ -270,10 +270,10 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-fourth section   -->
   <organisimsPageContainerTwoColumns>
@@ -320,12 +320,12 @@
     </organisimsChildContainerSixtyPercentBasis>
   </organisimsPageContainerTwoColumns>
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
-  <organisimsPageContainerPlain>
+  
     <moleculesReference>
       <organisimsSubhead01Textstyle> Reference </organisimsSubhead01Textstyle>
       <organisimsReferenceItem
@@ -345,7 +345,7 @@
         - available
       </organisimsReferenceItem>
     </moleculesReference>
-  </organisimsPageContainerPlain>
+  
 </template>
 
 <script setup lang="ts">

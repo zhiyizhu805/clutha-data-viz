@@ -57,13 +57,13 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-second section   -->
-    <organisimsPageContainerPlain>
+    
       <!-- full width organism with items aligned to end -->
       <organisimsorganisimsChildContainerFullWidthItemsEnd>
         <!-- graph frame organism-->
@@ -88,13 +88,13 @@
           </template>
         </organisimsGraphFrame>
       </organisimsorganisimsChildContainerFullWidthItemsEnd>
-    </organisimsPageContainerPlain>
+    
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-third section   -->
     <organisimsPageContainerTwoColumns>
@@ -147,12 +147,12 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
-    <organisimsPageContainerPlain>
+    
       <moleculesReference>
         <atomsSubhead01Textstyle>
           Reference
@@ -173,5 +173,5 @@
           available
         </moleculesReferenceItem>
       </moleculesReference>
-    </organisimsPageContainerPlain>
+    
 </template>

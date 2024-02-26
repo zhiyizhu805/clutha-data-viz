@@ -4,7 +4,7 @@
     Disclaimer
   </organisimsHeadline>
 
-  <organisimsPageContainerPlain>
+  
     <organisimsChildContainerFullWidth gap="gap-7">
       <moleculesParagraph>
         The professional analysis and advice on this website has been prepared
@@ -39,5 +39,5 @@
         provided on this website.
       </moleculesParagraph>
     </organisimsChildContainerFullWidth>
-  </organisimsPageContainerPlain>
+  
 </template>

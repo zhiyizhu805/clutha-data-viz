@@ -51,10 +51,10 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-second section   -->
     <organisimsPageContainerTwoColumns>
@@ -94,10 +94,10 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-third section   -->
     <organisimsPageContainerTwoColumns>
@@ -139,10 +139,10 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-fourth section   -->
     <organisimsPageContainerTwoColumns>
@@ -189,12 +189,12 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
-    <organisimsPageContainerPlain>
+    
       <moleculesReference>
         <atomsSubhead01Textstyle>
           Reference
@@ -208,7 +208,7 @@
           &minus; available
         </moleculesReferenceItem>
       </moleculesReference>
-    </organisimsPageContainerPlain>
+    
 </template>
 
 <script setup lang="ts">

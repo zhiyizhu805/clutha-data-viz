@@ -64,13 +64,13 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-third section   -->
-    <organisimsPageContainerPlain>
+    
       <!-- full width organism with items aligned to end -->
       <organisimsorganisimsChildContainerFullWidthItemsEnd>
         <!-- graph frame organism-->
@@ -151,13 +151,13 @@
           </template>
         </organisimsGraphFrame>
       </organisimsorganisimsChildContainerFullWidthItemsEnd>
-    </organisimsPageContainerPlain>
+    
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- content-second section   -->
     <organisimsPageContainerTwoColumns>
@@ -234,12 +234,12 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
-    <organisimsPageContainerPlain>
+    
       <moleculesReference>
         <atomsSubhead01Textstyle>
           Reference
@@ -249,7 +249,7 @@
           Freshwater Management 2020, available
         </moleculesReferenceItem>
       </moleculesReference>
-    </organisimsPageContainerPlain>
+    
 </template>
 
 <script setup lang="ts">

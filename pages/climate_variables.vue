@@ -43,13 +43,13 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-second section   -->
-  <organisimsPageContainerPlain>
+  
     <!-- full width organism with items aligned to end -->
     <organisimsChildContainerFullWidthItemsEnd>
       <organisimsChildContainerSixtyPercentWidth>
@@ -83,16 +83,16 @@
         </template>
       </organisimsGraphFrame>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-third section   -->
-  <organisimsPageContainerPlain>
+  
     <organisimsChildContainerFullWidthItemsEnd>
       <moleculesParagraph>
         The relationship between climate variables and other measures of
@@ -118,16 +118,16 @@
         <a href="/invasive_species" class="underline">invasive species</a>.
       </moleculesParagraph>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
+  
 
   <!-- content-fourth section   -->
-  <organisimsPageContainerPlain>
+  
     <!-- full width organism with items aligned to end -->
     <organisimsChildContainerFullWidthItemsEnd>
       <organisimsChildContainerSixtyPercentWidth>
@@ -161,14 +161,14 @@
         </template>
       </organisimsGraphFrame>
     </organisimsChildContainerFullWidthItemsEnd>
-  </organisimsPageContainerPlain>
+  
 
   <!-- divider section -->
-  <organisimsPageContainerPlain>
+  
     <!-- divider atom-->
     <atomsDivider divider_width="border-b-2" />
-  </organisimsPageContainerPlain>
-  <organisimsPageContainerPlain>
+  
+  
     <moleculesReference>
       <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
       <moleculesReferenceItem
@@ -180,7 +180,7 @@
         available
       </moleculesReferenceItem>
     </moleculesReference>
-  </organisimsPageContainerPlain>
+  
 </template>
 
 <script setup lang="ts">

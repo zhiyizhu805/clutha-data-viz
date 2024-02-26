@@ -1,6 +1,6 @@
 <template>
     <!-- animation section -->
-    <organisimsPageContainerPlain>
+    
       <!-- animation organism -->
       <organisimsAnimation>
         <!-- animation navigation_icon molecule -->
@@ -65,16 +65,16 @@
         </a>
         </moleculesNavigationTertiaryItem>
       </organisimsAnimation>
-    </organisimsPageContainerPlain>
+    
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- The story section -->
-    <organisimsPageContainerPlain>
+    
       <organisimsChildContainerFullWidth gap="md:gap-7 gap-4">
       <!-- heading -->
       <atomsSubhead01Textstyle>
@@ -90,7 +90,7 @@
         collective effort to revitalise Te Taiao.
       </moleculesParagraph>
       </organisimsChildContainerFullWidth>
-    </organisimsPageContainerPlain>
+    
 
     <organisimsPageContainerTwoColumns>
       <!--  left side organism -->
@@ -173,13 +173,13 @@
     </organisimsPageContainerTwoColumns>
 
     <!-- divider section -->
-    <organisimsPageContainerPlain>
+    
       <!-- divider atom-->
       <atomsDivider divider_width="border-b-2"/>
-    </organisimsPageContainerPlain>
+    
 
     <!-- Join us section -->
-    <organisimsPageContainerPlain>
+    
       <organisimsChildContainerFullWidth gap="md:gap-7 gap-4">
         <!-- heading -->
         <atomsSubhead01Textstyle>
@@ -207,7 +207,7 @@
           >
         </moleculesParagraph>
       </organisimsChildContainerFullWidth>
-    </organisimsPageContainerPlain>
+    
 </template>
 
 <script setup lang="ts">
