@@ -1,7 +1,7 @@
 <template>
   <!-- headline section-->
   <organisimsPageContainerHeadline>
-    Landuse change
+    Landuse Change
   </organisimsPageContainerHeadline>
   <!-- content-first section   -->
   <organisimsPageContainerTwoColumns>
