@@ -1,7 +1,7 @@
 <template>
   <!-- headline section-->
   <organisimsPageContainerHeadline>
-    Landuse Change
+    Landuse change
   </organisimsPageContainerHeadline>
   <!-- content-first section   -->
   <organisimsPageContainerTwoColumns>
@@ -299,3 +299,7 @@
     </moleculesReference>
   </organisimsPageContainerPlain>
 </template>
+
+<script setup lang="ts">
+useFlowbite();
+</script>
