@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto h-auto xl:px-24 lg:px-16 md:px-11 mb-16">
+  <footer class="mb-16">
     <div
       class="flex justify-between items-end xl:border-t-6 border-t-4 border-grey-900 w-full pt-10 xl:pt-16 lg:pt-12 rounded"
     >
@@ -25,7 +25,7 @@
         </atomsLinkPlain>
       </div>
     </div>
-  </section>
+  </footer>
   <!--  placeholder -->
   <slot></slot>
 </template>
