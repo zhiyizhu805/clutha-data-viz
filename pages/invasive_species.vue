@@ -1,8 +1,8 @@
 <template>
   <!-- headline section-->
-  <organisimsPageContainerHeadline>
+  <organisimsHeadline>
     Invasive Species
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
     <!-- content-first section   -->
     <organisimsPageContainerTwoColumns>
       <!--  left side organism -->

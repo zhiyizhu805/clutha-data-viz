@@ -1,8 +1,8 @@
 <template>
   <!-- headline section-->
-  <organisimsPageContainerHeadline>
+  <organisimsHeadline>
     Supporter
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
     <!--  content-1 -->
     <organisimsPageContainerPlain>
       <organisimsChildContainerFullWidth gap="gap-7">

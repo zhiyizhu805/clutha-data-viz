@@ -1,8 +1,8 @@
 <template>
   <!-- headline section-->
-  <organisimsPageContainerHeadline>
+  <organisimsHeadline>
     Greenhouse Gas Emissions
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
   <!-- content-first section   -->
   <organisimsPageContainerPlain>
     <!-- full width organism with items aligned to end -->

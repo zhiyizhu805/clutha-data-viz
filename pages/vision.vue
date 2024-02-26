@@ -1,6 +1,6 @@
 <template>
   <!-- headline section-->
-  <organisimsPageContainerHeadline>
+  <organisimsHeadline>
     Vision
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
 </template>

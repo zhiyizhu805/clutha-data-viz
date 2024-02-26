@@ -1,8 +1,8 @@
 <template>
   <!-- headline section-->
-  <organisimsPageContainerHeadline>
+  <organisimsHeadline>
     Climate Variables
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
   <!-- content-first section   -->
   <organisimsPageContainerTwoColumns>
     <!--  left side organism -->

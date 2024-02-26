@@ -1,12 +1,8 @@
 <template>
       <!-- headline section-->
-  <organisimsPageContainerHeadline>
-    <organisimsChildContainerSixtyPercentWidth>
-      <atomsHeadlineTextstyle>
+  <organisimsHeadline>
         Acknowledgements
-      </atomsHeadlineTextstyle>
-    </organisimsChildContainerSixtyPercentWidth>
-  </organisimsPageContainerHeadline>
+  </organisimsHeadline>
 
     <organisimsPageContainerPlain>
       <moleculesParagraph>
