@@ -1,4 +1,5 @@
 <template>
+  <section class="container mx-auto h-auto xl:px-24 lg:px-16 md:px-11 mb-4">
   <!-- header organism -->
   <div class="flex bg-white border-gray-200 rounded dark:bg-gray-900">
     <div
@@ -28,4 +29,5 @@
       </nav>
     </div>
   </div>
+  </section>
 </template>

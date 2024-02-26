@@ -1,7 +1,6 @@
 <template>
   <!-- header section-->
   <header>
-    <organisimsPageContainerHeader>
       <!-- header organism -->
       <organisimsHeader>
         <template #NavigationSecondary>
@@ -88,7 +87,6 @@
           </moleculesNavigationPrimaryItemRegular>
         </template>
       </organisimsHeader>
-    </organisimsPageContainerHeader>
   </header>
 
   <!-- article section-->
