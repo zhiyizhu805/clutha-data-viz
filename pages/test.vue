@@ -37,9 +37,9 @@
     <moleculesUnorderlistItem>test</moleculesUnorderlistItem>
   </moleculesUnorderlistDiscStyle>
 
-  <moleculesNavigationPrimaryItemRegualr url="/home">
+  <moleculesNavigationPrimaryItemRegular url="/home">
     Home
-  </moleculesNavigationPrimaryItemRegualr>
+  </moleculesNavigationPrimaryItemRegular>
   <moleculesNavigationPrimaryItemDropdownMenu>
     <moleculesNavigationPrimaryItemDropdownMenuItem url="/vision">
       Vision
@@ -48,9 +48,9 @@
       Supporters
     </moleculesNavigationPrimaryItemDropdownMenuItem>
   </moleculesNavigationPrimaryItemDropdownMenu>
-  <moleculesNavigationPrimaryItemRegualr url="/disclaimer">
+  <moleculesNavigationPrimaryItemRegular url="/disclaimer">
     Disclaimer
-  </moleculesNavigationPrimaryItemRegualr>
+  </moleculesNavigationPrimaryItemRegular>
 
     <moleculesNavigationSecondaryItem url="/landuse_change" :active="active === 'landuse_change'">
       <img src="/assets/images/icons/land_use_change.svg" alt="Landuse change" title="Landuse change" />

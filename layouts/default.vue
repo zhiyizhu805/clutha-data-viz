@@ -72,9 +72,9 @@
           </moleculesNavigationSecondaryItem>
         </template>
         <template #NavigationPrimary>
-          <moleculesNavigationPrimaryItemRegualr url="/">
+          <moleculesNavigationPrimaryItemRegular url="/">
             Home
-          </moleculesNavigationPrimaryItemRegualr>
+          </moleculesNavigationPrimaryItemRegular>
           <moleculesNavigationPrimaryItemDropdownMenu>
             <moleculesNavigationPrimaryItemDropdownMenuItem url="/vision">
               Vision
@@ -83,9 +83,9 @@
               Supporters
             </moleculesNavigationPrimaryItemDropdownMenuItem>
           </moleculesNavigationPrimaryItemDropdownMenu>
-          <moleculesNavigationPrimaryItemRegualr url="/disclaimer">
+          <moleculesNavigationPrimaryItemRegular url="/disclaimer">
             Disclaimer
-          </moleculesNavigationPrimaryItemRegualr>
+          </moleculesNavigationPrimaryItemRegular>
         </template>
       </organisimsHeader>
     </organisimsPageContainerHeader>
