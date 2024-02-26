@@ -72,7 +72,7 @@
     <!-- content-third section   -->
     
       <!-- full width organism with items aligned to end -->
-      <organisimsorganisimsChildContainerFullWidthItemsEnd>
+      <organisimsChildContainerFullWidthItemsEnd>
         <!-- graph frame organism-->
         <organisimsGraphFrame graph_title="Water quality parameters included in this monitoring framework." flyout_id="placeholder8">
           <template #flyout>
@@ -150,7 +150,7 @@
             </organisimsTableContainer>
           </template>
         </organisimsGraphFrame>
-      </organisimsorganisimsChildContainerFullWidthItemsEnd>
+      </organisimsChildContainerFullWidthItemsEnd>
     
 
     <!-- divider section -->

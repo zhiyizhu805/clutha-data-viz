@@ -327,23 +327,23 @@
 
   
     <moleculesReference>
-      <organisimsSubhead01Textstyle> Reference </organisimsSubhead01Textstyle>
-      <organisimsReferenceItem
+      <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+      <moleculesReferenceItem
         url="https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/queenstownnz/Queenstown_Lakes_Regenerative_Tourism_Plan_956930e4-1b59-4293-9294-96b5d5ec5196.pdf"
         name=" online"
         additional_info=", last accessed Jan 2024."
       >
         [9] Destination Management Plan for Queenstown Lakes, Travel to a
         thriving future &minus; available
-      </organisimsReferenceItem>
-      <organisimsReferenceItem
+      </moleculesReferenceItem>
+      <moleculesReferenceItem
         url="https://www.qldc.govt.nz/media/ie3jk5bb/qldc_climate-and-biodiversity-plan_jun22-web.pdf"
         name=" online"
         additional_info=", last accessed Jan 2024."
       >
         [10] Queenstown Lakes Climate and Biodiversity Plan 2022-2025, July 2022
         - available
-      </organisimsReferenceItem>
+      </moleculesReferenceItem>
     </moleculesReference>
   
 </template>

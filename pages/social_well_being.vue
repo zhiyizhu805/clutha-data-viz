@@ -65,7 +65,7 @@
     <!-- content-second section   -->
     
       <!-- full width organism with items aligned to end -->
-      <organisimsorganisimsChildContainerFullWidthItemsEnd>
+      <organisimsChildContainerFullWidthItemsEnd>
         <!-- graph frame organism-->
         <organisimsGraphFrame graph_title="Rankings of the social well-being, including its different aspects." flyout_id="placeholder6">
           <!-- create_figure -->
@@ -87,7 +87,7 @@
             </organisimsGraphContainerLarge>
           </template>
         </organisimsGraphFrame>
-      </organisimsorganisimsChildContainerFullWidthItemsEnd>
+      </organisimsChildContainerFullWidthItemsEnd>
     
 
     <!-- divider section -->
