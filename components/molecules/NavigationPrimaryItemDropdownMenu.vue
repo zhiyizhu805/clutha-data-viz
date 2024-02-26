@@ -8,7 +8,7 @@
       class="flex items-center justify-between w-full text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 
      md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
     >
-      <atomsNavTextstyle :url="url">
+      <atomsNavTextstyle>
         About
       </atomsNavTextstyle>
       <svg
@@ -38,20 +38,10 @@
       aria-labelledby="dropdownLargeButton"
     >
       <li>
-        <atomsNavTextstyle :url="url">
-          <slot/>
+        <atomsNavTextstyle>
+          <slot></slot>
         </atomsNavTextstyle>
       </li>
     </ul>
   </div>
 </template>
-
-<script>
-export default {
-  props: {
-    url: {
-      type: String,
-      required: true,
-    },
-  },}
-</script>

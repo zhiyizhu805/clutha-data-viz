@@ -7,7 +7,7 @@
       :to="url"
       class="block md:p-1 text-gray-900 hover:bg-gray-100 md:hover:bg-none md:w-full md:h-full md:flex md:justify-center md:items-center"
     >
-      <atomsNavTextstyle :url="url">
+      <atomsNavTextstyle>
         <slot></slot>
       </atomsNavTextstyle>
     </nuxt-link>
