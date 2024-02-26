@@ -1,7 +1,7 @@
 <template>
   <!-- headline section-->
   <organisimsPageContainerHeadline>
-    Water quality
+    Water Quality
   </organisimsPageContainerHeadline>
     <!-- content-first section   -->
     <organisimsPageContainerTwoColumns>
