@@ -96,10 +96,8 @@
 
   <!-- footer section-->
   <footer>
-    <organisimsPageContainerFooter>
       <!-- footer organism -->
       <organisimsFooter> </organisimsFooter>
-    </organisimsPageContainerFooter>
   </footer>
 </template>
 
