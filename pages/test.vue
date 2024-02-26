@@ -56,7 +56,7 @@
       <img src="/assets/images/icons/land_use_change.svg" alt="Landuse change" title="Landuse change" />
     </moleculesNavigationSecondaryItem>
 
-    <moleculesNavigationSecondaryItem url="/water_qualit'" :active="active === 'water_quality'">
+    <moleculesNavigationSecondaryItem url="/water_quality" :active="active === 'water_quality'">
       <img src="/assets/images/icons/water_quality.svg" alt="Water quality" title="Water quality" />
     </moleculesNavigationSecondaryItem>
 
