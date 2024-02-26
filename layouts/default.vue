@@ -1,5 +1,5 @@
 <template>
-  <organisimsBaseContainer>
+  <organisimsBaseContainerPrimary>
     <!-- header organism -->
     <organisimsHeader>
       <template #NavigationSecondary>
@@ -89,12 +89,14 @@
 
     <!-- article section-->
     <main>
-      <slot name="default"></slot>
+      <organisimsBaseContainerSecondary>
+         <slot name="default"></slot>
+      </organisimsBaseContainerSecondary>
     </main>
 
     <!-- footer organism -->
     <organisimsFooter> </organisimsFooter>
-  </organisimsBaseContainer>
+  </organisimsBaseContainerPrimary>
 </template>
 
 <script setup lang="ts">
