@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Wilding Pines Control Work (2020-2022)</h1>
     <nuxt-plotly
       :data="barChart.data"
       :layout="barChart.layout"

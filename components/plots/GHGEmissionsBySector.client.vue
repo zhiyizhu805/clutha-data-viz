@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>GHG Emissions by Sector (2020-2022)</h1>
     <nuxt-plotly
       :data="chartData"
       :layout="chartLayout"

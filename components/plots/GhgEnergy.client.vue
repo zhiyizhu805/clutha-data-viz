@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Energy Consumption by Location</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"

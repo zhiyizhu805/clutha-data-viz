@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Predator Control Data (2020-2022)</h1>
     <nuxt-plotly
       :data="combinedChart.data"
       :layout="combinedChart.layout"

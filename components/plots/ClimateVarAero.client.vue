@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Rainfall and Temperature at Wanaka Aero (2000-2013 vs. 2022)</h1>
     <nuxt-plotly
       :data="chartData"
       :layout="chartLayout"

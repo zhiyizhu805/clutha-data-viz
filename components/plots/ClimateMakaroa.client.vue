@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Average Monthly Rainfall: Makarora Station (1990-2005 vs. 2022)</h1>
     <nuxt-plotly
       :data="barChart.data"
       :layout="barChart.layout"

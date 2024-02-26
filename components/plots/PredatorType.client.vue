@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>Predator Types in 2022</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"

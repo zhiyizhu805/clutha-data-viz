@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>GHG Emissions in Agriculture 2002</h1>
     <nuxt-plotly
       :data="pieChart.data"
       :layout="pieChart.layout"

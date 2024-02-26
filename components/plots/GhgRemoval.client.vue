@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1>GHG Emissions and Removals in Forestry</h1>
     <nuxt-plotly
       :data="barChart.data"
       :layout="barChart.layout"
