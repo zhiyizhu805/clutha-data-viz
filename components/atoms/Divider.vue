@@ -1,5 +1,4 @@
 <template>
-<!-- border_style is a fall through parameter -->
   <div
      :class="divider_width" class="rounded-full border-black"
   >
