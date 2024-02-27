@@ -1,8 +1,8 @@
 <template>
   <!-- headline section-->
   <organisimsHeadline> Greenhouse Gas Emissions </organisimsHeadline>
- 
-  <!-- content01: BaseArticleContainerSecondary organisim -->
+
+  <!-- content01 -->
   <organisimsBaseArticleContainerSecondary>
     <template #content-section>
       <moleculesParagraph>
@@ -110,7 +110,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content-02: BaseArticleContainerPrimary organisim -->
+  <!-- content-02 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <moleculesParagraph>
@@ -152,63 +152,63 @@
   <!-- content-03  -->
   <organisimsBaseArticleContainerSecondary>
     <template #default>
-    <!-- graph frame organism-->
-    <organisimsGraphFrame
-      graph_title="GHG emissions by industry sector in 2020, 2021 and 2022."
-      flyout_id="flyout_GHGEmissionsBySector"
-    >
-      <template #flyout>
-        <organisimsFlyout flyout_id="flyout_GHGEmissionsBySector">
-          <moleculesDatasourceItem
-            link="https://www.auroraenergy.co.nz/"
-            link_title="Aurora Energy"
-          >
-            Energy consumption data were obtained from the electricity network
-          </moleculesDatasourceItem>
-          <moleculesDatasourceItem
-            link="https://www.stats.govt.nz/information-releases/agricultural-production-statistics-year-to-june-2022-provisional/"
-            link_title="Stats NZ Agricultural Production Census"
-          >
-            Agricultural activity data were obtained from
-          </moleculesDatasourceItem>
-          <moleculesDatasourceItem
-            link="https://waiwanaka.nz/wp-content/uploads/2023/10/Technical-Report-and-SOPs.pdf"
-            link_title="Technical Report"
-          >
-            Transport emissions were derived from fuel tax data which were
-            obtained from the Central Otago District Council. The detailed
-            method on how emissions were derived can be found in the
-          </moleculesDatasourceItem>
-          <moleculesDatasourceItem
-            link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/"
-            link_title="LUCAS"
-          >
-            GHG sequestration removals from forestry were estimated using data
-            obtained from the Land Use and Coverage Area frame Survey (LUCAS)
-            data set
-          </moleculesDatasourceItem>
-          <moleculesDatasourceItem
-            link="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
-            link_title="LCDB"
-          >
-            GHG sequestration removals from forestry were estimated using data
-            obtained from the New Zealand Land Cover Database.
-          </moleculesDatasourceItem>
-        </organisimsFlyout>
-      </template>
-      <template #graph>
-        <organisimsGraphContainerLarge>
-          <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
-        </organisimsGraphContainerLarge>
-      </template>
-    </organisimsGraphFrame>
+      <!-- graph frame organism-->
+      <organisimsGraphFrame
+        graph_title="GHG emissions by industry sector in 2020, 2021 and 2022."
+        flyout_id="flyout_GHGEmissionsBySector"
+      >
+        <template #flyout>
+          <organisimsFlyout flyout_id="flyout_GHGEmissionsBySector">
+            <moleculesDatasourceItem
+              link="https://www.auroraenergy.co.nz/"
+              link_title="Aurora Energy"
+            >
+              Energy consumption data were obtained from the electricity network
+            </moleculesDatasourceItem>
+            <moleculesDatasourceItem
+              link="https://www.stats.govt.nz/information-releases/agricultural-production-statistics-year-to-june-2022-provisional/"
+              link_title="Stats NZ Agricultural Production Census"
+            >
+              Agricultural activity data were obtained from
+            </moleculesDatasourceItem>
+            <moleculesDatasourceItem
+              link="https://waiwanaka.nz/wp-content/uploads/2023/10/Technical-Report-and-SOPs.pdf"
+              link_title="Technical Report"
+            >
+              Transport emissions were derived from fuel tax data which were
+              obtained from the Central Otago District Council. The detailed
+              method on how emissions were derived can be found in the
+            </moleculesDatasourceItem>
+            <moleculesDatasourceItem
+              link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/"
+              link_title="LUCAS"
+            >
+              GHG sequestration removals from forestry were estimated using data
+              obtained from the Land Use and Coverage Area frame Survey (LUCAS)
+              data set
+            </moleculesDatasourceItem>
+            <moleculesDatasourceItem
+              link="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
+              link_title="LCDB"
+            >
+              GHG sequestration removals from forestry were estimated using data
+              obtained from the New Zealand Land Cover Database.
+            </moleculesDatasourceItem>
+          </organisimsFlyout>
+        </template>
+        <template #graph>
+          <organisimsGraphContainerLarge>
+            <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
+          </organisimsGraphContainerLarge>
+        </template>
+      </organisimsGraphFrame>
     </template>
   </organisimsBaseArticleContainerSecondary>
 
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content-04:BaseArticleContainerPrimary organisim -->
+  <!-- content-04 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <moleculesParagraph>
@@ -256,7 +256,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content05:BaseArticleContainerPrimary organisim   -->
+  <!-- content05 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <moleculesParagraph>

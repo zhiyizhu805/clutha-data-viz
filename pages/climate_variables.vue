@@ -1,11 +1,9 @@
 <template>
   <!-- headline section-->
   <organisimsHeadline> Climate Variables </organisimsHeadline>
-  <!-- content-first section   -->
-  <organisimsPageContainerTwoColumns>
-    <!--  left side organism -->
-    <organisimsChildContainerFortyPercentBasis>
-      <!--  text without heading molecule-->
+  <!-- content01 -->
+  <organisimsBaseArticleContainerPrimary>
+    <template #left>
       <moleculesParagraph>
         Climate variables are a key driver for many measures of catchment health
         due to their influence on the ecosystem as well as water quality and
@@ -17,9 +15,8 @@
         monitored would be extremely valuable to obtain a more robust
         representation of the climatic conditions of the catchment.
       </moleculesParagraph>
-    </organisimsChildContainerFortyPercentBasis>
-    <!-- right side organism -->
-    <organisimsChildContainerSixtyPercentBasis>
+    </template>
+    <template #right>
       <!-- graph frame organism -->
       <organisimsGraphFrame
         graph_title="Active weather stations in the Upper Clutha Catchment."
@@ -37,58 +34,51 @@
           />
         </template>
       </organisimsGraphFrame>
-    </organisimsChildContainerSixtyPercentBasis>
-  </organisimsPageContainerTwoColumns>
+    </template>
+  </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content-second section   -->
-
-  <!-- full width organism with items aligned to end -->
-  <organisimsChildContainerFullWidthItemsEnd>
-    <organisimsChildContainerSixtyPercentWidth>
-      <!-- atomsSubhead01Textstyle heading-->
+  <!-- content02 -->
+  <organisimsBaseArticleContainerSecondary>
+    <template #content-section>
       <atomsSubhead01Textstyle> Wānaka Airport </atomsSubhead01Textstyle>
-      <!-- call out molecule-->
       <moleculesCallout statistic_value="Above the average ">
         Temperature data from 2022 show that our catchment continues to be
         slightly above the long-term average.
       </moleculesCallout>
-    </organisimsChildContainerSixtyPercentWidth>
-    <!-- graph frame organism-->
-    <organisimsGraphFrame
-      graph_title="Monthly total rainfall and average monthly temperature as observed at Wānaka Airport in 2022."
-      flyout_id="flyout_ClimateVarAero"
-    >
-      <template #flyout>
-        <organisimsFlyout flyout_id="flyout_ClimateVarAero">
-          <moleculesDatasourceItem
-            link="https://cliflo.niwa.co.nz/"
-            link_title="Cliflo"
-          >
-            Data were obtained from the National Climate Databas
-          </moleculesDatasourceItem>
-        </organisimsFlyout>
-      </template>
-      <template #graph>
-        <organisimsGraphContainerLarge>
-          <plotsClimateVarAero></plotsClimateVarAero>
-        </organisimsGraphContainerLarge>
-      </template>
-    </organisimsGraphFrame>
-  </organisimsChildContainerFullWidthItemsEnd>
+    </template>
+    <template #default>
+      <!-- graph frame organism-->
+      <organisimsGraphFrame
+        graph_title="Monthly total rainfall and average monthly temperature as observed at Wānaka Airport in 2022."
+        flyout_id="flyout_ClimateVarAero"
+      >
+        <template #flyout>
+          <organisimsFlyout flyout_id="flyout_ClimateVarAero">
+            <moleculesDatasourceItem
+              link="https://cliflo.niwa.co.nz/"
+              link_title="Cliflo"
+            >
+              Data were obtained from the National Climate Databas
+            </moleculesDatasourceItem>
+          </organisimsFlyout>
+        </template>
+        <template #graph>
+          <organisimsGraphContainerLarge>
+            <plotsClimateVarAero></plotsClimateVarAero>
+          </organisimsGraphContainerLarge>
+        </template>
+      </organisimsGraphFrame>
+    </template>
+  </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content-third section   -->
-
-  <organisimsChildContainerFullWidthItemsEnd>
+  <!-- content03 -->
+  <organisimsBaseArticleContainerSecondary>
     <moleculesParagraph>
       The relationship between climate variables and other measures of catchment
       health are complex, but linked. Rainfall and temperature impact whether
@@ -112,18 +102,14 @@
       example, assessing the data presented as part of the
       <a href="/invasive_species" class="underline">invasive species</a>.
     </moleculesParagraph>
-  </organisimsChildContainerFullWidthItemsEnd>
+  </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!-- content-fourth section   -->
-
-  <!-- full width organism with items aligned to end -->
-  <organisimsChildContainerFullWidthItemsEnd>
-    <organisimsChildContainerSixtyPercentWidth>
+  <!-- content04 -->
+  <organisimsBaseArticleContainerSecondary>
+    <template #content-section>
       <moleculesParagraph>
         A dryer summer and wetter winter in 2022 were observed in Makarora
         compared to the long-term average from 1990 to 2005 &minus; putting
@@ -131,33 +117,33 @@
         greater rainfall depths are expected to increase the likelihood of
         landslides and flooding.
       </moleculesParagraph>
-    </organisimsChildContainerSixtyPercentWidth>
-    <!-- graph frame organism-->
-    <organisimsGraphFrame
-      graph_title="Monthly total rainfall as observed at Makaroa in 2022. No temperature data were available from the climate database."
-      flyout_id="flyout_ClimateMakaroa"
-    >
-      <template #flyout>
-        <organisimsFlyout flyout_id="flyout_ClimateMakaroa">
-          <moleculesDatasourceItem
-            link="https://cliflo.niwa.co.nz/"
-            link_title="Cliflo"
-          >
-            Data were obtained from the National Climate Databas
-          </moleculesDatasourceItem>
-        </organisimsFlyout>
-      </template>
-      <template #graph>
-        <organisimsGraphContainerLarge>
-          <plotsClimateMakaroa></plotsClimateMakaroa>
-        </organisimsGraphContainerLarge>
-      </template>
-    </organisimsGraphFrame>
-  </organisimsChildContainerFullWidthItemsEnd>
+    </template>
+    <template #default>
+      <!-- graph frame organism-->
+      <organisimsGraphFrame
+        graph_title="Monthly total rainfall as observed at Makaroa in 2022. No temperature data were available from the climate database."
+        flyout_id="flyout_ClimateMakaroa"
+      >
+        <template #flyout>
+          <organisimsFlyout flyout_id="flyout_ClimateMakaroa">
+            <moleculesDatasourceItem
+              link="https://cliflo.niwa.co.nz/"
+              link_title="Cliflo"
+            >
+              Data were obtained from the National Climate Databas
+            </moleculesDatasourceItem>
+          </organisimsFlyout>
+        </template>
+        <template #graph>
+          <organisimsGraphContainerLarge>
+            <plotsClimateMakaroa></plotsClimateMakaroa>
+          </organisimsGraphContainerLarge>
+        </template>
+      </organisimsGraphFrame>
+    </template>
+  </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <moleculesReference>

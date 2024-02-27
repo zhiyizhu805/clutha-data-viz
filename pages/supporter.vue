@@ -1,9 +1,8 @@
 <template>
   <!-- headline section-->
   <organisimsHeadline> Supporter </organisimsHeadline>
-  <!--  content-1 -->
-
-  <organisimsChildContainerFullWidth gap="gap-7">
+  <!--  content01 -->
+  <organisimsBaseContainerFullWidth gap="gap-7">
     <moleculesParagraph>
       We extend our gratitude to Our Land and Water -
       <a
@@ -35,7 +34,7 @@
       >
       as inspiration for the project.
     </moleculesParagraph>
-    <organisimsChildContainerFullWidth>
+    <organisimsBaseContainerFullWidth>
       <moleculesParagraph>
         This project has been collaborative from the outset, with significant
         time and input from the following organisations and people;
@@ -65,7 +64,7 @@
           >
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsChildContainerFullWidth>
+    </organisimsBaseContainerFullWidth>
     <moleculesParagraph>
       The analysis and findings presented here are based on our interpretation
       of the data and do not necessarily reflect the views or endorsement of the
@@ -87,17 +86,13 @@
       interconnected future for the Upper Clutha Catchment. Thank you for being
       champions of positive change and stewards of our shared Te Taiao.
     </moleculesParagraph>
-  </organisimsChildContainerFullWidth>
+  </organisimsBaseContainerFullWidth>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <!--  content-2 -->
-
-  <organisimsChildContainerFullWidth gap="gap-7">
-    <!-- atomsSubhead01Textstyle heading -->
+  <!-- content02 -->
+  <organisimsBaseContainerFullWidth gap="gap-7">
     <atomsSubhead01Textstyle>
       Become a supporter of the Upper Clutha Catchment Health Report
     </atomsSubhead01Textstyle>
@@ -109,7 +104,6 @@
       contributing to a better understanding of our environment and fostering
       opportunities for a healthy, accessible, and thriving catchment.
     </moleculesParagraph>
-
     <!-- Why Partner with Upper Clutha Catchment Health Partnership? -->
     <!-- atomsSubhead01Textstyle heading -->
     <atomsSubhead01Textstyle>
@@ -123,9 +117,8 @@
     <moleculesParagraph>
       Here's what you can expect as a supporter:
     </moleculesParagraph>
-
     <!-- Recognition and Benefits: -->
-    <organisimsChildContainerFullWidth>
+    <organisimsBaseContainerFullWidth>
       <atomsSubhead01Textstyle>
         Recognition and Benefits:
       </atomsSubhead01Textstyle>
@@ -151,9 +144,9 @@
           Your organisation's logo featured on reports and this website.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsChildContainerFullWidth>
+    </organisimsBaseContainerFullWidth>
     <!-- Your Contribution: -->
-    <organisimsChildContainerFullWidth>
+    <organisimsBaseContainerFullWidth>
       <atomsSubhead01Textstyle> Your Contribution: </atomsSubhead01Textstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
@@ -164,23 +157,19 @@
           Support the continuous development of this initiative through
           contribution to the science and/or operations of the initiative.
         </moleculesUnorderlistItem>
-
         <moleculesUnorderlistItem>
           Annual monetary or in-kind contribution.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsChildContainerFullWidth>
-  </organisimsChildContainerFullWidth>
+    </organisimsBaseContainerFullWidth>
+  </organisimsBaseContainerFullWidth>
 
-  <!-- divider section -->
-
-  <!-- divider atom-->
+  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Acknowledgements -->
-
-  <organisimsChildContainerFullWidth gap="md:gap-7 gap-4">
-    <!-- atomsSubhead01Textstyle heading -->
+  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+    <!-- heading -->
     <atomsSubhead01Textstyle> Acknowledgements </atomsSubhead01Textstyle>
     <moleculesParagraph>
       We would like to thank the following individuals and organisations for
@@ -238,5 +227,5 @@
         emissions indicator.
       </moleculesUnorderlistItem>
     </moleculesUnorderlistDiscStyle>
-  </organisimsChildContainerFullWidth>
+  </organisimsBaseContainerFullWidth>
 </template>
