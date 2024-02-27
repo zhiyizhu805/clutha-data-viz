@@ -1,5 +1,5 @@
 <template>
-  <moleculesUnoderlistNodiscStyle>
+  <moleculesUnoderlistNodiscStyle :class="gap">
     <slot></slot>
   </moleculesUnoderlistNodiscStyle>
 </template>
