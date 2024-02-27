@@ -1,4 +1,4 @@
-<!-- set the page gutters -->
+<!-- set horizonral page gutters -->
 <template>
   <div
     class="container mx-auto h-auto xl:px-24 lg:px-16 md:px-11"
