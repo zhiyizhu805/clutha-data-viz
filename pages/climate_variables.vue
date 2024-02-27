@@ -1,8 +1,6 @@
 <template>
   <!-- headline section-->
-  <organisimsHeadline>
-    Climate Variables
-  </organisimsHeadline>
+  <organisimsHeadline> Climate Variables </organisimsHeadline>
   <!-- content-first section   -->
   <organisimsPageContainerTwoColumns>
     <!--  left side organism -->
@@ -43,144 +41,136 @@
   </organisimsPageContainerTwoColumns>
 
   <!-- divider section -->
-  
-    <!-- divider atom-->
-    <atomsDivider divider_width="border-b-2" />
-  
+
+  <!-- divider atom-->
+  <atomsDivider divider_width="border-b-2" />
 
   <!-- content-second section   -->
-  
-    <!-- full width organism with items aligned to end -->
-    <organisimsChildContainerFullWidthItemsEnd>
-      <organisimsChildContainerSixtyPercentWidth>
-        <!-- atomsSubhead01Textstyle heading-->
-        <atomsSubhead01Textstyle> Wānaka Airport </atomsSubhead01Textstyle>
-        <!-- call out molecule-->
-        <moleculesCallout statistic_value="Above the average ">
-          Temperature data from 2022 show that our catchment continues to be
-          slightly above the long-term average.
-        </moleculesCallout>
-      </organisimsChildContainerSixtyPercentWidth>
-      <!-- graph frame organism-->
-      <organisimsGraphFrame
-        graph_title="Monthly total rainfall and average monthly temperature as observed at Wānaka Airport in 2022."
-        flyout_id="flyout_ClimateVarAero"
-      >
-        <template #flyout>
-          <organisimsFlyout flyout_id="flyout_ClimateVarAero">
-            <moleculesDatasourceItem
-              link="https://cliflo.niwa.co.nz/"
-              link_title="Cliflo"
-            >
-              Data were obtained from the National Climate Databas
-            </moleculesDatasourceItem>
-          </organisimsFlyout>
-        </template>
-        <template #graph>
-          <organisimsGraphContainerLarge>
-            <plotsClimateVarAero></plotsClimateVarAero>
-          </organisimsGraphContainerLarge>
-        </template>
-      </organisimsGraphFrame>
-    </organisimsChildContainerFullWidthItemsEnd>
-  
+
+  <!-- full width organism with items aligned to end -->
+  <organisimsChildContainerFullWidthItemsEnd>
+    <organisimsChildContainerSixtyPercentWidth>
+      <!-- atomsSubhead01Textstyle heading-->
+      <atomsSubhead01Textstyle> Wānaka Airport </atomsSubhead01Textstyle>
+      <!-- call out molecule-->
+      <moleculesCallout statistic_value="Above the average ">
+        Temperature data from 2022 show that our catchment continues to be
+        slightly above the long-term average.
+      </moleculesCallout>
+    </organisimsChildContainerSixtyPercentWidth>
+    <!-- graph frame organism-->
+    <organisimsGraphFrame
+      graph_title="Monthly total rainfall and average monthly temperature as observed at Wānaka Airport in 2022."
+      flyout_id="flyout_ClimateVarAero"
+    >
+      <template #flyout>
+        <organisimsFlyout flyout_id="flyout_ClimateVarAero">
+          <moleculesDatasourceItem
+            link="https://cliflo.niwa.co.nz/"
+            link_title="Cliflo"
+          >
+            Data were obtained from the National Climate Databas
+          </moleculesDatasourceItem>
+        </organisimsFlyout>
+      </template>
+      <template #graph>
+        <organisimsGraphContainerLarge>
+          <plotsClimateVarAero></plotsClimateVarAero>
+        </organisimsGraphContainerLarge>
+      </template>
+    </organisimsGraphFrame>
+  </organisimsChildContainerFullWidthItemsEnd>
 
   <!-- divider section -->
-  
-    <!-- divider atom-->
-    <atomsDivider divider_width="border-b-2" />
-  
+
+  <!-- divider atom-->
+  <atomsDivider divider_width="border-b-2" />
 
   <!-- content-third section   -->
-  
-    <organisimsChildContainerFullWidthItemsEnd>
-      <moleculesParagraph>
-        The relationship between climate variables and other measures of
-        catchment health are complex, but linked. Rainfall and temperature
-        impact whether flora and fauna can flourish, may impede human recreation
-        opportunities both in the summer and winter, as well as pose threats to
-        the agricultural industry of the catchment.
-      </moleculesParagraph>
-      <moleculesParagraph>
-        The range of some invasive species may increase within the Upper Clutha
-        Catchment: for example, the sub-tropical bungalow palm, which currently
-        only grows on the North Island, could spread to the South Island under a
-        warming climate<sup>2</sup>. Furthermore, breeding seasons of invasive
-        predators, such as rats, possums and mice, may also extend due to higher
-        temperatures<sup>2</sup>, which can also accelerate the reproductive
-        cycle, leading to faster population growth. Rainfall, on the other
-        hand,rainfall influences the availability of food, water, and shelter
-        for pests.
-      </moleculesParagraph>
-      <moleculesParagraph>
-        Climate data presented here are thus important to consider when, for
-        example, assessing the data presented as part of the
-        <a href="/invasive_species" class="underline">invasive species</a>.
-      </moleculesParagraph>
-    </organisimsChildContainerFullWidthItemsEnd>
-  
+
+  <organisimsChildContainerFullWidthItemsEnd>
+    <moleculesParagraph>
+      The relationship between climate variables and other measures of catchment
+      health are complex, but linked. Rainfall and temperature impact whether
+      flora and fauna can flourish, may impede human recreation opportunities
+      both in the summer and winter, as well as pose threats to the agricultural
+      industry of the catchment.
+    </moleculesParagraph>
+    <moleculesParagraph>
+      The range of some invasive species may increase within the Upper Clutha
+      Catchment: for example, the sub-tropical bungalow palm, which currently
+      only grows on the North Island, could spread to the South Island under a
+      warming climate<sup>2</sup>. Furthermore, breeding seasons of invasive
+      predators, such as rats, possums and mice, may also extend due to higher
+      temperatures<sup>2</sup>, which can also accelerate the reproductive
+      cycle, leading to faster population growth. Rainfall, on the other
+      hand,rainfall influences the availability of food, water, and shelter for
+      pests.
+    </moleculesParagraph>
+    <moleculesParagraph>
+      Climate data presented here are thus important to consider when, for
+      example, assessing the data presented as part of the
+      <a href="/invasive_species" class="underline">invasive species</a>.
+    </moleculesParagraph>
+  </organisimsChildContainerFullWidthItemsEnd>
 
   <!-- divider section -->
-  
-    <!-- divider atom-->
-    <atomsDivider divider_width="border-b-2" />
-  
+
+  <!-- divider atom-->
+  <atomsDivider divider_width="border-b-2" />
 
   <!-- content-fourth section   -->
-  
-    <!-- full width organism with items aligned to end -->
-    <organisimsChildContainerFullWidthItemsEnd>
-      <organisimsChildContainerSixtyPercentWidth>
-        <moleculesParagraph>
-          A dryer summer and wetter winter in 2022 were observed in Makarora
-          compared to the long-term average from 1990 to 2005 &minus; putting
-          pressure on the water resources, especially in summer. Furthermore,
-          greater rainfall depths are expected to increase the likelihood of
-          landslides and flooding.
-        </moleculesParagraph>
-      </organisimsChildContainerSixtyPercentWidth>
-      <!-- graph frame organism-->
-      <organisimsGraphFrame
-        graph_title="Monthly total rainfall as observed at Makaroa in 2022. No temperature data were available from the climate database."
-        flyout_id="flyout_ClimateMakaroa"
-      >
-        <template #flyout>
-          <organisimsFlyout flyout_id="flyout_ClimateMakaroa">
-            <moleculesDatasourceItem
-              link="https://cliflo.niwa.co.nz/"
-              link_title="Cliflo"
-            >
-              Data were obtained from the National Climate Databas
-            </moleculesDatasourceItem>
-          </organisimsFlyout>
-        </template>
-        <template #graph>
-          <organisimsGraphContainerLarge>
-            <plotsClimateMakaroa></plotsClimateMakaroa>
-          </organisimsGraphContainerLarge>
-        </template>
-      </organisimsGraphFrame>
-    </organisimsChildContainerFullWidthItemsEnd>
-  
+
+  <!-- full width organism with items aligned to end -->
+  <organisimsChildContainerFullWidthItemsEnd>
+    <organisimsChildContainerSixtyPercentWidth>
+      <moleculesParagraph>
+        A dryer summer and wetter winter in 2022 were observed in Makarora
+        compared to the long-term average from 1990 to 2005 &minus; putting
+        pressure on the water resources, especially in summer. Furthermore,
+        greater rainfall depths are expected to increase the likelihood of
+        landslides and flooding.
+      </moleculesParagraph>
+    </organisimsChildContainerSixtyPercentWidth>
+    <!-- graph frame organism-->
+    <organisimsGraphFrame
+      graph_title="Monthly total rainfall as observed at Makaroa in 2022. No temperature data were available from the climate database."
+      flyout_id="flyout_ClimateMakaroa"
+    >
+      <template #flyout>
+        <organisimsFlyout flyout_id="flyout_ClimateMakaroa">
+          <moleculesDatasourceItem
+            link="https://cliflo.niwa.co.nz/"
+            link_title="Cliflo"
+          >
+            Data were obtained from the National Climate Databas
+          </moleculesDatasourceItem>
+        </organisimsFlyout>
+      </template>
+      <template #graph>
+        <organisimsGraphContainerLarge>
+          <plotsClimateMakaroa></plotsClimateMakaroa>
+        </organisimsGraphContainerLarge>
+      </template>
+    </organisimsGraphFrame>
+  </organisimsChildContainerFullWidthItemsEnd>
 
   <!-- divider section -->
-  
-    <!-- divider atom-->
-    <atomsDivider divider_width="border-b-2" />
-  
-  
-    <moleculesReference>
-      <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
-      <moleculesReferenceItem
-        url="https://niwa.co.nz/education-and-training/schools/students/climate-change/impacts-for-NZ"
-        name=" online"
-        additional_info=", last accessed Jan 2024."
-      >
-        [2] Climate change and possible impacts for New Zealand, NIWA &minus;
-        available
-      </moleculesReferenceItem>
-    </moleculesReference>
-  
+
+  <!-- divider atom-->
+  <atomsDivider divider_width="border-b-2" />
+
+  <moleculesReference>
+    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+    <moleculesReferenceItem
+      url="https://niwa.co.nz/education-and-training/schools/students/climate-change/impacts-for-NZ"
+      name=" online"
+      additional_info=", last accessed Jan 2024."
+    >
+      [2] Climate change and possible impacts for New Zealand, NIWA &minus;
+      available
+    </moleculesReferenceItem>
+  </moleculesReference>
 </template>
 
 <script setup lang="ts">
