@@ -227,8 +227,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://environment.govt.nz/publications/national-policy-statement-for-freshwater-management-2020-amended-january-2024/"
       name=" online"
@@ -237,7 +236,7 @@
       [11] Ministry for the Environment, National Policy Statement for
       Freshwater Management 2020, available
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
 
 <script setup lang="ts">

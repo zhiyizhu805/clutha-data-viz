@@ -250,8 +250,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
       name=" LRIS Portal"
@@ -260,7 +259,7 @@
       [1] Land Cover Database version 5.0, Mainland, New Zealand &minus;
       available from the
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
 
 <script setup lang="ts">

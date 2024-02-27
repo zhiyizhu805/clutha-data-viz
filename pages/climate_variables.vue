@@ -146,8 +146,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://niwa.co.nz/education-and-training/schools/students/climate-change/impacts-for-NZ"
       name=" online"
@@ -156,7 +155,7 @@
       [2] Climate change and possible impacts for New Zealand, NIWA &minus;
       available
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
 
 <script setup lang="ts">

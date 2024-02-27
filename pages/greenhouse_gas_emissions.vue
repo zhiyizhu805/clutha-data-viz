@@ -303,8 +303,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Reference -->
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/queenstownnz/Queenstown_Lakes_Regenerative_Tourism_Plan_956930e4-1b59-4293-9294-96b5d5ec5196.pdf"
       name=" online"
@@ -321,7 +320,7 @@
       [10] Queenstown Lakes Climate and Biodiversity Plan 2022-2025, July 2022 -
       available
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
 
 <script setup lang="ts">

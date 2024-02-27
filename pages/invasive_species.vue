@@ -186,8 +186,7 @@
   <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://environment.govt.nz/publications/environment-new-zealand-2007/chapter-12-biodiversity/introduction/"
       name=" online"
@@ -204,7 +203,7 @@
       [4] Otago Pest Management Plan 2019-2029, Otago Regional Council, 2019
       &minus; available
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
 
 <script setup lang="ts">

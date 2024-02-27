@@ -131,8 +131,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!--Reference -->
-  <moleculesReference>
-    <atomsSubhead01Textstyle> Reference </atomsSubhead01Textstyle>
+  <organisimsReference>
     <moleculesReferenceItem
       url="https://academic.oup.com/heapro/article/36/Supplement_1/i53/6460415"
       name=" online"
@@ -160,5 +159,5 @@
       conservation and wellbeing, National Library of New Zealand, 2020,
       available
     </moleculesReferenceItem>
-  </moleculesReference>
+  </organisimsReference>
 </template>
