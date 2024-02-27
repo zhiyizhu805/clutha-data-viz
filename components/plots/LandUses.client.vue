@@ -38,7 +38,7 @@ const data = [
     values: values,
     type: "pie",
     hole: 0.7,
-    rotation: -30,
+    rotation: -50,
     textinfo: "percent",
     textposition: "outside",
     insidetextorientation: "auto",
@@ -51,7 +51,6 @@ const data = [
 ];
 
 const layout = {
-  title: "Forest Land Use Change 1990-2016",
   autosize: true,
   margin: { l: 0, r: 0, t: 0, b: 0 },
   legend: {

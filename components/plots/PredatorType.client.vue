@@ -44,7 +44,7 @@ const data = [
     values,
     type: "pie",
     hole: .70,
-    rotation: -50,
+    rotation: -40,
     textinfo: "percent",
     textposition: "outside",
     insidetextorientation: "auto",

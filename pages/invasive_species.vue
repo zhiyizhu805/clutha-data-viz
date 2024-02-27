@@ -81,9 +81,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerMedium>
             <plotsPredatorControl></plotsPredatorControl>
-          </organisimsGraphContainerMedium>
         </template>
       </organisimsGraphFrame>
     </template>

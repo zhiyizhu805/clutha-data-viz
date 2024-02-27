@@ -33,19 +33,18 @@ const data = [
     values: values,
     type: "pie",
     hole: 0.7,
-    rotation: -30,
+    rotation: 5,
     textinfo: "percent",
     textposition: "outside",
     insidetextorientation: "auto",
     hoverinfo: "label+percent",
     hovertemplate: "<b>%{label}</b><br>%{percent:.0%}<br>Total: %{value}<extra></extra>",
     marker: { colors: colors },
-    textfont: { size: 18, family: "Overused Grotesk, sans-serif", color: "#898989" },
+    textfont: { size: 15, family: "Overused Grotesk, sans-serif", color: "#898989" },
   },
 ];
 
 const layout = {
-  title: "GHG Emissions in Agriculture 2002",
   autosize: true,
   margin: { l: 0, r: 0, t: 0, b: 0 },
   legend: {

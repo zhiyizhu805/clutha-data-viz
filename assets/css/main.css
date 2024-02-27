@@ -7,12 +7,12 @@
  Plot container 
  ****************/
  /* extra small */
- .GraphContainerExtrasmall {
+ .graph_container_extrasmall {
     width: 100%;
     padding-top: 80%; 
     position: relative;
   }
-  .GraphContainerExtrasmall  > * {
+  .graph_container_extrasmall  > * {
     position: absolute;
     top: 0;
     left: 0;
@@ -21,12 +21,12 @@
   }
   
   /* small */
-  .GraphContainerSmall {
+  .graph_container_small {
     width: 100%;
     padding-top: 80%; 
     position: relative;
   }
-  .GraphContainerSmall  > * {
+  .graph_container_small  > * {
     position: absolute;
     top: 0;
     left: 0;
@@ -35,19 +35,19 @@
   }
   
   @media (max-width: 768px) {
-  .GraphContainerSmall {
+  .graph_container_small {
     width: 100%;
-    padding-top: 110%; 
+    padding-top: 100%; 
     position: relative;
   }
   }
   /* medium */
-  .GraphContainerMedium {
+  .graph_container_medium {
     width: 100%;
     padding-top: 90%; 
     position: relative;
   }
-  .GraphContainerMedium  > * {
+  .graph_container_medium  > * {
     position: absolute;
     top: 0;
     left: 0;
@@ -56,9 +56,9 @@
   }
   
   @media (max-width: 768px) {
-  .GraphContainerMedium {
+  .graph_container_medium {
     width: 100%;
-    padding-top: 125%; 
+    padding-top: 100%; 
     position: relative;
   }
   }
