@@ -96,7 +96,7 @@ export default {
     });
      const config = { responsive: true };
 
-    return { chartData, chartLayout };
+    return { chartData, chartLayout, config};
   },
 };
 </script>
