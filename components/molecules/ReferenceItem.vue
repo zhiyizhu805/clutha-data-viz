@@ -2,9 +2,9 @@
   <li>
     <atomsBodyTextstyle>
       <slot></slot>
-      <atomsLinkPlain :url="url">
+      <atomsLinkRefStyle :url="url">
         {{ name }}
-      </atomsLinkPlain>
+      </atomsLinkRefStyle>
       {{ additional_info }}
     </atomsBodyTextstyle>
   </li>

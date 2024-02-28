@@ -1,10 +1,10 @@
 <template>
-  <a
+  <nuxt-link
     class="cursor-pointer inline-block font-inter text-dark-blue-900 font-semibold xl:text-lg xl:leading-7 lg:text-base lg:leading-snug md:text-xs md:leading-none text-sm leading-tight tracking-tight underline break-words"
-    :href="url"
+    :to="url"
   >
     <slot/>
-  </a>
+  </nuxt-link>
 </template>
 
 
