@@ -1,6 +1,6 @@
 <template>
   <organisimsBaseContainerPrimary>
-    <!-- header organism -->
+    <!-- header -->
     <organisimsHeader>
       <template #NavigationSecondary>
         <moleculesNavigationSecondaryItem
@@ -87,14 +87,14 @@
       </template>
     </organisimsHeader>
 
-    <!-- article section-->
+    <!-- article -->
     <main>
       <organisimsBaseContainerSecondary>
          <slot name="default"></slot>
       </organisimsBaseContainerSecondary>
     </main>
 
-    <!-- footer organism -->
+    <!-- footer -->
     <organisimsFooter> </organisimsFooter>
   </organisimsBaseContainerPrimary>
 </template>
