@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Landuse Change </organisimsHeadline>
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
@@ -45,7 +44,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -84,7 +82,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03.1 -->
@@ -194,7 +191,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
@@ -247,7 +243,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <organisimsReference>

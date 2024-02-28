@@ -1,9 +1,5 @@
 <template>
-  <!-- animation section -->
-
-  <!-- animation organism -->
   <organisimsAnimation>
-    <!-- animation navigation_icon molecule -->
     <moleculesNavigationTertiaryItem
       navigation_title="climate variables"
       navigation_class="icon_climate_variables"
@@ -84,12 +80,11 @@
     </moleculesNavigationTertiaryItem>
   </organisimsAnimation>
 
-  <!-- divider -->
+
   <atomsDivider divider_width="border-b-2" />
 
   <!-- The story section -->
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
-    <!-- heading -->
     <atomsSubhead01Textstyle> The Story </atomsSubhead01Textstyle>
 
     <moleculesParagraph>
@@ -104,7 +99,6 @@
 
   <organisimsBaseArticleContainerTertiary>
     <template #left>
-      <!-- graph -->
       <organisimsGraphFrame
         graph_title="The concept of Te Taiao and its four interconnected components"
         flyout_id="flyout_Illustration_TeTaiao"
@@ -183,12 +177,10 @@
     </template>
   </organisimsBaseArticleContainerTertiary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Join us section -->
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
-    <!-- heading -->
     <atomsSubhead01Textstyle>
       Join Us in Building a Healthier Catchment!
     </atomsSubhead01Textstyle>

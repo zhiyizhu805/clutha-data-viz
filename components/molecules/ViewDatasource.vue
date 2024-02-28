@@ -1,4 +1,3 @@
-<!-- drawer init and toggle -->
 <template>
   <button
     class="flex flex-row gap-4 items-center justify-start"
@@ -24,7 +23,6 @@
     </atomsFooter02Textstyle>
   </button>
 
-  <!-- placeholder -->
   <slot></slot>
 </template>
 

@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Supporter </organisimsHeadline>
   <!--  content01 -->
   <organisimsBaseContainerFullWidth gap="gap-7">
@@ -88,7 +87,6 @@
     </moleculesParagraph>
   </organisimsBaseContainerFullWidth>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -105,7 +103,6 @@
       opportunities for a healthy, accessible, and thriving catchment.
     </moleculesParagraph>
     <!-- Why Partner with Upper Clutha Catchment Health Partnership? -->
-    <!-- atomsSubhead01Textstyle heading -->
     <atomsSubhead01Textstyle>
       Why Partner with Upper Clutha Catchment Health Partnership?
     </atomsSubhead01Textstyle>
@@ -164,12 +161,10 @@
     </organisimsBaseContainerFullWidth>
   </organisimsBaseContainerFullWidth>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Acknowledgements -->
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
-    <!-- heading -->
     <atomsSubhead01Textstyle> Acknowledgements </atomsSubhead01Textstyle>
     <moleculesParagraph>
       We would like to thank the following individuals and organisations for

@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Disclaimer </organisimsHeadline>
 
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">

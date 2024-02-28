@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Social Well-being </organisimsHeadline>
   <!-- content01 -->
   <organisimsBaseArticleContainerTertiary>
@@ -47,7 +46,6 @@
     </template>
   </organisimsBaseArticleContainerTertiary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -80,7 +78,6 @@
     </organisimsGraphFrame>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
@@ -127,7 +124,6 @@
     </template>
   </organisimsBaseArticleContainerTertiary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!--Reference -->

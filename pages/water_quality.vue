@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Water Quality </organisimsHeadline>
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
@@ -59,7 +58,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -142,7 +140,6 @@
     </organisimsGraphFrame>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
@@ -224,7 +221,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <organisimsReference>

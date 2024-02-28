@@ -1,4 +1,3 @@
-<!-- call DatasourceItem inside flyout -->
 <template>
   <li>
     <div class="flex flex-row justify-start items-center gap-4">

@@ -24,6 +24,5 @@
     </svg>
   </button>
 
-  <!-- placeholder -->
   <slot/>
 </template>

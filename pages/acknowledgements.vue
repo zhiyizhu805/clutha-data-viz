@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Acknowledgements </organisimsHeadline>
   <moleculesParagraph>
     We would like to thank the following individuals and organisations for their

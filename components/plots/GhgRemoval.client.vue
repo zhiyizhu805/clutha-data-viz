@@ -12,12 +12,10 @@
 <script setup>
 import { reactive } from "vue";
 
-// Data preparation
 const years = ['2008', '2012', '2016'];
 const sequestration = [-74842.11, -74543.11, -79003.55];
 const emissions = [8688.65, 5748.80, 9477.84];
 
-// Transform data to match Plotly structure
 const data = [
   {
     x: years,

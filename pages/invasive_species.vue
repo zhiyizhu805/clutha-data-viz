@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Invasive Species </organisimsHeadline>
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
@@ -45,7 +44,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -87,7 +85,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
@@ -107,7 +104,6 @@
         and thrive alongside us.
       </moleculesParagraph>
     </template>
-    <!-- right side organism -->
     <template #right>
       <!-- graph frame organism-->
       <organisimsGraphFrame
@@ -133,7 +129,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
@@ -181,7 +176,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <organisimsReference>

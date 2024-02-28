@@ -5,7 +5,6 @@
     >
       <!-- wai wanaka logo -->
       <atomsLinkPlain url="https://waiwanaka.nz/">
-        <!-- logo frame: having a fixed width and height -->
         <div class="xl:w-40 xl:h-24 lg:w-32 lg:h-20 md:w-24 md:h-14 w-28 h-16">
           <img
             src="/assets/images/icons/wai_wanaka_logo.svg"
@@ -26,6 +25,5 @@
       </div>
     </div>
   </footer>
-  <!--  placeholder -->
   <slot></slot>
 </template>

@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Climate Variables </organisimsHeadline>
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
@@ -37,7 +36,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
@@ -74,7 +72,6 @@
     </template>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
@@ -104,7 +101,6 @@
     </moleculesParagraph>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
@@ -143,7 +139,6 @@
     </template>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <organisimsReference>

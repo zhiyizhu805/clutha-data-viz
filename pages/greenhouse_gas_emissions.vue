@@ -1,5 +1,4 @@
 <template>
-  <!-- headline section-->
   <organisimsHeadline> Greenhouse Gas Emissions </organisimsHeadline>
 
   <!-- content01 -->
@@ -107,7 +106,6 @@
     </template>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-02 -->
@@ -205,7 +203,6 @@
     </template>
   </organisimsBaseArticleContainerSecondary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-04 -->
@@ -253,7 +250,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content05 -->
@@ -299,7 +295,6 @@
     </template>
   </organisimsBaseArticleContainerPrimary>
 
-  <!-- divider -->
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Reference -->
