@@ -3,7 +3,7 @@
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Land use and land use change are catchment-wide indicators assessing how
         we are using our land. Over half of the area of the catchment is
         categorised as “production grassland”, dominated by low producing
@@ -11,7 +11,7 @@
         catchment are forest land (16.6%), and grassland with woody biomass
         (11.0%). Built-up areas account for only 0.3% of the total area of the
         catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="60%">
         Areas of built-up land have increased by 60% while the population
         increased four-fold since 1990.
@@ -49,12 +49,12 @@
   <!-- content02 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Urban areas in Wānaka and Hāwea have increased since 1990. Primarily
         through the conversion of productive grassland. Despite this conversion,
         the total area of production grassland remained the same, as grassland
         with woody biomass has been converted to production grassland.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -158,12 +158,12 @@
   <!-- content03.2 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Since 1990, there has been a net increase of 392 ha of forestland across
         the catchment.Most of this increase has been through the growth of new
         exotic forest. The cover of natural, indigenous forest has seen a net
         decline.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -197,7 +197,7 @@
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <atomsSubhead01Textstyle> Forest Cover </atomsSubhead01Textstyle>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         To understand the current land use and land use change practices, a more
         recent dataset from 2008 to 2018 was analysed, showing a gross increase
         in exotic forest cover of 71 ha.This increase results from the
@@ -205,18 +205,18 @@
         the total production grassland available in the catchment. A gross
         decrease in indigenous forest cover of 69 ha is observed between 2008
         and 2018.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="<0.2%">
         Indigenous forest cover has decreased by &lt;0.2% between 2008 and 2018.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Most of the loss of indigenous forest that took place between 2008 and
         2018 was the result of landslides in the high alpine<sup>1</sup>, rather
         than a direct impact of anthropogenic activities. While indigenous
         forest is not under particular threat, other native vegetation classes
         have seen significant reductions in land cover.For example, fernlands
         decreased by 1,500 ha.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->

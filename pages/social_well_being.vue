@@ -4,10 +4,10 @@
   <organisimsBaseArticleContainerTertiary>
     <template #left>
       <organisimsBaseContainerFullWidth>
-        <moleculesParagraph>
+        <atomsBodyTextstyle>
           Social well-being considers the social and economic aspects of
           catchment health, including&#58;
-        </moleculesParagraph>
+        </atomsBodyTextstyle>
         <moleculesUnorderlistDiscStyle>
           <moleculesUnorderlistItem>
             Community and Cultural Spirit
@@ -18,31 +18,31 @@
           <moleculesUnorderlistItem> Quality of Life </moleculesUnorderlistItem>
         </moleculesUnorderlistDiscStyle>
       </organisimsBaseContainerFullWidth>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Monitoring social well-being is important, as social drivers have a key
         influence on other aspects of catchment health, including pest control,
         biodiversity, water quality and effective land use management.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         The Queenstown Lake District Council conducts a &#39;Quality of Life
         Survey&#39; annually to better understand what works well and what the
         challenges facing the residents in the district are. Data collected by
         this survey were used to derive social well-being rankings for the
         catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <moleculesCallout statistic_value="C">
         Overall social well-being rank.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Despite the low overall score, the sense of cultural heritage saw an
         improvement compared to the previous year, as more respondents reported
         being able to express their culture without feeling excluded from their
         community or neighbourhood. Nonetheless, just over one third of
         residents expressed satisfaction with the celebration of tangata whenua
         and Māori culture, which remains consistently low.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
   </organisimsBaseArticleContainerTertiary>
 
@@ -83,35 +83,35 @@
   <!-- content03 -->
   <organisimsBaseArticleContainerTertiary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Various studies have been conducted to understand how the health of the
         environment we live in may impact the well-being of the people who live
         in it. Societies living in a flourishing, green environment may be more
         likely to thrive<sup>5</sup>. Wealthier societies may have more
         opportunities to invest in climate-aware lifestyle choices<sup>6</sup>.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         Māori health models, such as the concept of Te Whare Tapa Whā,
         illustrate the intimate link between the physical, spiritual and mental
         health of individuals with their communities and
         environment<sup>7</sup>.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="36%">
         of survey respondents indicated that they had sufficient levels of
         disposable income after meeting all of their basic needs.
       </moleculesCallout>
     </template>
     <template #right>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         It is important to link social well-being to the other indicators
         presented in this report, to gain insights into how the health and
         happiness of the community may impact the catchment health.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="82%">
         of survey respondents stating their quality of life to be
         &quot;good&quot; or &quot;extremely good&quot;.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Spare income and spare time are vital requirements for residents of the
         catchment to be able to invest into caring for the environment; whether
         this is in the form of volunteer hours or financial donations to support
@@ -120,7 +120,7 @@
         of housing pose significant threats for the future health of the
         catchment, as residents may simply be unable to afford to support
         improvements.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
   </organisimsBaseArticleContainerTertiary>
 

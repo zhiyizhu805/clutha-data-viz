@@ -4,11 +4,11 @@
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <organisimsBaseContainerFullWidth>
-        <moleculesParagraph>
+        <atomsBodyTextstyle>
           Water quality rankings are provided for four parameters which were
           selected for their importance for ecosystem and human health (see
           table below):
-        </moleculesParagraph>
+        </atomsBodyTextstyle>
         <moleculesUnorderlistDiscStyle>
           <moleculesUnorderlistItem>
             Total phosphorus
@@ -25,18 +25,18 @@
         </moleculesUnorderlistDiscStyle>
       </organisimsBaseContainerFullWidth>
 
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Water quality was assessed in accordance with the guidelines provided by
         the National Policy Statement for Freshwater Management 2020 (NPS-FM),
         which ranks each parameter from A (good) to D or E (poor)<sup>11</sup>.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
 
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         While the parameters are being measured in both lake and rivers, NPS-FM
         provides guidelines that allow us to obtain quality ratings for total
         phosphorus and chlorophyll-a for lakes only, not rivers; rankings for
         nitrate can only be obtained for rivers not lakes.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -146,12 +146,12 @@
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <organisimsBaseContainerFullWidth>
-        <moleculesParagraph>
+        <atomsBodyTextstyle>
           Monitoring water quality parameters provides a comprehensive
           understanding of the health of aquatic systems, their impact on human
           well-being, and the need for sustainable environmental management
           practices&#58;
-        </moleculesParagraph>
+        </atomsBodyTextstyle>
         <moleculesUnorderlistDiscStyle>
           <moleculesUnorderlistItem>
             Monitoring nitrate levels helps manage agricultural practices to
@@ -174,7 +174,7 @@
           </moleculesUnorderlistItem>
         </moleculesUnorderlistDiscStyle>
       </organisimsBaseContainerFullWidth>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         ORC regularly monitors the water quality around Otago, which includes
         the Upper Clutha catchment. For the most recent measurements and
         evaluations of water quality, please visit the
@@ -183,7 +183,7 @@
           class="underline"
           >ORC Environmental Portal website</a
         >.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->

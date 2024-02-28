@@ -3,17 +3,17 @@
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Climate variables are a key driver for many measures of catchment health
         due to their influence on the ecosystem as well as water quality and
         quantity. This indicator includes temperature and rainfall observations
         obtained from four, currently active, measurement sites.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         Future expansion of the network of weather stations and parameters
         monitored would be extremely valuable to obtain a more robust
         representation of the climatic conditions of the catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism -->
@@ -76,14 +76,14 @@
 
   <!-- content03 -->
   <organisimsBaseArticleContainerSecondary>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       The relationship between climate variables and other measures of catchment
       health are complex, but linked. Rainfall and temperature impact whether
       flora and fauna can flourish, may impede human recreation opportunities
       both in the summer and winter, as well as pose threats to the agricultural
       industry of the catchment.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       The range of some invasive species may increase within the Upper Clutha
       Catchment: for example, the sub-tropical bungalow palm, which currently
       only grows on the North Island, could spread to the South Island under a
@@ -93,12 +93,12 @@
       cycle, leading to faster population growth. Rainfall, on the other
       hand,rainfall influences the availability of food, water, and shelter for
       pests.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Climate data presented here are thus important to consider when, for
       example, assessing the data presented as part of the
       <a href="/invasive_species" class="underline">invasive species</a>.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
   </organisimsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
@@ -106,13 +106,13 @@
   <!-- content04 -->
   <organisimsBaseArticleContainerSecondary>
     <template #content-section>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         A dryer summer and wetter winter in 2022 were observed in Makarora
         compared to the long-term average from 1990 to 2005 &minus; putting
         pressure on the water resources, especially in summer. Furthermore,
         greater rainfall depths are expected to increase the likelihood of
         landslides and flooding.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #default>
       <!-- graph frame organism-->

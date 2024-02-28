@@ -2,7 +2,7 @@
   <organisimsHeadline> Supporter </organisimsHeadline>
   <!--  content01 -->
   <organisimsBaseContainerFullWidth gap="gap-7">
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       We extend our gratitude to Our Land and Water -
       <a
         class="underline"
@@ -16,8 +16,8 @@
       positive change. Their commitment to advancing knowledge and fostering
       collaboration has been instrumental in shaping the foundation of this
       catchment health framework.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       We would also like to express our sincere appreciation to the working
       group organisations -
       <a href="https://enviroaccounts.com/" class="underline"
@@ -32,12 +32,12 @@
         >Gladstone Healthy Harbour</a
       >
       as inspiration for the project.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <organisimsBaseContainerFullWidth>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         This project has been collaborative from the outset, with significant
         time and input from the following organisations and people;
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
           <a href="https://www.lakewanaka.co.nz/" class="underline">
@@ -64,27 +64,27 @@
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
     </organisimsBaseContainerFullWidth>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       The analysis and findings presented here are based on our interpretation
       of the data and do not necessarily reflect the views or endorsement of the
       original data source. Users of this information should be aware that
       certain limitations may apply to the data, such as potential data gaps and
       measurement errors.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Environmental Accounting Services, the directors and employees cannot be
       held liable for the use of and reliance of the information and findings
       provided on this website.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Your collective efforts have not only enriched the content of this
       framework but have also strengthened the bonds within our community.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Together, we embark on a journey towards a more vibrant, sustainable, and
       interconnected future for the Upper Clutha Catchment. Thank you for being
       champions of positive change and stewards of our shared Te Taiao.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
   </organisimsBaseContainerFullWidth>
 
   <atomsDivider divider_width="border-b-2" />
@@ -95,25 +95,25 @@
       Become a supporter of the Upper Clutha Catchment Health Report
     </atomsSubhead01Textstyle>
     <!-- Become a supporter of the Upper Clutha Catchment Health Report -->
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       Thank you for your interest in joining us as a supporter of the Upper
       Clutha Catchment Health Project. By becoming a partner, you'll play a
       crucial role in monitoring and reporting on the health of our waterways,
       contributing to a better understanding of our environment and fostering
       opportunities for a healthy, accessible, and thriving catchment.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <!-- Why Partner with Upper Clutha Catchment Health Partnership? -->
     <atomsSubhead01Textstyle>
       Why Partner with Upper Clutha Catchment Health Partnership?
     </atomsSubhead01Textstyle>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       As a partner, you'll stand alongside government entities, industries,
       research groups, and the community, showcasing your commitment to
       environmental stewardship and community well-being.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Here's what you can expect as a supporter:
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <!-- Recognition and Benefits: -->
     <organisimsBaseContainerFullWidth>
       <atomsSubhead01Textstyle>
@@ -166,11 +166,11 @@
   <!-- Acknowledgements -->
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle> Acknowledgements </atomsSubhead01Textstyle>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       We would like to thank the following individuals and organisations for
       their contribution to the development of the monitoring framework, the
       development of this website, and accompanied reports:
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <moleculesUnorderlistDiscStyle gap="gap-1">
       <moleculesUnorderlistItem>
         The steering group and working group members, for their insights, advice

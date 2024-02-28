@@ -4,14 +4,14 @@
   <!-- content01 -->
   <organisimsBaseArticleContainerSecondary>
     <template #content-section>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Climate change mitigation is an important target for the catchment,
         which has a strong focus on being a sustainable tourism
         destination<sup>9,10</sup>. The purpose of providing an emissions
         inventory as part of the monitoring framework is to determine
         significant sources of GHG emissions in the catchment, which can help to
         prioritise mitigation efforts.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #default>
       <!-- graphframe organism-->
@@ -111,16 +111,16 @@
   <!-- content-02 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Agriculture emissions are dominated by the sheep, dairy, and beef
         industries. Data for this sector were obtained from StatsNZ census.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         An overview of the GHG emissions by sector since 2020 is provided below.
         Overall, the emissions within the catchment have increased since 2020
         due to an increase in the emissions from the energy and agriculture
         sector.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -208,22 +208,22 @@
   <!-- content-04 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Each sector can be analysed in more detail to understand where the
         largest contributing activities or sources exist.For example, Wanaka is
         the main contributor to the overall emissions from the energy sector
         with 78%.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="80%">
         According to a survey conducted by the QLDC 80% of residents in the
         catchment stated that they were &#147;concerned&#148; or &#147;very
         concerned&#148; about the potential impacts of climate change.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         To align with national climate change commitments and targets and to
         alleviate concern from residents increase in GHG emissions needs to be
         addressed across the sectors and catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -255,14 +255,14 @@
   <!-- content05 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         The forestry sector accounts for greenhouse gas removals in the
         catchment&#59; as forests grow, they sequester carbon dioxide and act as
         a natural carbon sink. A small quantity of greenhouse gas emissions
         result from deforestation and harvesting of both natural and plantation
         forests&#58; for example,a loss of 10.3 ha of forestland in 2016 led to
         9,500 tonnes of CO<sub>2</sub>e emitted to the atmosphere.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->

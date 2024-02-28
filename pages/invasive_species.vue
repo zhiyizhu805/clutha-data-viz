@@ -3,26 +3,26 @@
   <!-- content01 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         New Zealand&#39;s biodiversity is unique: 100% of the country&#39;s
         frogs and reptiles, 90% of the insects, 80% of vascular plants, and 25%
         of bird species are only found in New Zealand<sup>3</sup>.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         Invasive species are recognised as an important challenge in the
         catchment and greater region. The Otago Regional Council has classified
         49 species<sup>4</sup> of plants and animals in the region as pests due
         to the threats they pose. With that the Upper Clutha Catchment is home
         to a valuable ecosystem that needs protecting and restoring.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="503  ">
         Increase in the number of traps between 2020 and 2021
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Monitoring the extent of invasive species can provide an insight into
         the extent and control of threats to our ecosystems.The predator control
         areas with the catchment are highlighted on the map.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -49,18 +49,18 @@
   <!-- content02 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Pest control efforts across the catchment have been on a steady increase
         the last three years, as the number of active traps (including automatic
         traps) across the catchment has been increasing.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="855 ">
         Increase in the number of traps between 2021 and 2022.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         The number of pests caught continues to increase as well, indicating
         that pest presence remains an issue.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <!-- graph frame organism-->
     <template #right>
@@ -90,19 +90,19 @@
   <!-- content03 -->
   <organisimsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         In 2022, the dominating pests caught in the catchment are rats (40%)
         followed by possums(12%).
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="40%">
         The majority of pests caught in the catchment are rats.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Continued efforts to control pests in the catchment is an important
         contribution to the national Predator Free 2050 goal, which is working
         towards an Aotearoa where our native species are safe from extinction
         and thrive alongside us.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
@@ -135,7 +135,7 @@
   <organisimsBaseArticleContainerPrimary>
     <template #left>
       <atomsSubhead01Textstyle> Wilding Conifers </atomsSubhead01Textstyle>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Wilding conifers are a threat to native plants and animals as they
         compete for sunlight and water. Particularly high-risk areas of wilding
         conifer invasion are the high country and tussock grasslands of the
@@ -145,11 +145,11 @@
         Control Group continue their wilding pine management efforts, it is
         important to consider the increasing threat that spreading exotic forest
         cover may pose on the catchment.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         The wilding conifer data are currently only sourced from the WCIS, which
         only covers a fraction of the spatial extent of the catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->

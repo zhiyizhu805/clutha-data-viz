@@ -87,14 +87,14 @@
   <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle> The Story </atomsSubhead01Textstyle>
 
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       Welcome to the Upper Clutha Catchment Health Project, an initiative deeply
       rooted in the principles of Te Taiao – a profound connection to and
       reverence for the natural world (Figure below). Our project serves as a
       catalyst for community engagement, uniting diverse stakeholders – from
       residents and iwi to landowners and tourism operators – in a collective
       effort to revitalise Te Taiao.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
   </organisimsBaseContainerFullWidth>
 
   <organisimsBaseArticleContainerTertiary>
@@ -119,30 +119,30 @@
           </organisimsGraphContainerExtrasmall>
         </template>
       </organisimsGraphFrame>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         At the heart of our endeavour lies a comprehensive monitoring framework,
         crafted to encapsulate the essence of Te Taiao and to foster a holistic
         understanding of catchment health.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         The monitoring framework is comprised of a selection of indicators that
         reflect the health of our land, water, biodiversity, livelihoods, and
         culture within the catchment, all interconnected within Te Taiao. These
         indicators not only provide valuable insights but also instil a sense of
         ownership and pride within our community for the stewardship of our
         catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         The monitoring framework is comprised of a selection of indicators that
         reflect the health of our land, water, biodiversity, livelihoods, and
         culture within the catchment, all interconnected within Te Taiao. These
         indicators not only provide valuable insights but also instil a sense of
         ownership and pride within our community for the stewardship of our
         catchment.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         By rooting our monitoring framework indicators with direct community
         values, pressures, and actions that were identified in the
         <a
@@ -155,8 +155,8 @@
         reporting, we aim to showcase the myriad of local initiatives dedicated
         to preserving and enhancing our catchment's health as well as guide
         future environmental investments.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         The monitoring framework aims to connect the Upper Clutha community to
         Te Taiao through understanding the state of our catchment health and the
         interacting indicators that contribute such. We recognise that true
@@ -165,15 +165,15 @@
         endeavours, and the natural environment. Through our monitoring
         framework, we aim to assess and nurture this delicate equilibrium,
         guided by the ethos of respect and care for our surroundings.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         As a central repository for data collection and reporting, our
         monitoring framework fosters collaboration among various organisations
         across the catchment, ensuring a unified approach towards environmental
         stewardship. It serves as the cornerstone for our annual "State of
         Catchment Health" assessments, providing a concise overview of key
         findings as presented on this website.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
   </organisimsBaseArticleContainerTertiary>
 
@@ -184,25 +184,25 @@
     <atomsSubhead01Textstyle>
       Join Us in Building a Healthier Catchment!
     </atomsSubhead01Textstyle>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       By partnering with us, you'll not only contribute to the preservation of
       our natural resources but also strengthen your organisation's commitment
       to sustainability and community engagement. Together, we can make a
       lasting impact on the health and vitality of the Upper Clutha Catchment.
       We look forward to welcoming you as a valued partner in this important
       endeavour.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       <atomsButtonBlack>
         <a href="/supporter">Become a supporter</a>
       </atomsButtonBlack>
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
 
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       Want to find more information on how to become a partner?
 
       <a href="mailto:getinvolved@waiwanaka.nz" class="underline">contact us</a>
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
   </organisimsBaseContainerFullWidth>
 </template>
 
