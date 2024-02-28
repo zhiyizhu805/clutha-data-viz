@@ -81,64 +81,64 @@
   /* icon initial position */
   .icon_climate_variables {
     position: absolute;
-    top:28%; 
-    left:29.53%; 
+    top:4%; 
+    left:36.53%; 
   }
   
   .icon_land_use_change {
     position: absolute;
-    top: 37.33%; 
-    left: 21.05%; 
+    top: 23.33%; 
+    left: 29.05%; 
   }
   
   .icon_greenhouse_gas_emissions {
     position: absolute;
-    top: 40.09%; 
-    left: 43.38%; 
+    top: 26.09%; 
+    left: 69.38%; 
   }
   
   .icon_social_wellbeing {
     position: absolute;
-    top: 32.75%; 
-    left: 48.35%; 
+    top: 27.75%; 
+    left: 46.35%; 
   }
   
   .icon_water_quality {
     position: absolute;
     top: 47.54%; 
-    left: 45.96%; 
+    left: 42.96%; 
   }
   
   .icon_invasive_species {
     position: absolute;
-    top: 42.33%; 
-    left: 53.77%; 
+    top: 20.33%; 
+    left: 44.77%; 
   }
   
   /* icon initial position in xs screen */
   @media (max-width: 768px) {
     .icon_climate_variables {
       position: absolute;
-      top: 15%; 
-      left: 29.53%; 
+      top: 0; 
+      left: 33.53%; 
     }
   
     .icon_greenhouse_gas_emissions {
       position: absolute;
-      top: 18.09%; 
-      left: 41.38%; 
+      top: 15.09%; 
+      left: 70.38%; 
     }
   
     .icon_land_use_change {
       position: absolute;
-      top: 20.33%; 
-      left: 20.05%; 
+      top: 16.33%; 
+      left: 23.05%; 
     }
   
     .icon_social_wellbeing {
       position: absolute;
-      top: 17.75%; 
-      left: 51.35%; 
+      top: 19.75%; 
+      left: 37.35%; 
     }
   
     .icon_water_quality {
@@ -149,8 +149,8 @@
   
     .icon_invasive_species {
       position: absolute;
-      top: 23.33%; 
-      left: 53.77%; 
+      top: 10.33%; 
+      left: 39.77%; 
     }
   }
   
