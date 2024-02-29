@@ -1,9 +1,9 @@
 <template>
   <section class="lg:mb-24 md:mb-21 mb-4">
-    <organisimsBaseContainerSixtyPercentWidth>
+    <organismsBaseContainerSixtyPercentWidth>
       <atomsHeadlineTextstyle>
         <slot></slot>
       </atomsHeadlineTextstyle>
-    </organisimsBaseContainerSixtyPercentWidth>
+    </organismsBaseContainerSixtyPercentWidth>
   </section>
 </template>

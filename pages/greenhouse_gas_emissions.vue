@@ -1,26 +1,26 @@
 <template>
-  <organisimsHeadline> Greenhouse Gas Emissions </organisimsHeadline>
+  <organismsHeadline> Greenhouse Gas Emissions </organismsHeadline>
 
   <!-- content01 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <template #content-section>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Climate change mitigation is an important target for the catchment,
         which has a strong focus on being a sustainable tourism
         destination<sup>9,10</sup>. The purpose of providing an emissions
         inventory as part of the monitoring framework is to determine
         significant sources of GHG emissions in the catchment, which can help to
         prioritise mitigation efforts.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #default>
       <!-- graphframe organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions by sector in 2022 for the catchment. Forestry emissions are based on the most recent LUCAS data (from 2016)."
         flyout_id="flyout_GHGemissions"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GHGemissions">
+          <organismsFlyout flyout_id="flyout_GHGemissions">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
@@ -56,10 +56,10 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database.
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsTableContainer>
+          <organismsTableContainer>
             <thead>
               <tr>
                 <th scope="col" class="py-3 px-6">
@@ -100,63 +100,63 @@
                 <td class="py-4 px-6 bg-neutral-100 text-center">1.6%</td>
               </tr>
             </tbody>
-          </organisimsTableContainer>
+          </organismsTableContainer>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-02 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Agriculture emissions are dominated by the sheep, dairy, and beef
         industries. Data for this sector were obtained from StatsNZ census.
-      </moleculesParagraph>
-      <moleculesParagraph>
+      </atomsBodyTextstyle>
+      <atomsBodyTextstyle>
         An overview of the GHG emissions by sector since 2020 is provided below.
         Overall, the emissions within the catchment have increased since 2020
         due to an increase in the emissions from the energy and agriculture
         sector.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions from the agriculture sector by industry."
         flyout_id="flyout_GhgAgri"
+        graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgAgri">
+          <organismsFlyout flyout_id="flyout_GhgAgri">
             <moleculesDatasourceItem
               link="https://www.stats.govt.nz/information-releases/agricultural-production-statistics-year-to-june-2022-provisional/"
               link_title="Stats NZ Agricultural Production Census"
             >
               Agricultural activity data were obtained from the (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsGhgAgri></plotsGhgAgri>
-          </organisimsGraphContainerSmall>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <!-- content-03  -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <template #default>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions by industry sector in 2020, 2021 and 2022."
         flyout_id="flyout_GHGEmissionsBySector"
+        graph_container="graph_container_large"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GHGEmissionsBySector">
+          <organismsFlyout flyout_id="flyout_GHGEmissionsBySector">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
@@ -192,86 +192,83 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database.
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerLarge>
             <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
-          </organisimsGraphContainerLarge>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-04 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Each sector can be analysed in more detail to understand where the
         largest contributing activities or sources exist.For example, Wanaka is
         the main contributor to the overall emissions from the energy sector
         with 78%.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="80%">
         According to a survey conducted by the QLDC 80% of residents in the
         catchment stated that they were &#147;concerned&#148; or &#147;very
         concerned&#148; about the potential impacts of climate change.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         To align with national climate change commitments and targets and to
         alleviate concern from residents increase in GHG emissions needs to be
         addressed across the sectors and catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG Emissions from the energy sector by location."
         flyout_id="flyout_GhgEnergy"
+        graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgEnergy">
+          <organismsFlyout flyout_id="flyout_GhgEnergy">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
             >
               Energy consumption data were obtained from the electricity network
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsGhgEnergy></plotsGhgEnergy>
-          </organisimsGraphContainerSmall>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content05 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         The forestry sector accounts for greenhouse gas removals in the
         catchment&#59; as forests grow, they sequester carbon dioxide and act as
         a natural carbon sink. A small quantity of greenhouse gas emissions
         result from deforestation and harvesting of both natural and plantation
         forests&#58; for example,a loss of 10.3 ha of forestland in 2016 led to
         9,500 tonnes of CO<sub>2</sub>e emitted to the atmosphere.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions and removals from the forestry sector."
         flyout_id="flyout_GhgRemoval"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgRemoval">
+          <organismsFlyout flyout_id="flyout_GhgRemoval">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/"
               link_title="LUCAS"
@@ -286,19 +283,19 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
           <plotsGhgRemoval></plotsGhgRemoval>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Reference -->
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/queenstownnz/Queenstown_Lakes_Regenerative_Tourism_Plan_956930e4-1b59-4293-9294-96b5d5ec5196.pdf"
       name=" online"
@@ -315,7 +312,7 @@
       [10] Queenstown Lakes Climate and Biodiversity Plan 2022-2025, July 2022 -
       available
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

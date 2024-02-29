@@ -1,10 +1,10 @@
 <template>
-  <organisimsHeadline> Acknowledgements </organisimsHeadline>
-  <moleculesParagraph>
+  <organismsHeadline> Acknowledgements </organismsHeadline>
+  <atomsBodyTextstyle>
     We would like to thank the following individuals and organisations for their
     contribution to the development of the monitoring framework, the development
     of this website, and accompanied reports&#58;
-  </moleculesParagraph>
+  </atomsBodyTextstyle>
   <moleculesUnorderlistDiscStyle gap="gap-2">
     <moleculesUnorderlistItem>
       The steering group and working group members, for their insights, advice

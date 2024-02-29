@@ -1,121 +1,121 @@
 <template>
-  <organisimsHeadline> Supporter </organisimsHeadline>
+  <organismsHeadline> Supporter </organismsHeadline>
   <!--  content01 -->
-  <organisimsBaseContainerFullWidth gap="gap-7">
-    <moleculesParagraph>
+  <organismsBaseContainerFullWidth gap="gap-7">
+    <atomsBodyTextstyle>
       We extend our gratitude to Our Land and Water -
       <a
-        class="underline"
+        
         href="https://ourlandandwater.nz/project/revitalise-te-taiao/"
         >Revitalise Te Taiao National Science Challenge</a
       >
       for their generous funding as part of
-      <a href="https://waiwanaka.nz/action-for-te-taiao/" class="underline"
-        >WAI Wānaka&#39;s Knowledge into Action for Te Taiao project</a
+      <atomsReferenceTextstyle url="https://waiwanaka.nz/action-for-te-taiao/" 
+        >WAI Wānaka&#39;s Knowledge into Action for Te Taiao project</atomsReferenceTextstyle
       >, recognising the significance of their contribution in catalysing
       positive change. Their commitment to advancing knowledge and fostering
       collaboration has been instrumental in shaping the foundation of this
       catchment health framework.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       We would also like to express our sincere appreciation to the working
       group organisations -
-      <a href="https://enviroaccounts.com/" class="underline"
-        >Environmental Accounting Services</a
+      <atomsReferenceTextstyle url="https://enviroaccounts.com/" 
+        >Environmental Accounting Services</atomsReferenceTextstyle
       >
       and
-      <a href="https://www.lincoln.ac.nz/" class="underline"
-        >Lincoln University</a
+      <atomsReferenceTextstyle url="https://www.lincoln.ac.nz/" 
+        >Lincoln University</atomsReferenceTextstyle
       >, whose dedication and partnership have been integral to the realisation
       of this vision. Further, to
-      <a href="https://www.ghhp.org.au/" class="underline"
-        >Gladstone Healthy Harbour</a
+      <atomsReferenceTextstyle url="https://www.ghhp.org.au/" 
+        >Gladstone Healthy Harbour</atomsReferenceTextstyle
       >
       as inspiration for the project.
-    </moleculesParagraph>
-    <organisimsBaseContainerFullWidth>
-      <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <organismsBaseContainerFullWidth>
+      <atomsBodyTextstyle>
         This project has been collaborative from the outset, with significant
         time and input from the following organisations and people;
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
-          <a href="https://www.lakewanaka.co.nz/" class="underline">
-            Lake Wānaka Tourism</a
+          <atomsReferenceTextstyle url="https://www.lakewanaka.co.nz/" >
+            Lake Wānaka Tourism</atomsReferenceTextstyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.wanakachamber.co.nz/" class="underline">
-            Wānaka Business Chamber</a
+          <atomsReferenceTextstyle url="https://www.wanakachamber.co.nz/" >
+            Wānaka Business Chamber</atomsReferenceTextstyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.wao.co.nz/" class="underline"> WAO</a>,
+          <atomsReferenceTextstyle url="https://www.wao.co.nz/" > WAO</atomsReferenceTextstyle>,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.orc.govt.nz/" class="underline">
-            Otago Regional Council</a
+          <atomsReferenceTextstyle url="https://www.orc.govt.nz/" >
+            Otago Regional Council</atomsReferenceTextstyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.qldc.govt.nz/" class="underline">
-            Queenstown Lakes District Council</a
+          <atomsReferenceTextstyle url="https://www.qldc.govt.nz/" >
+            Queenstown Lakes District Council</atomsReferenceTextstyle
           >
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
-    <moleculesParagraph>
+    </organismsBaseContainerFullWidth>
+    <atomsBodyTextstyle>
       The analysis and findings presented here are based on our interpretation
       of the data and do not necessarily reflect the views or endorsement of the
       original data source. Users of this information should be aware that
       certain limitations may apply to the data, such as potential data gaps and
       measurement errors.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Environmental Accounting Services, the directors and employees cannot be
       held liable for the use of and reliance of the information and findings
       provided on this website.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Your collective efforts have not only enriched the content of this
       framework but have also strengthened the bonds within our community.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Together, we embark on a journey towards a more vibrant, sustainable, and
       interconnected future for the Upper Clutha Catchment. Thank you for being
       champions of positive change and stewards of our shared Te Taiao.
-    </moleculesParagraph>
-  </organisimsBaseContainerFullWidth>
+    </atomsBodyTextstyle>
+  </organismsBaseContainerFullWidth>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseContainerFullWidth gap="gap-7">
+  <organismsBaseContainerFullWidth gap="gap-7">
     <atomsSubhead01Textstyle>
       Become a supporter of the Upper Clutha Catchment Health Report
     </atomsSubhead01Textstyle>
     <!-- Become a supporter of the Upper Clutha Catchment Health Report -->
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       Thank you for your interest in joining us as a supporter of the Upper
       Clutha Catchment Health Project. By becoming a partner, you'll play a
       crucial role in monitoring and reporting on the health of our waterways,
       contributing to a better understanding of our environment and fostering
       opportunities for a healthy, accessible, and thriving catchment.
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <!-- Why Partner with Upper Clutha Catchment Health Partnership? -->
     <atomsSubhead01Textstyle>
       Why Partner with Upper Clutha Catchment Health Partnership?
     </atomsSubhead01Textstyle>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       As a partner, you'll stand alongside government entities, industries,
       research groups, and the community, showcasing your commitment to
       environmental stewardship and community well-being.
-    </moleculesParagraph>
-    <moleculesParagraph>
+    </atomsBodyTextstyle>
+    <atomsBodyTextstyle>
       Here's what you can expect as a supporter:
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <!-- Recognition and Benefits: -->
-    <organisimsBaseContainerFullWidth>
+    <organismsBaseContainerFullWidth>
       <atomsSubhead01Textstyle>
         Recognition and Benefits:
       </atomsSubhead01Textstyle>
@@ -141,9 +141,9 @@
           Your organisation's logo featured on reports and this website.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
+    </organismsBaseContainerFullWidth>
     <!-- Your Contribution: -->
-    <organisimsBaseContainerFullWidth>
+    <organismsBaseContainerFullWidth>
       <atomsSubhead01Textstyle> Your Contribution: </atomsSubhead01Textstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
@@ -158,19 +158,19 @@
           Annual monetary or in-kind contribution.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
-  </organisimsBaseContainerFullWidth>
+    </organismsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Acknowledgements -->
-  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+  <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle> Acknowledgements </atomsSubhead01Textstyle>
-    <moleculesParagraph>
+    <atomsBodyTextstyle>
       We would like to thank the following individuals and organisations for
       their contribution to the development of the monitoring framework, the
       development of this website, and accompanied reports:
-    </moleculesParagraph>
+    </atomsBodyTextstyle>
     <moleculesUnorderlistDiscStyle gap="gap-1">
       <moleculesUnorderlistItem>
         The steering group and working group members, for their insights, advice
@@ -222,5 +222,5 @@
         emissions indicator.
       </moleculesUnorderlistItem>
     </moleculesUnorderlistDiscStyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 </template>

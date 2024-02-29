@@ -1,9 +1,9 @@
 <template>
-  <organisimsHeadline> Landuse Change </organisimsHeadline>
+  <organismsHeadline> Landuse Change </organismsHeadline>
   <!-- content01 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Land use and land use change are catchment-wide indicators assessing how
         we are using our land. Over half of the area of the catchment is
         categorised as “production grassland”, dominated by low producing
@@ -11,19 +11,19 @@
         catchment are forest land (16.6%), and grassland with woody biomass
         (11.0%). Built-up areas account for only 0.3% of the total area of the
         catchment.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="60%">
         Areas of built-up land have increased by 60% while the population
         increased four-fold since 1990.
       </moleculesCallout>
     </template>
     <template #right>
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land use cover across the catchment in 2016."
         flyout_id="placeholder3"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="placeholder3">
+          <organismsFlyout flyout_id="placeholder3">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -31,7 +31,7 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
           <img
@@ -40,30 +40,31 @@
             title="Landuse Map"
           />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Urban areas in Wānaka and Hāwea have increased since 1990. Primarily
         through the conversion of productive grassland. Despite this conversion,
         the total area of production grassland remained the same, as grassland
         with woody biomass has been converted to production grassland.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land use categories before 1990"
         flyout_id="flyout_LandUseChangeBuildUp"
+        graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_LandUseChangeBuildUp">
+          <organismsFlyout flyout_id="flyout_LandUseChangeBuildUp">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -71,28 +72,26 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsLandUseChangeBuildUp />
-          </organisimsGraphContainerSmall>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03.1 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <!-- graph frame organism-->
-    <organisimsGraphFrame
+    <organismsGraphFrame
       graph_title="Total area by land use category for the catchment and their changes since 1990 (in hectares)."
       flyout_id="placeholder4"
     >
       <template #flyout>
-        <organisimsFlyout flyout_id="placeholder4">
+        <organismsFlyout flyout_id="placeholder4">
           <moleculesDatasourceItem
             link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
             link_title="MfE Data Service"
@@ -100,10 +99,10 @@
             Data were obtained from the Land Use and Coverage Area frame Survey
             (LUCAS) data set
           </moleculesDatasourceItem>
-        </organisimsFlyout>
+        </organismsFlyout>
       </template>
       <template #graph>
-        <organisimsTableContainer>
+        <organismsTableContainer>
           <thead>
             <tr>
               <th scope="col" class="py-3 px-6">Land Use Category</th>
@@ -150,29 +149,30 @@
               <td class="py-4 px-6 bg-neutral-100 text-center">-7</td>
             </tr>
           </tbody>
-        </organisimsTableContainer>
+        </organismsTableContainer>
       </template>
-    </organisimsGraphFrame>
-  </organisimsBaseArticleContainerSecondary>
+    </organismsGraphFrame>
+  </organismsBaseArticleContainerSecondary>
 
   <!-- content03.2 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Since 1990, there has been a net increase of 392 ha of forestland across
         the catchment.Most of this increase has been through the growth of new
         exotic forest. The cover of natural, indigenous forest has seen a net
         decline.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land uses converted from forestland since 1990."
         flyout_id="flyout_landUses"
+        graph_container="graph_container_medium"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_landUses">
+          <organismsFlyout flyout_id="flyout_landUses">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -180,24 +180,22 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerMedium>
             <plotsLandUses />
-          </organisimsGraphContainerMedium>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsSubhead01Textstyle> Forest Cover </atomsSubhead01Textstyle>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         To understand the current land use and land use change practices, a more
         recent dataset from 2008 to 2018 was analysed, showing a gross increase
         in exotic forest cover of 71 ha.This increase results from the
@@ -205,47 +203,46 @@
         the total production grassland available in the catchment. A gross
         decrease in indigenous forest cover of 69 ha is observed between 2008
         and 2018.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
       <moleculesCallout statistic_value="<0.2%">
         Indigenous forest cover has decreased by &lt;0.2% between 2008 and 2018.
       </moleculesCallout>
-      <moleculesParagraph>
+      <atomsBodyTextstyle>
         Most of the loss of indigenous forest that took place between 2008 and
         2018 was the result of landslides in the high alpine<sup>1</sup>, rather
         than a direct impact of anthropogenic activities. While indigenous
         forest is not under particular threat, other native vegetation classes
         have seen significant reductions in land cover.For example, fernlands
         decreased by 1,500 ha.
-      </moleculesParagraph>
+      </atomsBodyTextstyle>
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land uses converted into exotic forest between 2008 and 2018."
         flyout_id="flyout_LandUseChangeExoticForest"
+        graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_LandUseChangeExoticForest">
+          <organismsFlyout flyout_id="flyout_LandUseChangeExoticForest">
             <moleculesDatasourceItem
               link="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
               link_title="LDCB-LRIS Portal"
             >
               Data were obtained from the New Zealand Land Cover Database
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsLandUseChangeExoticForest />
-          </organisimsGraphContainerSmall>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
       name=" LRIS Portal"
@@ -254,7 +251,7 @@
       [1] Land Cover Database version 5.0, Mainland, New Zealand &minus;
       available from the
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">
