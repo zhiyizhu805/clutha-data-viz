@@ -1,7 +1,7 @@
 <template>
-  <organisimsHeadline> Landuse Change </organisimsHeadline>
+  <organismsHeadline> Landuse Change </organismsHeadline>
   <!-- content01 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Land use and land use change are catchment-wide indicators assessing how
@@ -18,12 +18,12 @@
       </moleculesCallout>
     </template>
     <template #right>
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land use cover across the catchment in 2016."
         flyout_id="placeholder3"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="placeholder3">
+          <organismsFlyout flyout_id="placeholder3">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -31,7 +31,7 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
           <img
@@ -40,14 +40,14 @@
             title="Landuse Map"
           />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Urban areas in Wānaka and Hāwea have increased since 1990. Primarily
@@ -58,13 +58,13 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land use categories before 1990"
         flyout_id="flyout_LandUseChangeBuildUp"
         graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_LandUseChangeBuildUp">
+          <organismsFlyout flyout_id="flyout_LandUseChangeBuildUp">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -72,26 +72,26 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsLandUseChangeBuildUp />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03.1 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <!-- graph frame organism-->
-    <organisimsGraphFrame
+    <organismsGraphFrame
       graph_title="Total area by land use category for the catchment and their changes since 1990 (in hectares)."
       flyout_id="placeholder4"
     >
       <template #flyout>
-        <organisimsFlyout flyout_id="placeholder4">
+        <organismsFlyout flyout_id="placeholder4">
           <moleculesDatasourceItem
             link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
             link_title="MfE Data Service"
@@ -99,10 +99,10 @@
             Data were obtained from the Land Use and Coverage Area frame Survey
             (LUCAS) data set
           </moleculesDatasourceItem>
-        </organisimsFlyout>
+        </organismsFlyout>
       </template>
       <template #graph>
-        <organisimsTableContainer>
+        <organismsTableContainer>
           <thead>
             <tr>
               <th scope="col" class="py-3 px-6">Land Use Category</th>
@@ -149,13 +149,13 @@
               <td class="py-4 px-6 bg-neutral-100 text-center">-7</td>
             </tr>
           </tbody>
-        </organisimsTableContainer>
+        </organismsTableContainer>
       </template>
-    </organisimsGraphFrame>
-  </organisimsBaseArticleContainerSecondary>
+    </organismsGraphFrame>
+  </organismsBaseArticleContainerSecondary>
 
   <!-- content03.2 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Since 1990, there has been a net increase of 392 ha of forestland across
@@ -166,13 +166,13 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land uses converted from forestland since 1990."
         flyout_id="flyout_landUses"
         graph_container="graph_container_medium"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_landUses">
+          <organismsFlyout flyout_id="flyout_landUses">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/)"
               link_title="MfE Data Service"
@@ -180,19 +180,19 @@
               Data were obtained from the Land Use and Coverage Area frame
               Survey (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsLandUses />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsSubhead01Textstyle> Forest Cover </atomsSubhead01Textstyle>
       <atomsBodyTextstyle>
@@ -218,31 +218,31 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Land uses converted into exotic forest between 2008 and 2018."
         flyout_id="flyout_LandUseChangeExoticForest"
         graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_LandUseChangeExoticForest">
+          <organismsFlyout flyout_id="flyout_LandUseChangeExoticForest">
             <moleculesDatasourceItem
               link="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
               link_title="LDCB-LRIS Portal"
             >
               Data were obtained from the New Zealand Land Cover Database
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsLandUseChangeExoticForest />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://lris.scinfo.org.nz/layer/104400-lcdb-v50-land-cover-database-version-50-mainland-new-zealand/"
       name=" LRIS Portal"
@@ -251,7 +251,7 @@
       [1] Land Cover Database version 5.0, Mainland, New Zealand &minus;
       available from the
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

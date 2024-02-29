@@ -1,7 +1,7 @@
 <template>
-  <organisimsHeadline> Disclaimer </organisimsHeadline>
+  <organismsHeadline> Disclaimer </organismsHeadline>
 
-  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+  <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsBodyTextstyle>
       The professional analysis and advice on this website has been prepared by
       Environmental Accounting Services for the exclusive use of the party or
@@ -34,5 +34,5 @@
       held liable for the use of and reliance of the information and findings
       provided on this website.
     </atomsBodyTextstyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 </template>

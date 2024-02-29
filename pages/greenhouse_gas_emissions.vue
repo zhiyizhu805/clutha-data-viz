@@ -1,8 +1,8 @@
 <template>
-  <organisimsHeadline> Greenhouse Gas Emissions </organisimsHeadline>
+  <organismsHeadline> Greenhouse Gas Emissions </organismsHeadline>
 
   <!-- content01 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <template #content-section>
       <atomsBodyTextstyle>
         Climate change mitigation is an important target for the catchment,
@@ -15,12 +15,12 @@
     </template>
     <template #default>
       <!-- graphframe organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions by sector in 2022 for the catchment. Forestry emissions are based on the most recent LUCAS data (from 2016)."
         flyout_id="flyout_GHGemissions"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GHGemissions">
+          <organismsFlyout flyout_id="flyout_GHGemissions">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
@@ -56,10 +56,10 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database.
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
-          <organisimsTableContainer>
+          <organismsTableContainer>
             <thead>
               <tr>
                 <th scope="col" class="py-3 px-6">
@@ -100,16 +100,16 @@
                 <td class="py-4 px-6 bg-neutral-100 text-center">1.6%</td>
               </tr>
             </tbody>
-          </organisimsTableContainer>
+          </organismsTableContainer>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-02 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Agriculture emissions are dominated by the sheep, dairy, and beef
@@ -124,39 +124,39 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions from the agriculture sector by industry."
         flyout_id="flyout_GhgAgri"
         graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgAgri">
+          <organismsFlyout flyout_id="flyout_GhgAgri">
             <moleculesDatasourceItem
               link="https://www.stats.govt.nz/information-releases/agricultural-production-statistics-year-to-june-2022-provisional/"
               link_title="Stats NZ Agricultural Production Census"
             >
               Agricultural activity data were obtained from the (LUCAS) data set
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsGhgAgri></plotsGhgAgri>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <!-- content-03  -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <template #default>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions by industry sector in 2020, 2021 and 2022."
         flyout_id="flyout_GHGEmissionsBySector"
         graph_container="graph_container_large"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GHGEmissionsBySector">
+          <organismsFlyout flyout_id="flyout_GHGEmissionsBySector">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
@@ -192,19 +192,19 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database.
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content-04 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Each sector can be analysed in more detail to understand where the
@@ -225,32 +225,32 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG Emissions from the energy sector by location."
         flyout_id="flyout_GhgEnergy"
         graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgEnergy">
+          <organismsFlyout flyout_id="flyout_GhgEnergy">
             <moleculesDatasourceItem
               link="https://www.auroraenergy.co.nz/"
               link_title="Aurora Energy"
             >
               Energy consumption data were obtained from the electricity network
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsGhgEnergy></plotsGhgEnergy>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content05 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         The forestry sector accounts for greenhouse gas removals in the
@@ -263,12 +263,12 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="GHG emissions and removals from the forestry sector."
         flyout_id="flyout_GhgRemoval"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_GhgRemoval">
+          <organismsFlyout flyout_id="flyout_GhgRemoval">
             <moleculesDatasourceItem
               link="https://data.mfe.govt.nz/layer/52375-lucas-nz-land-use-map-1990-2008-2012-2016-v011/"
               link_title="LUCAS"
@@ -283,19 +283,19 @@
               GHG sequestration removals from forestry were estimated using data
               obtained from the New Zealand Land Cover Database
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
           <plotsGhgRemoval></plotsGhgRemoval>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Reference -->
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/queenstownnz/Queenstown_Lakes_Regenerative_Tourism_Plan_956930e4-1b59-4293-9294-96b5d5ec5196.pdf"
       name=" online"
@@ -312,7 +312,7 @@
       [10] Queenstown Lakes Climate and Biodiversity Plan 2022-2025, July 2022 -
       available
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

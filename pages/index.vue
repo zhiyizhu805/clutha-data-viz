@@ -1,5 +1,5 @@
 <template>
-  <organisimsAnimation>
+  <organismsAnimation>
     <moleculesNavigationTertiaryItem
       navigation_title="climate variables"
       navigation_class="icon_climate_variables"
@@ -78,13 +78,13 @@
         />
       </a>
     </moleculesNavigationTertiaryItem>
-  </organisimsAnimation>
+  </organismsAnimation>
 
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- The story section -->
-  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+  <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle> The Story </atomsSubhead01Textstyle>
 
     <atomsBodyTextstyle>
@@ -95,18 +95,18 @@
       residents and iwi to landowners and tourism operators – in a collective
       effort to revitalise Te Taiao.
     </atomsBodyTextstyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 
-  <organisimsBaseArticleContainerTertiary>
+  <organismsBaseArticleContainerTertiary>
     <template #left>
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="The concept of Te Taiao and its four interconnected components"
         flyout_id="flyout_Illustration_TeTaiao"
         graph_container="graph_container_extrasmall"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_Illustration_TeTaiao">
-          </organisimsFlyout>
+          <organismsFlyout flyout_id="flyout_Illustration_TeTaiao">
+          </organismsFlyout>
         </template>
         <template #graph>
             <img
@@ -117,7 +117,7 @@
               title="The concept of Te Taiao and its four interconnected components"
             />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
       <atomsBodyTextstyle>
         At the heart of our endeavour lies a comprehensive monitoring framework,
         crafted to encapsulate the essence of Te Taiao and to foster a holistic
@@ -174,12 +174,12 @@
         findings as presented on this website.
       </atomsBodyTextstyle>
     </template>
-  </organisimsBaseArticleContainerTertiary>
+  </organismsBaseArticleContainerTertiary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Join us section -->
-  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+  <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle>
       Join Us in Building a Healthier Catchment!
     </atomsSubhead01Textstyle>
@@ -202,7 +202,7 @@
 
       <a href="mailto:getinvolved@waiwanaka.nz" class="underline">contact us</a>
     </atomsBodyTextstyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 </template>
 
 <script setup lang="ts">

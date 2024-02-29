@@ -1,9 +1,9 @@
 <template>
-  <organisimsHeadline> Water Quality </organisimsHeadline>
+  <organismsHeadline> Water Quality </organismsHeadline>
   <!-- content01 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <organisimsBaseContainerFullWidth>
+      <organismsBaseContainerFullWidth>
         <atomsBodyTextstyle>
           Water quality rankings are provided for four parameters which were
           selected for their importance for ecosystem and human health (see
@@ -23,7 +23,7 @@
             Nitrate-nitrogen
           </moleculesUnorderlistItem>
         </moleculesUnorderlistDiscStyle>
-      </organisimsBaseContainerFullWidth>
+      </organismsBaseContainerFullWidth>
 
       <atomsBodyTextstyle>
         Water quality was assessed in accordance with the guidelines provided by
@@ -40,12 +40,12 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Water quality measurement sites."
         flyout_id="placeholder7"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="placeholder7"> </organisimsFlyout>
+          <organismsFlyout flyout_id="placeholder7"> </organismsFlyout>
         </template>
         <template #graph>
           <img
@@ -54,24 +54,24 @@
             title="Water quality measurement sites map"
           />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <!-- graph frame organism-->
-    <organisimsGraphFrame
+    <organismsGraphFrame
       graph_title="Water quality parameters included in this monitoring framework."
       flyout_id="placeholder8"
     >
       <template #flyout>
-        <organisimsFlyout flyout_id="placeholder8"> </organisimsFlyout>
+        <organismsFlyout flyout_id="placeholder8"> </organismsFlyout>
       </template>
       <template #graph>
-        <organisimsTableContainer>
+        <organismsTableContainer>
           <thead>
             <tr>
               <th scope="col" class="py-3 px-6" colspan="2"></th>
@@ -135,17 +135,17 @@
               </td>
             </tr>
           </tbody>
-        </organisimsTableContainer>
+        </organismsTableContainer>
       </template>
-    </organisimsGraphFrame>
-  </organisimsBaseArticleContainerSecondary>
+    </organismsGraphFrame>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
-      <organisimsBaseContainerFullWidth>
+      <organismsBaseContainerFullWidth>
         <atomsBodyTextstyle>
           Monitoring water quality parameters provides a comprehensive
           understanding of the health of aquatic systems, their impact on human
@@ -173,7 +173,7 @@
             oxygen depletion.
           </moleculesUnorderlistItem>
         </moleculesUnorderlistDiscStyle>
-      </organisimsBaseContainerFullWidth>
+      </organismsBaseContainerFullWidth>
       <atomsBodyTextstyle>
         ORC regularly monitors the water quality around Otago, which includes
         the Upper Clutha catchment. For the most recent measurements and
@@ -186,13 +186,13 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="The 'current state’ of lake and river water quality in the catchment."
         flyout_id="placeholder9"
         graph_container="graph_container_large"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="placeholder9">
+          <organismsFlyout flyout_id="placeholder9">
             <moleculesDatasourceItem
               link="https://envdata.orc.govt.nz/AQWebPortal/Disclaimer?returnUrl=%2FData"
               link_title="AQWebPortal"
@@ -206,7 +206,7 @@
             >
               Data were obtained from the Land Air Water Aotearoa website
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <img
@@ -215,13 +215,13 @@
               title="Current state of lake"
             />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://environment.govt.nz/publications/national-policy-statement-for-freshwater-management-2020-amended-january-2024/"
       name=" online"
@@ -230,7 +230,7 @@
       [11] Ministry for the Environment, National Policy Statement for
       Freshwater Management 2020, available
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

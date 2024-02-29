@@ -1,7 +1,7 @@
 <template>
-  <organisimsHeadline> Invasive Species </organisimsHeadline>
+  <organismsHeadline> Invasive Species </organismsHeadline>
   <!-- content01 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         New Zealand&#39;s biodiversity is unique: 100% of the country&#39;s
@@ -26,12 +26,12 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Heat map of pest control areas within the catchment."
         flyout_id="placeholder2"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="placeholder2"> </organisimsFlyout>
+          <organismsFlyout flyout_id="placeholder2"> </organismsFlyout>
         </template>
         <template #graph>
           <img
@@ -40,14 +40,14 @@
             title="Pest Control Heat Map"
           />
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         Pest control efforts across the catchment have been on a steady increase
@@ -64,31 +64,31 @@
     </template>
     <!-- graph frame organism-->
     <template #right>
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Predator control data over the last three years."
         flyout_id="flyout_PredatorControl"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_PredatorControl">
+          <organismsFlyout flyout_id="flyout_PredatorControl">
             <moleculesDatasourceItem
               link="https://www.trap.nz/"
               link_title="TrapNZ"
             >
               Data were obtained from
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsPredatorControl></plotsPredatorControl>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsBodyTextstyle>
         In 2022, the dominating pests caught in the catchment are rats (40%)
@@ -106,32 +106,32 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Type of pests being caught in traps across the catchment."
         flyout_id="flyout_PredatorType"
         graph_container="graph_container_medium"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_PredatorType">
+          <organismsFlyout flyout_id="flyout_PredatorType">
             <moleculesDatasourceItem
               link="https://www.trap.nz/"
               link_title="TrapNZ"
             >
               Data were obtained from
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsPredatorType></plotsPredatorType>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content04 -->
-  <organisimsBaseArticleContainerPrimary>
+  <organismsBaseArticleContainerPrimary>
     <template #left>
       <atomsSubhead01Textstyle> Wilding Conifers </atomsSubhead01Textstyle>
       <atomsBodyTextstyle>
@@ -152,31 +152,31 @@
     </template>
     <template #right>
       <!-- graph frame organism-->
-      <organisimsGraphFrame
+      <organismsGraphFrame
         graph_title="Wilding pines control efforts by WCIS."
         flyout_id="flyout_WildingPines"
         graph_container="graph_container_small"
       >
         <template #flyout>
-          <organisimsFlyout flyout_id="flyout_WildingPines">
+          <organismsFlyout flyout_id="flyout_WildingPines">
             <moleculesDatasourceItem
               link="https://wildpines.linz.govt.nz/portal/apps/StoryMapBasic/index.html?appid=9694bf0ea4b24ee7b13ca368ef449049"
               link_title="WCIS"
             >
               Data were obtained from the Wilding Conifers Information System
             </moleculesDatasourceItem>
-          </organisimsFlyout>
+          </organismsFlyout>
         </template>
         <template #graph>
             <plotsWildingPines></plotsWildingPines>
         </template>
-      </organisimsGraphFrame>
+      </organismsGraphFrame>
     </template>
-  </organisimsBaseArticleContainerPrimary>
+  </organismsBaseArticleContainerPrimary>
 
   <atomsDivider divider_width="border-b-2" />
 
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://environment.govt.nz/publications/environment-new-zealand-2007/chapter-12-biodiversity/introduction/"
       name=" online"
@@ -193,7 +193,7 @@
       [4] Otago Pest Management Plan 2019-2029, Otago Regional Council, 2019
       &minus; available
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

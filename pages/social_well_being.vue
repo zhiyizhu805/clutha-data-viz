@@ -1,9 +1,9 @@
 <template>
-  <organisimsHeadline> Social Well-being </organisimsHeadline>
+  <organismsHeadline> Social Well-being </organismsHeadline>
   <!-- content01 -->
-  <organisimsBaseArticleContainerTertiary>
+  <organismsBaseArticleContainerTertiary>
     <template #left>
-      <organisimsBaseContainerFullWidth>
+      <organismsBaseContainerFullWidth>
         <atomsBodyTextstyle>
           Social well-being considers the social and economic aspects of
           catchment health, including&#58;
@@ -17,7 +17,7 @@
           </moleculesUnorderlistItem>
           <moleculesUnorderlistItem> Quality of Life </moleculesUnorderlistItem>
         </moleculesUnorderlistDiscStyle>
-      </organisimsBaseContainerFullWidth>
+      </organismsBaseContainerFullWidth>
       <atomsBodyTextstyle>
         Monitoring social well-being is important, as social drivers have a key
         influence on other aspects of catchment health, including pest control,
@@ -44,20 +44,20 @@
         and Māori culture, which remains consistently low.
       </atomsBodyTextstyle>
     </template>
-  </organisimsBaseArticleContainerTertiary>
+  </organismsBaseArticleContainerTertiary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerSecondary>
     <!-- graph frame organism-->
-    <organisimsGraphFrame
+    <organismsGraphFrame
       graph_title="Rankings of the social well-being, including its different aspects."
       flyout_id="placeholder6"
       graph_container="graph_container_large"
     >
       <template #flyout>
-        <organisimsFlyout flyout_id="placeholder6">
+        <organismsFlyout flyout_id="placeholder6">
           <moleculesDatasourceItem
             link="https://letstalk.qldc.govt.nz/qol"
             link_title="Quality of Life Survey"
@@ -65,7 +65,7 @@
             Data and information were obtained from the Queenstown Lakes
             District Council (QLDC)
           </moleculesDatasourceItem>
-        </organisimsFlyout>
+        </organismsFlyout>
       </template>
       <template #graph>
         <div>
@@ -76,13 +76,13 @@
           />
         </div>
       </template>
-    </organisimsGraphFrame>
-  </organisimsBaseArticleContainerSecondary>
+    </organismsGraphFrame>
+  </organismsBaseArticleContainerSecondary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
-  <organisimsBaseArticleContainerTertiary>
+  <organismsBaseArticleContainerTertiary>
     <template #left>
       <atomsBodyTextstyle>
         Various studies have been conducted to understand how the health of the
@@ -123,12 +123,12 @@
         improvements.
       </atomsBodyTextstyle>
     </template>
-  </organisimsBaseArticleContainerTertiary>
+  </organismsBaseArticleContainerTertiary>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!--Reference -->
-  <organisimsReference>
+  <organismsReference>
     <moleculesReferenceItem
       url="https://academic.oup.com/heapro/article/36/Supplement_1/i53/6460415"
       name=" online"
@@ -156,7 +156,7 @@
       conservation and wellbeing, National Library of New Zealand, 2020,
       available
     </moleculesReferenceItem>
-  </organisimsReference>
+  </organismsReference>
 </template>
 
 <script setup lang="ts">

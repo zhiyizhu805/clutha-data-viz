@@ -1,7 +1,7 @@
 <template>
-  <organisimsBaseContainerPrimary>
+  <organismsBaseContainerPrimary>
     <!-- header -->
-    <organisimsHeader>
+    <organismsHeader>
       <template #NavigationSecondary>
         <moleculesNavigationSecondaryItem
           url="/landuse_change"
@@ -85,18 +85,18 @@
           Disclaimer
         </moleculesNavigationPrimaryItemRegular>
       </template>
-    </organisimsHeader>
+    </organismsHeader>
 
     <!-- article -->
     <main>
-      <organisimsBaseContainerSecondary>
+      <organismsBaseContainerSecondary>
          <slot name="default"></slot>
-      </organisimsBaseContainerSecondary>
+      </organismsBaseContainerSecondary>
     </main>
 
     <!-- footer -->
-    <organisimsFooter> </organisimsFooter>
-  </organisimsBaseContainerPrimary>
+    <organismsFooter> </organismsFooter>
+  </organismsBaseContainerPrimary>
 </template>
 
 <script setup lang="ts">

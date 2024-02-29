@@ -1,7 +1,7 @@
 <template>
-  <organisimsHeadline> Supporter </organisimsHeadline>
+  <organismsHeadline> Supporter </organismsHeadline>
   <!--  content01 -->
-  <organisimsBaseContainerFullWidth gap="gap-7">
+  <organismsBaseContainerFullWidth gap="gap-7">
     <atomsBodyTextstyle>
       We extend our gratitude to Our Land and Water -
       <a
@@ -33,7 +33,7 @@
       >
       as inspiration for the project.
     </atomsBodyTextstyle>
-    <organisimsBaseContainerFullWidth>
+    <organismsBaseContainerFullWidth>
       <atomsBodyTextstyle>
         This project has been collaborative from the outset, with significant
         time and input from the following organisations and people;
@@ -63,7 +63,7 @@
           >
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
+    </organismsBaseContainerFullWidth>
     <atomsBodyTextstyle>
       The analysis and findings presented here are based on our interpretation
       of the data and do not necessarily reflect the views or endorsement of the
@@ -85,12 +85,12 @@
       interconnected future for the Upper Clutha Catchment. Thank you for being
       champions of positive change and stewards of our shared Te Taiao.
     </atomsBodyTextstyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organisimsBaseContainerFullWidth gap="gap-7">
+  <organismsBaseContainerFullWidth gap="gap-7">
     <atomsSubhead01Textstyle>
       Become a supporter of the Upper Clutha Catchment Health Report
     </atomsSubhead01Textstyle>
@@ -115,7 +115,7 @@
       Here's what you can expect as a supporter:
     </atomsBodyTextstyle>
     <!-- Recognition and Benefits: -->
-    <organisimsBaseContainerFullWidth>
+    <organismsBaseContainerFullWidth>
       <atomsSubhead01Textstyle>
         Recognition and Benefits:
       </atomsSubhead01Textstyle>
@@ -141,9 +141,9 @@
           Your organisation's logo featured on reports and this website.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
+    </organismsBaseContainerFullWidth>
     <!-- Your Contribution: -->
-    <organisimsBaseContainerFullWidth>
+    <organismsBaseContainerFullWidth>
       <atomsSubhead01Textstyle> Your Contribution: </atomsSubhead01Textstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
@@ -158,13 +158,13 @@
           Annual monetary or in-kind contribution.
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>
-    </organisimsBaseContainerFullWidth>
-  </organisimsBaseContainerFullWidth>
+    </organismsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 
   <atomsDivider divider_width="border-b-2" />
 
   <!-- Acknowledgements -->
-  <organisimsBaseContainerFullWidth gap="md:gap-7 gap-4">
+  <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
     <atomsSubhead01Textstyle> Acknowledgements </atomsSubhead01Textstyle>
     <atomsBodyTextstyle>
       We would like to thank the following individuals and organisations for
@@ -222,5 +222,5 @@
         emissions indicator.
       </moleculesUnorderlistItem>
     </moleculesUnorderlistDiscStyle>
-  </organisimsBaseContainerFullWidth>
+  </organismsBaseContainerFullWidth>
 </template>

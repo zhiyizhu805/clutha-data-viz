@@ -4,9 +4,9 @@
   <div
     class="w-full flex flex-col items-end justify-start basis-3/5 xl:gap-10 lg:gap-8 gap-6"
   >
-    <organisimsBaseContainerSixtyPercentWidth>
+    <organismsBaseContainerSixtyPercentWidth>
       <slot name="content-section"></slot>
-    </organisimsBaseContainerSixtyPercentWidth>
+    </organismsBaseContainerSixtyPercentWidth>
     <slot></slot>
   </div>
 </template>

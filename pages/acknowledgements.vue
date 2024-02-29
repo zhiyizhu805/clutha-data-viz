@@ -1,5 +1,5 @@
 <template>
-  <organisimsHeadline> Acknowledgements </organisimsHeadline>
+  <organismsHeadline> Acknowledgements </organismsHeadline>
   <atomsBodyTextstyle>
     We would like to thank the following individuals and organisations for their
     contribution to the development of the monitoring framework, the development

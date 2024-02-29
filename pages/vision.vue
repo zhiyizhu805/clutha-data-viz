@@ -1,5 +1,5 @@
 <template>
-  <organisimsHeadline>
+  <organismsHeadline>
     Vision
-  </organisimsHeadline>
+  </organismsHeadline>
 </template>
