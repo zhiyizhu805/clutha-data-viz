@@ -97,7 +97,7 @@
     <atomsBodyTextstyle>
       Climate data presented here are thus important to consider when, for
       example, assessing the data presented as part of the
-      <atomsLinkRefStyle url="/invasive_species">invasive species</atomsLinkRefStyle>.
+      <atomsReferenceTextstyle url="/invasive_species">invasive species</atomsReferenceTextstyle>.
     </atomsBodyTextstyle>
   </organisimsBaseArticleContainerSecondary>
 

@@ -178,10 +178,9 @@
         ORC regularly monitors the water quality around Otago, which includes
         the Upper Clutha catchment. For the most recent measurements and
         evaluations of water quality, please visit the
-        <a
-          href="https://envdata.orc.govt.nz/AQWebPortal/Data/Map/Parameter/E-Coli%20MPN/Interval/Latest"
-          class="underline"
-          >ORC Environmental Portal website</a
+        <atomsReferenceTextstyle
+          url="https://envdata.orc.govt.nz/AQWebPortal/Data/Map/Parameter/E-Coli%20MPN/Interval/Latest"
+          >ORC Environmental Portal website</atomsReferenceTextstyle
         >.
       </atomsBodyTextstyle>
     </template>
