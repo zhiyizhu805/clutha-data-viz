@@ -54,6 +54,7 @@
     <organisimsGraphFrame
       graph_title="Rankings of the social well-being, including its different aspects."
       flyout_id="placeholder6"
+      graph_container="graph_container_large"
     >
       <template #flyout>
         <organisimsFlyout flyout_id="placeholder6">
@@ -67,13 +68,13 @@
         </organisimsFlyout>
       </template>
       <template #graph>
-        <organisimsGraphContainerLarge>
+        <div>
           <img
             src="/assets/images/graphs/social_wellbeing.svg"
             alt="Social wellbeing"
             title="Social wellbeing"
           />
-        </organisimsGraphContainerLarge>
+        </div>
       </template>
     </organisimsGraphFrame>
   </organisimsBaseArticleContainerSecondary>

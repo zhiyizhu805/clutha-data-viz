@@ -189,6 +189,7 @@
       <organisimsGraphFrame
         graph_title="The 'current state’ of lake and river water quality in the catchment."
         flyout_id="placeholder9"
+        graph_container="graph_container_large"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="placeholder9">
@@ -208,13 +209,11 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerLarge>
             <img
               src="/assets/images/graphs/current_state_of_lake.svg"
               alt="Current state of lake"
               title="Current state of lake"
             />
-          </organisimsGraphContainerLarge>
         </template>
       </organisimsGraphFrame>
     </template>

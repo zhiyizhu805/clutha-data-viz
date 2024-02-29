@@ -102,13 +102,13 @@
       <organisimsGraphFrame
         graph_title="The concept of Te Taiao and its four interconnected components"
         flyout_id="flyout_Illustration_TeTaiao"
+        graph_container="graph_container_extrasmall"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_Illustration_TeTaiao">
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerExtrasmall>
             <img
               width="100%"
               height="100%"
@@ -116,7 +116,6 @@
               alt="The concept of Te Taiao and its four interconnected components"
               title="The concept of Te Taiao and its four interconnected components"
             />
-          </organisimsGraphContainerExtrasmall>
         </template>
       </organisimsGraphFrame>
       <atomsBodyTextstyle>

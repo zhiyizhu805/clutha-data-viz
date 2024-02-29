@@ -3,65 +3,6 @@
 @tailwind utilities;
 
 
-/****************
- Plot container 
- ****************/
- /* extra small */
- .graph_container_extrasmall {
-    width: 100%;
-    padding-top: 80%; 
-    position: relative;
-  }
-  .graph_container_extrasmall  > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  /* small */
-  .graph_container_small {
-    width: 100%;
-    padding-top: 80%; 
-    position: relative;
-  }
-  .graph_container_small  > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  @media (max-width: 768px) {
-  .graph_container_small {
-    width: 100%;
-    padding-top: 100%; 
-    position: relative;
-  }
-  }
-  /* medium */
-  .graph_container_medium {
-    width: 100%;
-    padding-top: 90%; 
-    position: relative;
-  }
-  .graph_container_medium  > * {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-  
-  @media (max-width: 768px) {
-  .graph_container_medium {
-    width: 100%;
-    padding-top: 100%; 
-    position: relative;
-  }
-  }
   
   /* flyout */
   .flyout[aria-hidden="true"] {

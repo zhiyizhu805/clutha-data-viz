@@ -127,6 +127,7 @@
       <organisimsGraphFrame
         graph_title="GHG emissions from the agriculture sector by industry."
         flyout_id="flyout_GhgAgri"
+        graph_container="graph_container_small"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_GhgAgri">
@@ -139,9 +140,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsGhgAgri></plotsGhgAgri>
-          </organisimsGraphContainerSmall>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -154,6 +153,7 @@
       <organisimsGraphFrame
         graph_title="GHG emissions by industry sector in 2020, 2021 and 2022."
         flyout_id="flyout_GHGEmissionsBySector"
+        graph_container="graph_container_large"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_GHGEmissionsBySector">
@@ -195,9 +195,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerLarge>
             <plotsGHGEmissionsBySector></plotsGHGEmissionsBySector>
-          </organisimsGraphContainerLarge>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -230,6 +228,7 @@
       <organisimsGraphFrame
         graph_title="GHG Emissions from the energy sector by location."
         flyout_id="flyout_GhgEnergy"
+        graph_container="graph_container_small"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_GhgEnergy">
@@ -242,9 +241,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsGhgEnergy></plotsGhgEnergy>
-          </organisimsGraphContainerSmall>
         </template>
       </organisimsGraphFrame>
     </template>

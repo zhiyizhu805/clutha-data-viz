@@ -109,6 +109,7 @@
       <organisimsGraphFrame
         graph_title="Type of pests being caught in traps across the catchment."
         flyout_id="flyout_PredatorType"
+        graph_container="graph_container_medium"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_PredatorType">
@@ -121,9 +122,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerMedium>
             <plotsPredatorType></plotsPredatorType>
-          </organisimsGraphContainerMedium>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -156,6 +155,7 @@
       <organisimsGraphFrame
         graph_title="Wilding pines control efforts by WCIS."
         flyout_id="flyout_WildingPines"
+        graph_container="graph_container_small"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_WildingPines">
@@ -168,9 +168,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsWildingPines></plotsWildingPines>
-          </organisimsGraphContainerSmall>
         </template>
       </organisimsGraphFrame>
     </template>

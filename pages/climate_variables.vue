@@ -52,6 +52,7 @@
       <organisimsGraphFrame
         graph_title="Monthly total rainfall and average monthly temperature as observed at Wānaka Airport in 2022."
         flyout_id="flyout_ClimateVarAero"
+        graph_container="graph_container_large"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_ClimateVarAero">
@@ -64,9 +65,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerLarge>
             <plotsClimateVarAero></plotsClimateVarAero>
-          </organisimsGraphContainerLarge>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -119,6 +118,7 @@
       <organisimsGraphFrame
         graph_title="Monthly total rainfall as observed at Makaroa in 2022. No temperature data were available from the climate database."
         flyout_id="flyout_ClimateMakaroa"
+        graph_container="graph_container_large"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_ClimateMakaroa">
@@ -131,9 +131,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerLarge>
             <plotsClimateMakaroa></plotsClimateMakaroa>
-          </organisimsGraphContainerLarge>
         </template>
       </organisimsGraphFrame>
     </template>

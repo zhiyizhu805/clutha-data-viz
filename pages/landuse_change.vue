@@ -61,6 +61,7 @@
       <organisimsGraphFrame
         graph_title="Land use categories before 1990"
         flyout_id="flyout_LandUseChangeBuildUp"
+        graph_container="graph_container_small"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_LandUseChangeBuildUp">
@@ -74,9 +75,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsLandUseChangeBuildUp />
-          </organisimsGraphContainerSmall>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -170,6 +169,7 @@
       <organisimsGraphFrame
         graph_title="Land uses converted from forestland since 1990."
         flyout_id="flyout_landUses"
+        graph_container="graph_container_medium"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_landUses">
@@ -183,9 +183,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerMedium>
             <plotsLandUses />
-          </organisimsGraphContainerMedium>
         </template>
       </organisimsGraphFrame>
     </template>
@@ -223,6 +221,7 @@
       <organisimsGraphFrame
         graph_title="Land uses converted into exotic forest between 2008 and 2018."
         flyout_id="flyout_LandUseChangeExoticForest"
+        graph_container="graph_container_small"
       >
         <template #flyout>
           <organisimsFlyout flyout_id="flyout_LandUseChangeExoticForest">
@@ -235,9 +234,7 @@
           </organisimsFlyout>
         </template>
         <template #graph>
-          <organisimsGraphContainerSmall>
             <plotsLandUseChangeExoticForest />
-          </organisimsGraphContainerSmall>
         </template>
       </organisimsGraphFrame>
     </template>
