@@ -12,30 +12,26 @@ export default {
   ],
   theme: {
     screens: {
-      'xs': '320px', // Extra small devices, like older smartphones
-      // '2xs': '360px', // Small devices, typically smaller smartphones
-      // 'xs': '480px',  // Small devices, commonly for compact smartphones
-      // 'sm': '640px',  // Standard breakpoint for tablets and large smartphones
+      'xs': '320px', // Extra small devices, like smartphones
       'md': '768px',  // Medium devices, like small tablets
       'lg': '1024px', // Large devices, like laptops
       'xl': '1280px', // Extra large devices, like large laptops
-      // '2xl': '1536px', // Extra extra large devices, like high-res screens
     },
     fontFamily: {
       'overused-grotesk': ['Overused Grotesk', 'sans-serif'],
       'inter': ['Inter', 'sans-serif'],
     },
     fontWeight: {
-      'thin': 100,             // Tailwind's font-thin
-      'extralight': 200,       // Tailwind's font-extralight
-      'light': 300,            // Tailwind's font-light, matches designer's value
-      'normal': 400,           // Tailwind's font-normal
-      'regular': 400,          // Designer's value, same as 'normal'
-      'medium': 500,           // Tailwind's font-medium, matches designer's value
-      'semibold': 600,         // Tailwind's font-semibold, matches designer's value
-      'bold': 700,             // Tailwind's font-bold, matches designer's value
-      'extrabold': 800,        // Tailwind's font-extrabold
-      'black': 900,            // Tailwind's font-black
+      'thin': 100,           
+      'extralight': 200,       
+      'light': 300,            
+      'normal': 400,          
+      'regular': 400,        
+      'medium': 500,         
+      'semibold': 600,      
+      'bold': 700,           
+      'extrabold': 800,        
+      'black': 900,         
     },
     colors: {
       'white': '#FFFFFF',
@@ -235,7 +231,6 @@ export default {
       fill: ['group-hover'], 
     },
   },
-  //plugin added
   plugins: [require('@tailwindcss/typography'), 
   require('@tailwindcss/aspect-ratio'), 
   require('@tailwindcss/container-queries'),
