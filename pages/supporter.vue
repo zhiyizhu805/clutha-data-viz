@@ -5,13 +5,13 @@
     <atomsBodyTextstyle>
       We extend our gratitude to Our Land and Water -
       <a
-        class="underline"
+        
         href="https://ourlandandwater.nz/project/revitalise-te-taiao/"
         >Revitalise Te Taiao National Science Challenge</a
       >
       for their generous funding as part of
-      <a href="https://waiwanaka.nz/action-for-te-taiao/" class="underline"
-        >WAI Wānaka&#39;s Knowledge into Action for Te Taiao project</a
+      <atomsLinkRefStyle url="https://waiwanaka.nz/action-for-te-taiao/" 
+        >WAI Wānaka&#39;s Knowledge into Action for Te Taiao project</atomsLinkRefStyle
       >, recognising the significance of their contribution in catalysing
       positive change. Their commitment to advancing knowledge and fostering
       collaboration has been instrumental in shaping the foundation of this
@@ -20,16 +20,16 @@
     <atomsBodyTextstyle>
       We would also like to express our sincere appreciation to the working
       group organisations -
-      <a href="https://enviroaccounts.com/" class="underline"
-        >Environmental Accounting Services</a
+      <atomsLinkRefStyle url="https://enviroaccounts.com/" 
+        >Environmental Accounting Services</atomsLinkRefStyle
       >
       and
-      <a href="https://www.lincoln.ac.nz/" class="underline"
-        >Lincoln University</a
+      <atomsLinkRefStyle url="https://www.lincoln.ac.nz/" 
+        >Lincoln University</atomsLinkRefStyle
       >, whose dedication and partnership have been integral to the realisation
       of this vision. Further, to
-      <a href="https://www.ghhp.org.au/" class="underline"
-        >Gladstone Healthy Harbour</a
+      <atomsLinkRefStyle url="https://www.ghhp.org.au/" 
+        >Gladstone Healthy Harbour</atomsLinkRefStyle
       >
       as inspiration for the project.
     </atomsBodyTextstyle>
@@ -40,26 +40,26 @@
       </atomsBodyTextstyle>
       <moleculesUnorderlistDiscStyle gap="gap-1">
         <moleculesUnorderlistItem>
-          <a href="https://www.lakewanaka.co.nz/" class="underline">
-            Lake Wānaka Tourism</a
+          <atomsLinkRefStyle url="https://www.lakewanaka.co.nz/" >
+            Lake Wānaka Tourism</atomsLinkRefStyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.wanakachamber.co.nz/" class="underline">
-            Wānaka Business Chamber</a
+          <atomsLinkRefStyle url="https://www.wanakachamber.co.nz/" >
+            Wānaka Business Chamber</atomsLinkRefStyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.wao.co.nz/" class="underline"> WAO</a>,
+          <atomsLinkRefStyle url="https://www.wao.co.nz/" > WAO</atomsLinkRefStyle>,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.orc.govt.nz/" class="underline">
-            Otago Regional Council</a
+          <atomsLinkRefStyle url="https://www.orc.govt.nz/" >
+            Otago Regional Council</atomsLinkRefStyle
           >,
         </moleculesUnorderlistItem>
         <moleculesUnorderlistItem>
-          <a href="https://www.qldc.govt.nz/" class="underline">
-            Queenstown Lakes District Council</a
+          <atomsLinkRefStyle url="https://www.qldc.govt.nz/" >
+            Queenstown Lakes District Council</atomsLinkRefStyle
           >
         </moleculesUnorderlistItem>
       </moleculesUnorderlistDiscStyle>

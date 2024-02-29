@@ -15,13 +15,19 @@
       </atomsLinkRefStyle>
       <div class="flex flex-col gap-3 justify-end">
         <!-- Email us-->
-        <atomsLinkRefStyle url="mailto:getinvolved@waiwanaka.nz">
-          <atomsFooter02Textstyle> Contact us </atomsFooter02Textstyle>
-        </atomsLinkRefStyle>
-        <atomsLinkRefStyle url="https://waiwanaka.nz/action-for-te-taiao/">
-          <!-- Find out more-->
-          <atomsFooter02Textstyle> Find out more </atomsFooter02Textstyle>
-        </atomsLinkRefStyle>
+        <atomsFooter02Textstyle
+          is-link
+          link-href="mailto:getinvolved@waiwanaka.nz"
+        >
+          Contact us
+        </atomsFooter02Textstyle>
+        <!-- Find out more-->
+        <atomsFooter02Textstyle
+          is-link
+          link-href="https://waiwanaka.nz/action-for-te-taiao/"
+        >
+          Find out more
+        </atomsFooter02Textstyle>
       </div>
     </div>
   </footer>

@@ -5,11 +5,9 @@
         <slot></slot>
       </atomsFooterTextstyle>
       <atomsFooterTextstyle text_color="text-white" class="self-center">&#8594;</atomsFooterTextstyle>
-      <a :href="link"
-        ><atomsFooter02Textstyle text_color="text-white">
-          {{ link_title }}
-        </atomsFooter02Textstyle></a
-      >
+      <atomsFooter02Textstyle is-link :link-href="link" text_color="text-white">
+        {{ link_title }}
+      </atomsFooter02Textstyle>
     </div>
   </li>
 </template>
