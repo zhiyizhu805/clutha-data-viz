@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const csvData = [
   {
     type: 'Exotic forest',
@@ -63,9 +61,9 @@ const layout0 = {
 
 const config0 = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data: data0,
   layout: layout0,
   config: config0,
-});
+}
 </script>

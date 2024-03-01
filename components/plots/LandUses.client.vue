@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 //LandUseChange_Forest_1990_2016
 const LandUseChange_Forest_1990_2016 = [
   {
@@ -66,10 +64,10 @@ const layout = {
 
 const config = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data: data,
   layout: layout,
   config: config,
-});
+}
 </script>
 

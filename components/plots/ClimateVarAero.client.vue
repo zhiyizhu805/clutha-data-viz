@@ -10,9 +10,6 @@
 </template>
 
 <script>
-import { ref } from "vue";
-import Plotly from "plotly.js-dist-min";
-
 export default {
   setup() {
     const months = [
@@ -46,7 +43,7 @@ export default {
       19.1, 16.9, 16.9, 11.9, 9.1, 5.3, 3.8, 7, 8.8, 10.9, 14.4, 16.7,
     ];
 
-    const chartData = ref([
+    const chartData = [
       {
         x: months,
         y: averageRainfall,
@@ -79,9 +76,9 @@ export default {
         yaxis: "y2",
         line: { color: "#80CFB9" },
       },
-    ]);
+    ]
 
-    const chartLayout = ref({
+    const chartLayout = {
       barmode: "group",
       legend: { orientation: "h", x: 0.5, xanchor: "center", y: -0.2 },
       yaxis: { title: "Rainfall (mm)" },
@@ -93,7 +90,7 @@ export default {
       margin: { l: 80, r: 80, t: 50, b: 50 },
       plot_bgcolor: "rgba(0,0,0,0)",
       paper_bgcolor: "#F5F5F5",
-    });
+    }
      const config = { responsive: true };
 
     return { chartData, chartLayout, config};

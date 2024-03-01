@@ -9,11 +9,9 @@
 </template>
 
 <script>
-import { ref } from 'vue';
-
 export default {
   setup() {
-    const chartData = ref([
+    const chartData = [
       {
         x: [-69525.71, -69525.71, -69525.71], // Forestry 
         y: ['2020', '2021', '2022'],
@@ -46,9 +44,9 @@ export default {
         orientation: 'h',
         marker: { color: '#B3E2D5' }
       }
-    ]);
+    ]
 
-    const chartLayout = ref({
+    const chartLayout = {
       barmode: 'relative',
       margin: { l: 100, r: 100, t: 20, b: 70 },
       legend: { orientation: 'h', y: -0.2 },
@@ -84,8 +82,7 @@ export default {
           },
         },
       ],
-    });
-
+    }
     return { chartData, chartLayout };
   }
 };

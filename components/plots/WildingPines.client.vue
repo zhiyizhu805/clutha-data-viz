@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const years = [2020, 2021, 2022];
 const daysOperating = [2, 26, 198];
 const areaCovered = [0.14, 1141.07, 15079.85]; 
@@ -75,9 +73,9 @@ const layout = {
 
 const config = { responsive: true };
 
-const barChart = reactive({
+const barChart = {
   data,
   layout,
   config,
-});
+}
 </script>
