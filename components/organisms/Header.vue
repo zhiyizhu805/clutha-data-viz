@@ -18,7 +18,7 @@
         <atomsButtonHamburger> </atomsButtonHamburger>
       </div>
       <nav
-        class="md:flex hidden items-center justify-between w-full md:w-[40%] md:order-1 md:ml-[3%] md:h-[22%] xl:mb-7 lg:mb-6 md:mb-5"
+        class="md:flex hidden items-center justify-between w-full md:w-[40%] md:order-1 md:ml-[3%] md:h-[22%] xl:mb-7 lg:mb-6 md:mb-5 z-50"
         id="navbar-cta"
       >
         <!--  navigation_primary list -->
