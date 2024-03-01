@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const values1990_2005 = [190.71, 129.51, 191.48, 163.89, 199.11, 241.45, 170.84, 240.00, 237.39, 240.54, 200.38, 228.16];
 const values2022 = [9.2, 343.7, 20.2, 161.8, 187.2, 341.9, 344.7, 420.7, 435.5, 153.2, 274.4, 120.9];
@@ -67,9 +65,9 @@ const layout = {
 
 const config = { responsive: true };
 
-const barChart = reactive({
+const barChart = {
   data,
   layout,
   config,
-});
+}
 </script>

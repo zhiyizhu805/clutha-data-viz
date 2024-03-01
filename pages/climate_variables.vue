@@ -65,7 +65,7 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <plotsClimateVarAero></plotsClimateVarAero>
+          <plotsClimateVarAero></plotsClimateVarAero>
         </template>
       </organismsGraphFrame>
     </template>

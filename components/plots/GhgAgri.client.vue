@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const GHG_Emissions_Agri_2002 = {
   Fertiliser: 2465.32,
   Sheep: 48984.06,
@@ -60,9 +58,9 @@ const layout = {
 
 const config = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data: data,
   layout: layout,
   config: config,
-});
+}
 </script>

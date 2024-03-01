@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const predatorData2022 = [
   { predator: "Rabbit", count: 232 },
   { predator: "Ferret", count: 155 },
@@ -74,11 +72,11 @@ const layout = {
 
 const config = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data,
   layout,
   config,
-});
+}
 </script>
 
 

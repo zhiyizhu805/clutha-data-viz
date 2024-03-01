@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const energyConsumptionData = [
   { substation: "Cardrona", kWh: "1,565,870", percent: "2%" },
   { substation: "Camp Hill", kWh: "14,653,252", percent: "14%" },
@@ -58,9 +56,9 @@ const layout = {
 
 const config = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data,
   layout,
   config,
-});
+}
 </script>

@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const LandUseChange_BuildUp_1990_2016 = [
   {
     type: 'Built-up area',
@@ -62,10 +60,10 @@ const layout = {
 
 const config = { responsive: true };
 
-const pieChart = reactive({
+const pieChart = {
   data: data,
   layout: layout,
   config: config,
-});
+}
 </script>
 

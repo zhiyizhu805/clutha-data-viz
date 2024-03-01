@@ -10,8 +10,6 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
-
 const years = [2020, 2021, 2022];
 const trapsCaught = [3443, 3946, 4801];
 const pestsCaught = [5501, 4682, 7042];
@@ -91,9 +89,9 @@ const layout = {
 
 const config = { responsive: true };
 
-const combinedChart = reactive({
+const combinedChart = {
   data,
   layout,
   config,
-});
+}
 </script>
