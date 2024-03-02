@@ -1,9 +1,9 @@
 <template>
-  <header class="mb-4">
+  <header class="sm:mb-6 mb-5">
   <!-- header organism -->
   <div class="flex bg-white border-gray-200 rounded dark:bg-gray-900">
     <div
-      class="w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:items-center relative h-[85px] md:h-[118px] lg:h-[157px] xl:h-[196px] border-b-4 border-grey-900 md:border-none"
+      class="w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:items-center relative h-[85px] sm:h-[100px] md:h-[118px] lg:h-[157px] xl:h-[196px] border-b-4 border-grey-900 md:border-none"
     >
       <!-- navigation_secondary list -->
       <moleculesNavigationSecondary>

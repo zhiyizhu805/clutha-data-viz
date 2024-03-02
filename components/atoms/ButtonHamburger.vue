@@ -2,7 +2,7 @@
   <button
     data-collapse-toggle="navbar-cta"
     type="button"
-    class="inline-flex items-center p-2 w-8 h-8 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200 focus:rounded-full dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+    class="inline-flex items-center p-2 w-10 h-10 xs:w-11 xs:h-11 sm:w-[52px] sm:h-[52px] justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200 focus:rounded-full dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
     aria-controls="navbar-cta"
     aria-expanded="false"
   >

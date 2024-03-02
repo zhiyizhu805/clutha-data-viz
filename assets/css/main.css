@@ -179,17 +179,17 @@
   
     .icon_greenhouse_gas_emissions {
       position: absolute;
-      --initial-top: 15.09%; 
-      --initial-left: 70.38%; 
-      --target-top: 63%; 
+      --initial-top: 20.09%; 
+      --initial-left: 61.38%; 
+      --target-top: 63.8%; 
       --target-left:  82%; 
     }
   
     .icon_land_use_change {
       position: absolute;
-      --initial-top: 16.33%; 
-      --initial-left: 23.05%; 
-      --target-top: 69.5%; 
+      --initial-top: 15.33%; 
+      --initial-left: 28.05%; 
+      --target-top: 70.1%; 
       --target-left:  82%; 
     }
   
@@ -203,9 +203,9 @@
   
     .icon_water_quality {
       position: absolute;
-      --initial-top: 27.54%; 
-      --initial-left: 45.96%; 
-      --target-top: 82.5%;  
+      --initial-top: 30.54%; 
+      --initial-left: 48.96%; 
+      --target-top: 82.8%;  
       --target-left:82%; 
     }
   
@@ -213,7 +213,7 @@
       position: absolute;
       --initial-top: 10.33%; 
       --initial-left: 39.77%; 
-      --target-top:88.5%; 
+      --target-top:89%; 
       --target-left: 82%; 
     }
   }
