@@ -63,8 +63,6 @@ const layout = {
     yanchor: "top",
     orientation: "h",
     font: { size: 12 },
-    itemclick: false,
-    itemdoubleclick: false
   },
   plot_bgcolor: "rgba(0,0,0,0)",
   paper_bgcolor: "#F5F5F5",

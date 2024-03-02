@@ -61,8 +61,6 @@ const layout = {
     xanchor: 'center',
     orientation: 'h',
     font: { size: 12 },
-    itemclick: false,  
-    itemdoubleclick: false,
   },
   barmode: 'group',
   bargap: 0.15, 
@@ -71,7 +69,8 @@ const layout = {
   paper_bgcolor: '#F5F5F5',
 };
 
-const config = { responsive: true };
+const config = { responsive: true ,
+                 displayModeBar: false};
 
 const barChart = {
   data,

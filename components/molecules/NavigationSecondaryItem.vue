@@ -2,7 +2,7 @@
 <template>
 <nuxt-link
   :to="url"
-  class="group md:w-full md:flex-1 md:flex-grow md:rounded-t-none md:rounded-b-full md:items-center w-10 h-10 rounded-full flex md:flex-col justify-center z-20 items-center cursor-pointer md:gap-2 bg-light-grey hover:bg-light-grey hover:xl:shadow-custom-border-xl hover:md:shadow-custom-border-md hover:shadow-custom-border-sm hover:md:h-full hover:transition-all hover:duration-500 hover:ease-out hover:md:pt-[12%]"
+  class="group md:w-full md:flex-1 md:flex-grow md:rounded-t-none md:rounded-b-full md:items-center w-10 h-10 xs:w-11 xs:h-11 sm:w-[52px] sm:h-[52px] rounded-full flex md:flex-col justify-center z-20 items-center cursor-pointer md:gap-2 bg-light-grey hover:bg-light-grey hover:xl:shadow-custom-border-xl hover:md:shadow-custom-border-md hover:shadow-custom-border-sm hover:md:h-full hover:transition-all hover:duration-500 hover:ease-out hover:md:pt-[12%]"
   :class="{
     'md:h-full xl:shadow-custom-border-xl md:shadow-custom-border-md shadow-custom-border-sm md:pt-[12%]': active,
     'md:h-[82%] lg:rounded-b-full lg:items-center md:pt-[7%]': !active

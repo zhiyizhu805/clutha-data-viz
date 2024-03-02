@@ -1,7 +1,7 @@
 <!-- set horizonral page gutters -->
 <template>
   <div
-    class="container mx-auto h-auto xl:px-24 lg:px-16 md:px-11"
+    class="container mx-auto h-auto px-0.5 md:px-3"
   >
     <slot></slot>
   </div>

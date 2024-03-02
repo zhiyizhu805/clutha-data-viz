@@ -47,7 +47,7 @@ const data0 = [
 
 const layout0 = {
   autosize: true,
-  margin: { l: 0, r: 0, t: 0, b: 0 },
+  margin: { l: 15, r: 15, t: 0, b: 0 },
   legend: {
     x: 0.5,
     y: -0.1,

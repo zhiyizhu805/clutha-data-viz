@@ -3,83 +3,76 @@
     <moleculesNavigationTertiaryItem
       navigation_title="climate variables"
       navigation_class="icon_climate_variables"
+      url="/climate_variables"
     >
-      <a href="/climate_variables">
-        <img
-          src="/assets/images/icons/climate_variables.svg"
-          alt="Climate Variables"
-          title="{{ navigation_title }}"
-          class="w-full h-full"
-        />
-      </a>
+      <img
+        src="/assets/images/icons/climate_variables.svg"
+        alt="Climate Variables"
+        title="{{ navigation_title }}"
+        class="w-full h-full"
+      />
     </moleculesNavigationTertiaryItem>
     <moleculesNavigationTertiaryItem
       navigation_title="greenhouse gas emissions"
       navigation_class="icon_greenhouse_gas_emissions"
+      url="/greenhouse_gas_emissions"
     >
-      <a href="/greenhouse_gas_emissions">
         <img
           src="/assets/images/icons/greenhouse_gas_emissions.svg"
           alt="Greenhouse Gas Emissions "
           title="Greenhouse Gas Emissions"
           class="w-full h-full"
         />
-      </a>
     </moleculesNavigationTertiaryItem>
     <moleculesNavigationTertiaryItem
       navigation_title="land use change"
       navigation_class="icon_land_use_change"
+      url="/landuse_change"
     >
-      <a href="/landuse_change">
         <img
           src="/assets/images/icons/land_use_change.svg"
           alt="Landuse change"
           title="Landuse change"
           class="w-full h-full"
         />
-      </a>
     </moleculesNavigationTertiaryItem>
     <moleculesNavigationTertiaryItem
       navigation_title="social wellbeing"
       navigation_class="icon_social_wellbeing"
+      url="/social_well_being"
     >
-      <a href="/social_well_being">
         <img
           src="/assets/images/icons/social_wellbeing.svg"
           alt="Social Wellbeing"
           title="Social Wellbeing"
           class="w-full h-full"
         />
-      </a>
     </moleculesNavigationTertiaryItem>
     <moleculesNavigationTertiaryItem
       navigation_title="water quality"
       navigation_class="icon_water_quality"
+      url="/water_quality"
     >
-      <a href="/water_quality">
         <img
           src="/assets/images/icons/water_quality.svg"
           alt="Water quality"
           title="Water quality"
           class="w-full h-full"
         />
-      </a>
     </moleculesNavigationTertiaryItem>
     <moleculesNavigationTertiaryItem
       navigation_title="invasive species"
       navigation_class="icon_invasive_species"
+      url="/invasive_species"
     >
-      <a href="/invasive_species">
         <img
           src="/assets/images/icons/invasive_species.svg"
           alt="Invasive Species"
           title="Invasive Species"
           class="w-full h-full"
         />
-      </a>
     </moleculesNavigationTertiaryItem>
   </organismsAnimation>
-
 
   <atomsDivider divider_width="border-b-2" />
 
@@ -109,13 +102,13 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <img
-              width="100%"
-              height="100%"
-              src="/assets/images/graphs/Illustration_TeTaiao.png"
-              alt="The concept of Te Taiao and its four interconnected components"
-              title="The concept of Te Taiao and its four interconnected components"
-            />
+          <img
+            width="100%"
+            height="100%"
+            src="/assets/images/graphs/Illustration_TeTaiao.jpeg"
+            alt="The concept of Te Taiao and its four interconnected components"
+            title="The concept of Te Taiao and its four interconnected components"
+          />
         </template>
       </organismsGraphFrame>
       <atomsBodyTextstyle>
