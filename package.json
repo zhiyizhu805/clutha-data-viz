@@ -10,10 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "aspect-ratio": "^2.1.5",
-    "container-queries": "^0.0.1",
     "nuxt": "^3.10.3",
-    "typography": "^0.16.24",
     "vue": "^3.4.19",
     "vue-router": "^4.2.5"
   },
