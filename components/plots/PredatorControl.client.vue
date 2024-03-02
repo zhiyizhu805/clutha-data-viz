@@ -88,8 +88,8 @@ const layout = {
   paper_bgcolor: '#F5F5F5',
 };
 
-const config = { responsive: true };
-
+const config = { responsive: true ,
+                 displayModeBar: false};
 const combinedChart = {
   data,
   layout,

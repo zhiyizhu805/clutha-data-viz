@@ -64,7 +64,8 @@ const layout = {
   },
 };
 
-const config = { responsive: true };
+const config = { responsive: true ,
+                 displayModeBar: false};
 
 const barChart ={
   data,
