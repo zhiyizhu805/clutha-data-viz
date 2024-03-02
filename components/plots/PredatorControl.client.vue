@@ -79,8 +79,6 @@ const layout = {
     bgcolor: 'rgba(255, 255, 255, 0)',
     bordercolor: 'rgba(255, 255, 255, 0)',
     font: { size: 12 },
-    itemclick: false,
-    itemdoubleclick: false,
   },
   barmode: 'group',
   bargap: 0.15,

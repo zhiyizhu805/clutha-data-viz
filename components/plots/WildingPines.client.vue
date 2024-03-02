@@ -61,8 +61,6 @@ const layout = {
     xanchor: 'center',
     orientation: 'h',
     font: { size: 12 },
-    itemclick: false,  
-    itemdoubleclick: false,
   },
   barmode: 'group',
   bargap: 0.15, 

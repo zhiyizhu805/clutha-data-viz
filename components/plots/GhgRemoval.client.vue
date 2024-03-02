@@ -41,8 +41,6 @@ const layout = {
     yanchor: 'top',
     orientation: 'h',
     font: { size: 12, family: "Overused Grotesk, sans-serif", color: '#898989' },
-    itemclick: false,
-    itemdoubleclick: false,
   },
   barmode: 'relative',
   plot_bgcolor: '#F5F5F5',
