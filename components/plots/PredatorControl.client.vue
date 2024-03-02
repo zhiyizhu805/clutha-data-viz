@@ -43,7 +43,7 @@ const data = [
 
 const layout = {
   autosize: true,
-  margin: { l: 80, r: 80, t: 40, b: 80 },
+  margin: { l: 70, r: 70, t: 40, b: 80 },
   xaxis: {
     title: 'Year',
     tickfont: { size: 14 },
@@ -53,16 +53,17 @@ const layout = {
   },
   yaxis: {
     title: 'Number of traps or pests caught (#)',
-    titlefont: { size: 16 },
-    tickfont: { size: 14 },
+    titlefont: { size: 14 },
+    tickfont: { size: 12 },
     range: [0, 8000],
     dtick: 1000,
+    tickformat: '.0s', 
     gridcolor: '#dee2e6',
   },
   yaxis2: {
     title: 'Average catch rate (catches/trap/year)',
-    titlefont: { size: 16 },
-    tickfont: { size: 14 },
+    titlefont: { size: 14 },
+    tickfont: { size: 12 },
     range: [0, 1.8],
     tickmode: 'linear',
     tick0: 0,
