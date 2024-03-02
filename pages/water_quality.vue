@@ -209,11 +209,13 @@
           </organismsFlyout>
         </template>
         <template #graph>
+          <div>
             <img
               src="/assets/images/graphs/current_state_of_lake.svg"
               alt="Current state of lake"
               title="Current state of lake"
             />
+          </div>
         </template>
       </organismsGraphFrame>
     </template>
