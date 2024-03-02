@@ -12,7 +12,8 @@ export default {
   ],
   theme: {
     screens: {
-      'xs': '320px', // Extra small devices, like smartphones
+      'xs': '320px',  // Extra small devices, like mobile phones
+      'sm': '390px',  // Small devices, like mobile phones
       'md': '768px',  // Medium devices, like small tablets
       'lg': '1024px', // Large devices, like laptops
       'xl': '1280px', // Extra large devices, like large laptops
