@@ -105,7 +105,7 @@
           <img
             width="100%"
             height="100%"
-            src="/assets/images/graphs/Illustration_TeTaiao.png"
+            src="/assets/images/graphs/Illustration_TeTaiao.jpeg"
             alt="The concept of Te Taiao and its four interconnected components"
             title="The concept of Te Taiao and its four interconnected components"
           />
