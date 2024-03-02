@@ -137,10 +137,9 @@
       <atomsBodyTextstyle>
         By rooting our monitoring framework indicators with direct community
         values, pressures, and actions that were identified in the
-        <a
-          href="https://waiwanaka.nz/projects/community-catchment-plan/"
-          class="underline"
-          >Upper Clutha Community Catchment Plan</a
+        <atomsReferenceTextstyle
+          url="https://waiwanaka.nz/projects/community-catchment-plan/"
+          >Upper Clutha Community Catchment Plan</atomsReferenceTextstyle
         >, our framework embodies a collaborative effort involving the entire
         catchment community, including residents from rural and urban areas, as
         well as visitors to our region. Through ongoing monitoring and
@@ -186,14 +185,14 @@
     </atomsBodyTextstyle>
     <atomsBodyTextstyle>
       <atomsButtonBlack>
-        <a href="/supporter">Become a supporter</a>
+        <nuxt-link to="/supporter">Become a supporter</nuxt-link>
       </atomsButtonBlack>
     </atomsBodyTextstyle>
 
     <atomsBodyTextstyle>
       Want to find more information on how to become a partner?
 
-      <a href="mailto:getinvolved@waiwanaka.nz" class="underline">contact us</a>
+      <atomsReferenceTextstyle url="mailto:getinvolved@waiwanaka.nz" >contact us</atomsReferenceTextstyle>
     </atomsBodyTextstyle>
   </organismsBaseContainerFullWidth>
 </template>
