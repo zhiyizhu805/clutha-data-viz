@@ -122,8 +122,8 @@
     position: absolute;
     --initial-top:4%; 
     --initial-left:36.53%; 
-    --target-top: 79%; 
-    --target-left: 27.46%; 
+    --target-top: 79.5%; 
+    --target-left: 34.46%; 
   
   }
   
@@ -132,14 +132,14 @@
     --initial-top: 23.33%; 
     --initial-left: 29.05%; 
     --target-top: 85%; 
-    --target-left:  27.46%; 
+    --target-left:  34.46%; 
   }
   
   .icon_greenhouse_gas_emissions {
     position: absolute;
     --initial-top: 26.09%; 
     --initial-left: 69.38%; 
-    --target-top: 78.5%; 
+    --target-top: 79.5%; 
     --target-left: 87.5%; 
   }
   
@@ -147,8 +147,8 @@
     position: absolute;
     --initial-top: 27.75%; 
     --initial-left: 46.35%; 
-    --target-top: 84.80%; 
-    --target-left:  75.5%; 
+    --target-top: 85%; 
+    --target-left:  87.5%; 
   }
   
   .icon_water_quality {
@@ -156,15 +156,15 @@
     --initial-top: 47.54%; 
     --initial-left: 42.96%; 
     --target-top: 90.76%; 
-    --target-left:27.46%; 
+    --target-left:34.46%; 
   }
   
   .icon_invasive_species {
     position: absolute;
     --initial-top: 20.33%; 
     --initial-left: 44.77%; 
-    --target-top:91%; 
-    --target-left: 75.5%; 
+    --target-top:90.5%; 
+    --target-left: 87.5%; 
   }
   
   /* animation in xs screen */
