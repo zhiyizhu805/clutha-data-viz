@@ -1,75 +1,46 @@
-# Nuxt 3 Minimal Starter
+# Clutha Environment Analytics Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+[🌐 **View Live Site &rarr;**](https://main.d2g404rryikpbz.amplifyapp.com/)
 
-## Setup
+## About The Project
 
-Make sure to install the dependencies:
+This website visualizes environmental data for the Upper Clutha area, utilizing Nuxt.js, Vue.js, Tailwind CSS, Nuxt-Plotly, and Flowbite, all structured around the atomic design principles for the project.
 
-```bash
-# npm
-npm install
+## Technologies Used
 
-# pnpm
-pnpm install
+- **Nuxt.js & Vue.js**: For the frontend framework, providing a reactive and user-friendly interface.
+- **Tailwind CSS**: For styling, using a utility-first CSS framework that allows for rapid UI development.
+- **Nuxt-Plotly**: Integrated within Nuxt.js for rich, interactive data visualizations.
+- **Flowbite**: Utilized for additional UI components, enhancing the user experience.
+- **Atomic Design Principle**: A methodology for creating design systems, which has been applied to organize the project's components effectively.
 
-# yarn
-yarn install
 
-# bun
-bun install
-```
+## Design Insights
 
-## Development Server
+###  Atomic Design
 
-Start the development server on `http://localhost:3000`:
+The project follows the atomic design principles, breaking down the UI into Atoms, Molecules, Organisms, Templates, and Pages, ensuring a modular and scalable architecture.
 
-```bash
-# npm
-npm run dev
+- [Brad Frost's Atomic Design](https://atomicdesign.bradfrost.com/)
+- [Building Design Systems with Atomic Design](https://bootcamp.uxdesign.cc/building-design-systems-with-atomic-design-fd21e86f34c5)
+- [Understanding Atomic Design](https://www.webstacks.com/blog/atomic-design-methodology)
 
-# pnpm
-pnpm run dev
+## How to Install and Run the Project
 
-# yarn
-yarn dev
+1. **Clone the Repository**
 
-# bun
-bun run dev
-```
+    ```
+    git clone https://github.com/zhiyizhu805/clutha-data-viz.git
+    ```
 
-## Production
+2. **Install Dependencies**
 
-Build the application for production:
+    ```
+    npm install
+    ```
 
-```bash
-# npm
-npm run build
+3. **Launch the Development Server**
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+    ```
+    npm run dev
+    ```
