@@ -74,9 +74,6 @@
           Home
         </moleculesNavigationPrimaryItemRegular>
         <moleculesNavigationPrimaryItemDropdownMenu>
-          <moleculesNavigationPrimaryItemDropdownMenuItem url="/vision">
-            Vision
-          </moleculesNavigationPrimaryItemDropdownMenuItem>
           <moleculesNavigationPrimaryItemDropdownMenuItem url="/supporter">
             Supporters
           </moleculesNavigationPrimaryItemDropdownMenuItem>
