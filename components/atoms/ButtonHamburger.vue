@@ -1,15 +1,13 @@
 <template>
   <button
-    :data-collapse-toggle="flyout_id"
-    type="button"
     class="inline-flex items-center p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200 focus:rounded-full dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+    type="button"
     :data-drawer-target="flyout_id"
     :data-drawer-show="flyout_id"
     data-drawer-backdrop="false"
     data-drawer-placement="right"
-    data-drawer-body-scrolling="true"
     :aria-controls="flyout_id"
-    aria-expanded="false"
+    data-drawer-body-scrolling="true"
   >
     <span class="sr-only">Open main menu</span>
     <svg
