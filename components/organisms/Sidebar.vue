@@ -2,7 +2,7 @@
   <!-- drawer component -->
   <div
     :id="flyout_id"
-    class="flyout fixed top-0 right-0 z-40 w-[80%] md:w-[50%] transition-transform translate-x-full h-full py-12 px-8 overflow-y-auto bg-grey-900/95 rounded-l-3xl"
+    class="flyout fixed top-0 right-0 z-40 w-[80%] md:w-[60%] transition-transform translate-x-full h-full py-12 px-8 overflow-y-auto bg-grey-900/95 rounded-l-3xl"
     tabindex="-1"
     :aria-labelledby="ariaLabelledby"
     aria-hidden="true"
