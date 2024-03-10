@@ -37,7 +37,6 @@
 
 <script setup>
 useFlowbite();
-useScrollAnimation();
 definePageMeta({
   layout: "home",
 });

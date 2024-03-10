@@ -1,5 +1,5 @@
 <template>
-  <container
+  <div
     class="absolute w-full h-full top-0 left-0 m-0 pt-24 md:pt-16 -z-10"
   >
     <div class="relative">
@@ -590,5 +590,5 @@
       </svg>
       <slot></slot>
     </div>
-  </container>
+  </div>
 </template>
