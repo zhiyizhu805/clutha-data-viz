@@ -1,7 +1,7 @@
 <template>
   <p
     :class="text_style"
-    class="text-lg leading-body tracking-default xl:text-xl lg:text-lg md:text-lg"
+    class="text-xl leading-body tracking-default xl:text-3xl lg:text-3xl md:text-2xl"
   >
     <slot></slot>
   </p>

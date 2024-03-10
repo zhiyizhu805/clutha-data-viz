@@ -49,7 +49,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organismsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerQuaternary>
     <!-- graph frame organism-->
     <organismsGraphFrame
       graph_title="Rankings of the social well-being, including its different aspects."
@@ -70,14 +70,14 @@
       <template #graph>
         <div>
           <img
-            src="/assets/images/graphs/social_wellbeing.svg"
+            src="/assets/images/graphs/social-wellbeing.svg"
             alt="Social wellbeing"
             title="Social wellbeing"
           />
         </div>
       </template>
     </organismsGraphFrame>
-  </organismsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerQuaternary>
 
   <atomsDivider divider_width="border-b-2" />
 

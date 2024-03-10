@@ -5,6 +5,7 @@
     :data-drawer-target="flyout_id"
     :data-drawer-show="flyout_id"
     data-drawer-backdrop="false"
+    data-drawer-placement="left"
     :aria-controls="flyout_id"
     data-drawer-body-scrolling="true"
   >
@@ -15,12 +16,8 @@
         title="Data source"
       />
     </moleculesIconFrame>
-    <atomsFooterTextstyle>
-      &lt;
-    </atomsFooterTextstyle>
-    <atomsFooter02Textstyle>
-      view data source
-    </atomsFooter02Textstyle>
+    <atomsFooterTextstyle> &lt; </atomsFooterTextstyle>
+    <atomsFooter02Textstyle> view data source </atomsFooter02Textstyle>
   </button>
 
   <slot></slot>

@@ -74,7 +74,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03 -->
-  <organismsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerQuaternary>
     <atomsBodyTextstyle>
       The relationship between climate variables and other measures of catchment
       health are complex, but linked. Rainfall and temperature impact whether
@@ -96,9 +96,11 @@
     <atomsBodyTextstyle>
       Climate data presented here are thus important to consider when, for
       example, assessing the data presented as part of the
-      <atomsReferenceTextstyle url="/invasive_species">invasive species</atomsReferenceTextstyle>.
+      <atomsReferenceTextstyle url="/invasive_species"
+        >invasive species</atomsReferenceTextstyle
+      >.
     </atomsBodyTextstyle>
-  </organismsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerQuaternary>
 
   <atomsDivider divider_width="border-b-2" />
 
@@ -131,7 +133,7 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <plotsClimateMakaroa></plotsClimateMakaroa>
+          <plotsClimateMakaroa></plotsClimateMakaroa>
         </template>
       </organismsGraphFrame>
     </template>

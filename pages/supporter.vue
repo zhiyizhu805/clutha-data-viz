@@ -224,3 +224,7 @@
     </moleculesUnorderlistDiscStyle>
   </organismsBaseContainerFullWidth>
 </template>
+
+<script setup lang="ts">
+useFlowbite();
+</script>

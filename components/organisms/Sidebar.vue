@@ -2,24 +2,11 @@
   <!-- drawer component -->
   <div
     :id="flyout_id"
-    class="flyout absolute top-0 left-0 z-40 w-full md:w-[79%] h-full p-8 overflow-y-auto transition-transform -translate-x-full bg-grey-900/95 rounded-tl-3xl"
+    class="flyout fixed top-0 right-0 z-40 w-[80%] md:w-[50%] transition-transform translate-x-full h-full py-12 px-8 overflow-y-auto bg-grey-900/95 rounded-l-3xl"
     tabindex="-1"
     :aria-labelledby="ariaLabelledby"
+    aria-hidden="true"
   >
-    <div class="flex flex-row justify-start items-center gap-3 mb-5">
-      <div class="lg:w-6 lg:h-6 md:w-5 md:h-5 w-4 h-4">
-        <img
-          src="/assets/images/icons/icon_data_source_plain.svg"
-          alt="Data source"
-          title="Data source"
-        />
-      </div>
-      <atomsSubhead02Textstyle text_color="text-white">
-        Data Source
-      </atomsSubhead02Textstyle>
-    </div>
-
-    <hr class="mb-7" />
     <button
       type="button"
       :data-drawer-hide="flyout_id"
@@ -43,11 +30,22 @@
       </svg>
       <span class="sr-only">Close menu</span>
     </button>
-    <div class="py-4 overflow-y-auto">
-      <ul class="space-y-2 font-medium text-white">
-        <slot></slot>
-      </ul>
+    <div class="pt-4">
+      <atomsDivider divider_width="border-b-2" border_color="border-gray-500" />
     </div>
+    <div class="py-4 overflow-y-auto">
+      <slot></slot>
+    </div>
+    <section class="absolute bottom-0 left-0 w-full p-8 mb-4 md:mb-8">
+      <div class="w-full mb-10 xl:mb-14 lg:mb-12">
+        <atomsDivider
+          divider_width="border-b-2"
+          border_color="border-gray-500"
+        />
+      </div>
+      <!-- footer organism -->
+      <organismsFooterWhite></organismsFooterWhite>
+    </section>
   </div>
 </template>
 

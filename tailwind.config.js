@@ -12,12 +12,10 @@ export default {
   ],
   theme: {
     screens: {
-      'xxs': '320px',  // Extra small devices, like mobile phones
-      'xs': '370px',  // Small devices, like mobile phones
-      'sm': '425px',  // Small devices, like tablets
-      'md': '768px',  // Medium devices, like small tablets
-      'lg': '1024px', // Large devices, like laptops
-      'xl': '1280px', // Extra large devices, like large laptops
+      xs: "320px", // Extra small devices, like older smartphones
+      md: "768px", // Medium devices, like small tablets
+      lg: "1024px", // Large devices, like laptops
+      xl: "1280px", // Extra large devices, like large laptops
     },
     fontFamily: {
       'overused-grotesk': ['Overused Grotesk', 'sans-serif'],

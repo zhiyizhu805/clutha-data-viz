@@ -7,7 +7,7 @@
     </div>
     <div class="w-4/5 pl-4">
       <atomsCallOutCopyTextstyle>
-        <slot/>
+        <slot />
       </atomsCallOutCopyTextstyle>
     </div>
   </div>

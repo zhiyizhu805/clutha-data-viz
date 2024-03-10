@@ -57,3 +57,7 @@
     </moleculesUnorderlistItem>
   </moleculesUnorderlistDiscStyle>
 </template>
+
+<script setup lang="ts">
+useFlowbite();
+</script>

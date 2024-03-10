@@ -1,33 +1,25 @@
 <template>
-  <header class="sm:mb-6 mb-5">
-  <!-- header organism -->
-  <div class="flex bg-white border-gray-200 rounded dark:bg-gray-900">
-    <div
-      class="w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto md:items-center relative h-[85px] sm:h-[100px] md:h-[118px] lg:h-[157px] xl:h-[196px] border-b-4 border-grey-900 md:border-none"
-    >
-      <!-- navigation_secondary list -->
-      <moleculesNavigationSecondary>
-        <slot name="NavigationSecondary"></slot>
-      </moleculesNavigationSecondary>
-      <!-- divider-->
-      <div
-        class="w-full md:border-b-4 xl:border-b-6 mt-20 absolute bottom-[40%] mx-auto h-auto z-0 rounded-full border-grey-900"
-      ></div>
-      <!-- hamburger button-->
-      <div class="flex lg:order-2 md:hidden">
-        <atomsButtonHamburger> </atomsButtonHamburger>
+  <div class="flex justify-between items-center w-full">
+    <!-- wai wanaka logo -->
+    <atomsReferenceTextstyle url="https://waiwanaka.nz/">
+      <div class="w-full object-fill h-12 xl:h-20 lg:h-18 md:h-16">
+        <img
+          src="/assets/images/icons/wai_wanaka_logo.svg"
+          alt="Wai wanaka logo"
+          title="Wai wanaka logo"
+          class="w-full h-full object-fill"
+        />
       </div>
-      <nav
-        class="md:flex hidden items-center justify-between w-full md:w-[40%] md:order-1 md:ml-[3%] md:h-[22%] xl:mb-7 lg:mb-6 md:mb-5 z-50"
-        id="navbar-cta"
-      >
-        <!--  navigation_primary list -->
-        <moleculesNavigationPrimary>
-          <!-- navigation_primary item -->
-          <slot name="NavigationPrimary"></slot>
-        </moleculesNavigationPrimary>
-      </nav>
+    </atomsReferenceTextstyle>
+    <div
+      class="relative w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto"
+    >
+      <!-- hamburger button-->
+      <div class="flex flex-col lg:order-2">
+        <atomsButtonHamburger flyout_id="nav_panel"></atomsButtonHamburger>
+        <atomsButtonInformation flyout_id="help_panel"></atomsButtonInformation>
+      </div>
     </div>
+    <slot></slot>
   </div>
-  </header>
 </template>

@@ -1,15 +1,15 @@
 <template>
   <li
-    class="md:flex md:flex-grow md:rounded-full md:justify-center md:items-center group-hover:shadow-custom-border-xl md:w-full md:basis-1/3 navigation-list-nested-hover"
+    class="flex flex-grow justify-center items-center group-hover:shadow-custom-border-xl w-full basis-1/3 navigation-list-nested-hover rounded-full opacity-100"
     :class="[
       $route.path === url
-        ? 'navigation-list-nested-active md:bg-light-grey'
-        : 'md:bg-light-grey',
+        ? 'navigation-list-nested-active bg-light-grey'
+        : 'bg-light-grey',
     ]"
   >
     <nuxt-link
       :to="url"
-      class="block md:p-0 text-gray-900 hover:bg-gray-100 md:hover:bg-none md:w-full md:h-full md:flex md:justify-center md:items-center"
+      class="p-0 text-gray-900 w-full h-full flex justify-center items-center"
     >
       <atomsNavTextstyle>
         <slot></slot>

@@ -1,9 +1,9 @@
 <template>
   <p v-if="!isLink" :class="textClasses">
-    <slot/>
+    <slot />
   </p>
   <nuxt-link v-else :to="linkHref" :class="textClasses">
-    <slot/>
+    <slot />
   </nuxt-link>
 </template>
 

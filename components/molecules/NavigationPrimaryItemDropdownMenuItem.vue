@@ -1,7 +1,7 @@
 <template>
   <li
-  class="md:flex md:flex-grow rounded-lg md:justify-center md:items-center group-hover:shadow-custom-border-xl md:w-full md:basis-1/3 navigation-list-nested-hover md:bg-light-grey"
-  :class="{ 'navigation-list-nested-active': $route.path === url }"
+    class="md:flex md:flex-grow rounded-lg md:justify-center md:items-center group-hover:shadow-custom-border-xl md:w-full md:basis-1/3 navigation-list-nested-hover md:bg-light-grey"
+    :class="{ 'navigation-list-nested-active': $route.path === url }"
   >
     <nuxt-link
       :to="url"
