@@ -4,7 +4,9 @@
       <atomsFooterTextstyle text_color="text-white">
         <slot></slot>
       </atomsFooterTextstyle>
-      <atomsFooterTextstyle text_color="text-white" class="self-center">&#8594;</atomsFooterTextstyle>
+      <atomsFooterTextstyle text_color="text-white" class="self-center"
+        >&#8594;</atomsFooterTextstyle
+      >
       <atomsFooter02Textstyle is-link :link-href="link" text_color="text-white">
         {{ link_title }}
       </atomsFooter02Textstyle>

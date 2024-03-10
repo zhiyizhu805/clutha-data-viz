@@ -2,7 +2,7 @@
   <!-- drawer component -->
   <div
     :id="flyout_id"
-    class="flyout absolute top-0 left-0 z-40 w-full md:w-[79%] h-full p-8 overflow-y-auto transition-transform -translate-x-full bg-grey-900  dark:bg-gray-800 rounded-tl-3xl"
+    class="flyout absolute top-0 left-0 z-40 w-full md:w-[79%] h-full p-8 overflow-y-auto transition-transform -translate-x-full bg-grey-900/95 rounded-tl-3xl"
     tabindex="-1"
     :aria-labelledby="ariaLabelledby"
   >
@@ -50,7 +50,6 @@
     </div>
   </div>
 </template>
-
 
 <script>
 export default {

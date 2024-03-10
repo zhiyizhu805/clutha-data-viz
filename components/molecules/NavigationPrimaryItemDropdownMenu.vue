@@ -1,11 +1,11 @@
 <template>
   <li
-    class="md:flex md:flex-grow md:justify-center md:items-center md:w-full md:basis-1/3 bg-light-grey navigation-list-nested-hover md:rounded-full"
+    class="flex flex-grow justify-center items-center w-full basis-1/3 bg-light-grey navigation-list-nested-hover rounded-full"
   >
     <button
       id="dropdownNavbarLink"
       data-dropdown-toggle="dropdownNavbar"
-      class="flex items-center justify-between w-full text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+      class="flex items-center justify-between text-gray-900 hover:bg-gray-100 hover:bg-transparent border-0 p-0 w-auto dark:text-white dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700"
     >
       <atomsNavTextstyle> About </atomsNavTextstyle>
       <svg
@@ -34,7 +34,7 @@
       class="py-3 text-sm text-grey-900 dark:text-gray-200"
       aria-labelledby="dropdownLargeButton"
     >
-        <slot></slot>
+      <slot></slot>
     </ul>
   </div>
 </template>

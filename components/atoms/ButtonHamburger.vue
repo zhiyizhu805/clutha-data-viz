@@ -1,10 +1,13 @@
 <template>
   <button
-    data-collapse-toggle="navbar-cta"
+    class="inline-flex items-center p-2 w-12 h-12 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200 focus:rounded-full dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
     type="button"
-    class="inline-flex items-center p-2 w-10 h-10 xs:w-11 xs:h-11 sm:w-[52px] sm:h-[52px] justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 hover:rounded-full focus:outline-none focus:ring-2 focus:ring-gray-200 focus:rounded-full dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-    aria-controls="navbar-cta"
-    aria-expanded="false"
+    :data-drawer-target="flyout_id"
+    :data-drawer-show="flyout_id"
+    data-drawer-backdrop="false"
+    data-drawer-placement="right"
+    :aria-controls="flyout_id"
+    data-drawer-body-scrolling="true"
   >
     <span class="sr-only">Open main menu</span>
     <svg
@@ -24,5 +27,17 @@
     </svg>
   </button>
 
-  <slot/>
+  <!-- placeholder -->
+  <slot />
 </template>
+
+<script>
+export default {
+  props: {
+    flyout_id: {
+      type: String,
+      default: "navbar-cta",
+    },
+  },
+};
+</script>

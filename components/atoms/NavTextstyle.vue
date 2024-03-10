@@ -1,8 +1,19 @@
 <template>
   <p
-    class="text-grey-900 text-lg font-medium font-overused-grotesk leading-body tracking-default xl:text-xl lg:text-lg md:text-sm
-    "
+    :class="text_style"
+    class="text-lg leading-body tracking-default xl:text-xl lg:text-lg md:text-lg"
   >
     <slot></slot>
   </p>
 </template>
+
+<script>
+export default {
+  props: {
+    text_style: {
+      type: String,
+      default: "text-grey-900 font-medium font-overused-grotesk",
+    },
+  },
+};
+</script>

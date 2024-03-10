@@ -1,8 +1,5 @@
 <template>
-  <div
-     :class="divider_width" class="rounded-full border-black"
-  >
-  </div>
+  <div :class="classes" class="rounded-full"></div>
 </template>
 
 <script>
@@ -15,6 +12,15 @@ export default {
     border_style: {
       type: String,
       default: "",
+    },
+    border_color: {
+      type: String,
+      default: "border-black",
+    },
+  },
+  computed: {
+    classes() {
+      return `${this.divider_width} ${this.border_style} ${this.border_color}`;
     },
   },
 };

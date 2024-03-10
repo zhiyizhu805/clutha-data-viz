@@ -75,7 +75,7 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <plotsLandUseChangeBuildUp />
+          <plotsLandUseChangeBuildUp />
         </template>
       </organismsGraphFrame>
     </template>
@@ -84,7 +84,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content03.1 -->
-  <organismsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerQuaternary>
     <!-- graph frame organism-->
     <organismsGraphFrame
       graph_title="Total area by land use category for the catchment and their changes since 1990 (in hectares)."
@@ -152,7 +152,7 @@
         </organismsTableContainer>
       </template>
     </organismsGraphFrame>
-  </organismsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerQuaternary>
 
   <!-- content03.2 -->
   <organismsBaseArticleContainerPrimary>
@@ -183,7 +183,7 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <plotsLandUses />
+          <plotsLandUses />
         </template>
       </organismsGraphFrame>
     </template>
@@ -234,7 +234,7 @@
           </organismsFlyout>
         </template>
         <template #graph>
-            <plotsLandUseChangeExoticForest />
+          <plotsLandUseChangeExoticForest />
         </template>
       </organismsGraphFrame>
     </template>

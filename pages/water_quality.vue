@@ -61,7 +61,7 @@
   <atomsDivider divider_width="border-b-2" />
 
   <!-- content02 -->
-  <organismsBaseArticleContainerSecondary>
+  <organismsBaseArticleContainerQuaternary>
     <!-- graph frame organism-->
     <organismsGraphFrame
       graph_title="Water quality parameters included in this monitoring framework."
@@ -138,7 +138,7 @@
         </organismsTableContainer>
       </template>
     </organismsGraphFrame>
-  </organismsBaseArticleContainerSecondary>
+  </organismsBaseArticleContainerQuaternary>
 
   <atomsDivider divider_width="border-b-2" />
 
