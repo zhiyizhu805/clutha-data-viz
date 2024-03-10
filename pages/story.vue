@@ -1,7 +1,7 @@
 <template>
   <!-- The story section -->
   <organismsBaseContainerFullWidth gap="md:gap-7 gap-4">
-    <atomsSubhead01Textstyle> The Story </atomsSubhead01Textstyle>
+    <organismsHeadline> The Story </organismsHeadline>
 
     <atomsBodyTextstyle>
       Welcome to the Upper Clutha Catchment Health Project, an initiative deeply
