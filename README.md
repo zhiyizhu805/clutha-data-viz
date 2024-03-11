@@ -5,7 +5,9 @@
 ## About The Project
 
 This website visualizes environmental data for the Upper Clutha area, utilizing Nuxt.js, Vue.js, Tailwind CSS, Nuxt-Plotly, and Flowbite, all structured around the atomic design principles for the project.
-
+(This project was initially written in Python, Flask, Jinja, HTML,Tailwind CSS, Plotly, Flowbite, Docker with Atomic design principle applied.
+[ **View our original repo here &rarr;**](https://github.com/zhiyizhu805/site-example)
+)
 ## Technologies Used
 
 - **Nuxt.js & Vue.js**: For the frontend framework, providing a reactive and user-friendly interface.
