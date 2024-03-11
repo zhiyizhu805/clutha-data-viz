@@ -3,7 +3,7 @@
   <div
     class="flex flex-row gap-0.5 justify-center items-center md:items-start items-1/4 z-10 md:mr-[3%] px-1 h-full flex-wrap"
   >
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/landuse_change"
       :active="isActive('/landuse_change')"
     >
@@ -12,9 +12,9 @@
         alt="Landuse change"
         title="Landuse change"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
 
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/water_quality"
       :active="isActive('/water_quality')"
     >
@@ -23,9 +23,9 @@
         alt="Water quality"
         title="Water quality"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
 
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/invasive_species"
       :active="isActive('/invasive_species')"
     >
@@ -34,9 +34,9 @@
         alt="Invasive Species"
         title="Invasive Species"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
 
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/greenhouse_gas_emissions"
       :active="isActive('/greenhouse_gas_emissions')"
     >
@@ -45,9 +45,9 @@
         alt="Greenhouse Gas Emissions"
         title="Greenhouse Gas Emissions"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
 
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/climate_variables"
       :active="isActive('/climate_variables')"
     >
@@ -56,9 +56,9 @@
         alt="Climate Variables"
         title="Climate Variables"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
 
-    <moleculesNavigationSecondaryItem
+    <moleculesNavigationPrimaryItem
       url="/social_well_being"
       :active="isActive('/social_well_being')"
     >
@@ -67,7 +67,7 @@
         alt="Social Wellbeing"
         title="Social Wellbeing"
       />
-    </moleculesNavigationSecondaryItem>
+    </moleculesNavigationPrimaryItem>
     <slot></slot>
   </div>
 </template>

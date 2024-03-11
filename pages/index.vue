@@ -24,7 +24,7 @@
         Examples of the indicator icons are shown below:
       </atomsBodyTextstyle>
       <div class="w-full my-2 flex justify-center md:h-[120px]">
-        <moleculesNavigationSecondary class="md:w-[400px]"> </moleculesNavigationSecondary>
+        <moleculesNavigationPrimary class="md:w-[400px]"> </moleculesNavigationPrimary>
       </div>
       <atomsBodyTextstyle
         text_style="text-grey-300 text-body font-light font-inter"
