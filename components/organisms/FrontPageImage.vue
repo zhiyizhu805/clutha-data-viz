@@ -1,6 +1,6 @@
 <template>
   <div
-    class="absolute w-full h-full top-0 left-0 m-0 pt-24 md:pt-16 -z-10"
+    class="absolute w-full h-full top-0 left-0 m-0 pt-32 md:pt-28 lg:p-20 -z-10"
   >
     <div class="relative">
       <img
