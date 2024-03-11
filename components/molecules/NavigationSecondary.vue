@@ -1,7 +1,7 @@
 <!-- Navigation_secondary: the six indicators' navigation list -->
 <template>
   <div
-    class="flex flex-row gap-0.5 justify-center items-center md:items-start items-1/4 z-10 md:mr-[3%] px-1 h-full"
+    class="flex flex-row gap-0.5 justify-center items-center md:items-start items-1/4 z-10 md:mr-[3%] px-1 h-full flex-wrap"
   >
     <moleculesNavigationSecondaryItem
       url="/landuse_change"

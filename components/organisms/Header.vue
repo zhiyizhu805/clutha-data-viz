@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center w-full">
+  <div class="flex justify-between items-center w-full pl-5 pt-5 pr-2">
     <!-- wai wanaka logo -->
     <nuxt-link to="https://waiwanaka.nz/">
         <img
@@ -13,9 +13,9 @@
       class="relative w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto"
     >
       <!-- hamburger button-->
-      <div class="flex flex-col lg:order-2">
-        <atomsButtonHamburger flyout_id="nav_panel"></atomsButtonHamburger>
+      <div class="flex flex-row lg:order-2">
         <atomsButtonInformation flyout_id="help_panel"></atomsButtonInformation>
+        <atomsButtonHamburger flyout_id="nav_panel"></atomsButtonHamburger>
       </div>
     </div>
     <slot></slot>

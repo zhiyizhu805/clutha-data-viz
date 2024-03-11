@@ -2,7 +2,7 @@
   <!-- drawer component -->
   <div
     :id="flyout_id"
-    class="flyout fixed top-0 right-0 z-40 w-[80%] md:w-[60%] transition-transform translate-x-full h-full py-12 px-8 overflow-y-auto bg-grey-900/95 rounded-l-3xl"
+    class="flyout fixed top-0 right-0 z-40 w-[85%] md:w-[60%] transition-transform translate-x-full h-full py-12 px-8 overflow-y-auto bg-grey-900/95 rounded-l-3xl"
     tabindex="-1"
     :aria-labelledby="ariaLabelledby"
     aria-hidden="true"
@@ -33,10 +33,10 @@
     <div class="pt-4">
       <atomsDivider divider_width="border-b-2" border_color="border-gray-500" />
     </div>
-    <div class="py-4 overflow-y-auto">
+    <div class="py-4 overflow-y-auto min-h-[80%]">
       <slot></slot>
     </div>
-    <section class="absolute bottom-0 left-0 w-full p-8 mb-4 md:mb-8">
+    <section class="w-full mb-4 md:mb-8">
       <div class="w-full mb-10 xl:mb-14 lg:mb-12">
         <atomsDivider
           divider_width="border-b-2"
