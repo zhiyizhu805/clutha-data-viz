@@ -1,6 +1,8 @@
-<!-- set horizonral page gutters -->
+<!-- This component can be used to set vertical page gaps-->
 <template>
-  <div class="px-0.5 md:px-3">
+  <div
+    class="flex flex-col xl:gap-24 lg:gap-16 md:gap-11 gap-10"
+  >
     <slot></slot>
   </div>
 </template>

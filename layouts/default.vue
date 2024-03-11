@@ -6,9 +6,9 @@
 
   <!-- article -->
   <main class="max-w-screen-xl mx-auto h-auto md:px-4 px-2">
-    <organismsBaseContainerSecondary>
+    <organismsBaseContainerPrimary>
       <slot></slot>
-    </organismsBaseContainerSecondary>
+    </organismsBaseContainerPrimary>
   </main>
 
   <!-- footer -->

@@ -43,7 +43,7 @@
       </svg>
       <span class="sr-only">Close menu</span>
     </button>
-    <div class="py-4 overflow-y-auto">
+    <div class="py-4 overflow-y-auto min-h-[80%]">
       <ul class="space-y-2 font-medium text-white">
         <slot></slot>
       </ul>

@@ -124,5 +124,4 @@
 
 <script setup lang="ts">
 useFlowbite();
-useScrollAnimation();
 </script>
