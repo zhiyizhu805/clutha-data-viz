@@ -1,16 +1,14 @@
 <template>
   <div class="flex justify-between items-center w-full">
     <!-- wai wanaka logo -->
-    <atomsReferenceTextstyle url="https://waiwanaka.nz/">
-      <div class="w-full object-fill h-12 xl:h-20 lg:h-18 md:h-16">
+    <nuxt-link to="https://waiwanaka.nz/">
         <img
-          src="/assets/images/icons/wai_wanaka_logo.svg"
+          src="/assets/images/icons/wai-wanaka-logo.png"
           alt="Wai wanaka logo"
           title="Wai wanaka logo"
-          class="w-full h-full object-fill"
+          class="h-auto aspect-auto xl:w-32 lg:w-28 w-24"
         />
-      </div>
-    </atomsReferenceTextstyle>
+    </nuxt-link>
     <div
       class="relative w-full flex flex-wrap flex-row-reverse items-center justify-between mx-auto"
     >

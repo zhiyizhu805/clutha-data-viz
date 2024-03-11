@@ -4,14 +4,12 @@
   >
     <!-- wai wanaka logo -->
     <atomsReferenceTextstyle url="https://waiwanaka.nz/">
-      <div class="xl:w-40 xl:h-24 lg:w-32 lg:h-20 md:w-24 md:h-14 w-28 h-16">
         <img
-          src="/assets/images/icons/wai_wanaka_logo.svg"
+          src="/assets/images/icons/wai-wanaka-logo.png"
           alt="Wai wanaka logo"
           title="Wai wanaka logo"
-          class="h-full object-fill"
+          class="h-auto aspect-auto lg:w-32 md:w-24 w-20"
         />
-      </div>
     </atomsReferenceTextstyle>
     <div class="flex flex-col gap-3 justify-end">
       <!-- Email us-->
