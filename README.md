@@ -1,6 +1,6 @@
 # Clutha Environment Analytics Website
 
-[🌐 **View Live Site &rarr;**](https://main.d2g404rryikpbz.amplifyapp.com/)
+[🌐 **View Live Site &rarr;**](https://catchment-health.netlify.app/))
 
 ## About The Project
 
